@@ -1,0 +1,11 @@
+- menu_name: "Find us on Social Media"
+
+- name: YouTube
+  url: https://www.youtube.com/channel/UCaROWCYnskCdTRMv4wr_znQ
+  class: icon-youtube
+  title: ""
+
+- name: Twitter
+  url: https://twitter.com/GermanHCI
+  class: icon-twitter
+  title: ""

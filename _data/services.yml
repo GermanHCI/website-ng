@@ -1,0 +1,17 @@
+- menu_name: "Quick links"
+
+- name: "GERMAN HCI @ CHI"
+  url: "/editions/"
+  title: "German HCI @ CHI Editions"
+
+- name: "German HCI Labs"
+  url: "/hci_labs/"
+  title: "German HCI labs"
+
+- name: "About"
+  url: "/about/"
+  title: "About the German HCI Community"
+
+- name: "Contact"
+  url: "/Contact/"
+  title: "Contact us"
