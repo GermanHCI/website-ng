@@ -1,0 +1,49 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px; /* Adjust as needed */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var germanyBounds = [[47.2701114, 5.8663153], [55.058347, 15.0418962]];
+        var map = L.map('map', {
+            center: [51.1657, 10.4515], // Center coordinates for Germany
+            zoom: 6, // Initial zoom level
+            maxBounds: germanyBounds, // Restrict the map to the bounds of Germany
+            maxBoundsViscosity: 1.0 // Keeps the user from panning outside the bounds
+        });
+        // Initialize the map
+        // var map = L.map('map').setView([20, 0], 2); // Center the map at lat 20, lon 0, with zoom level 2
+       
+        // Add a tile layer (you can choose another tile layer if you prefer)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.tileLayer.provider('Stamen.TonerLite').addTo(map);
+
+        // Location data
+        var locations = [
+            { "name": "Location 1", "lat":  50.778415, "lon": 6.060916, "RWTH Aachen": "Description for Location 1" },
+            { "name": "Location 2", "lat": 49.907131, "lon": 10.904449, "Bamberg": "Description for Location 2" },
+            { "name": "Location 3", "lat": 49.256993, "lon": 7.044836, "Saarland": "Description for Location 3" }
+        ];
+
+        // Add markers for each location
+        locations.forEach(function(location) {
+            var marker = L.marker([location.lat, location.lon]).addTo(map);
+            marker.bindPopup(`<b>${location.name}</b><br>${location.description}`);
+        });
+    </script>
+</body>
+</html> -->
