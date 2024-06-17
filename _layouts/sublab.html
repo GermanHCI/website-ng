@@ -18,7 +18,7 @@ format: sub-lab
 
     <div style="margin-top: 5rem; margin-inline: 6rem;">
         <div style="display: flex;justify-content: space-between;">
-    <h1>{{ page.title }}</h1><img src="https://hci.rwth-aachen.de/files/migrated/images/logo.png" alt="logo" style="height: 70px; padding-right: 40px;"/></div>
+    <h1>{{ page.title }}</h1><img src="{{ page.logo }}" alt="logo" style="height: 70px; padding-right: 40px;"/></div>
     <h4 style="margin-top: 1rem; margin-bottom: 4rem;">Lead by:  <a href="{{ page.leadLink }}">{{page.lead}}</a><br>
         {{ page.university }}, {{ page.city }}</h4>
 
@@ -30,14 +30,14 @@ format: sub-lab
     <div class="wrapper">
     <i id="left"  class="fa-solid  fas fa-angle-left"></i> 
     <ul class="carousel"> 
-        {% for file in site.data.labs %}
+        {% for rtopic in page.research %}
         <li class="card"> 
             <div class="squareImg">
-                <img class="boximg" src= "https://www.offis.de/fileadmin/_processed_/6/3/csm_CC_Human_Machine_Cooperation_shutterstock_772107742_4c81dd1dcd.jpg" 
+                <img class="boximg" src= "{{ rtopic.rimg }}" 
                 alt="" draggable="false"> 
             </div>
-            <h4 style="color: rgb(48, 48, 125); font-weight:bold;"> Research title </h4> 
-            <span>Research content</span> 
+            <h4 style="color: rgb(48, 48, 125); font-weight:bold;"> {{ rtopic.rname }} </h4> 
+            <span>{{ rtopic.rdesc }}</span> 
         </li> 
         {% endfor %}
     </ul>
@@ -47,14 +47,13 @@ format: sub-lab
     <h2>The team</h2>  
 
     <div style="display: grid; grid-template-columns: auto auto auto auto auto auto; row-gap: 10px;">
-        {% for file in site.data.labs %}
+        {% for person in page.team %}
         <div style=" width: 200px;  height:340px; padding: 1rem; text-align: center;"> 
-            <img src= "https://charitysplace.wordpress.com/wp-content/uploads/2014/07/claire4.png" 
-                alt="person" class="circleImg"> 
+            <img src= "{{ person.pimg }}" alt="person" class="circleImg"> 
             <h4 style="color: rgb(48, 48, 125); font-weight:bold;margin: 0%;"> 
-                Person Name 
+                {{ person.name }} 
            </h4> 
-         <span> Position</span> 
+         <span> {{ person.pos }}</span> 
         </div>
         {% endfor %}
     </div>
