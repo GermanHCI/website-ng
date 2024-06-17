@@ -4,6 +4,9 @@
       {% assign lab = file[1] %}
       <h1>{{ lab.name }}</h1>
       <h4>{{ lab.university }}, {{ lab.city }}</h4>
-      <p>{{ lab.info }}</p>
+      <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{ site.baseurl }}{{lab.url}}">Read more</a></p>
     {% endfor %} 
-    </div>
+</div>
+<div>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/germany.png"/>
+</div>

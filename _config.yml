@@ -25,7 +25,8 @@ description: 'The German research community in the area of »Human-Computer Inte
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://germanhci.github.io/website-ng/'
+# url: 'https://germanhci.github.io/website-ng/'
+url: ''
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -270,3 +271,32 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+#For references
+
+scholar:
+  style: apa
+#   locale: en
+
+#   sort_by: none
+#   order: ascending
+
+#   group_by: none
+#   group_order: ascending
+
+  source: ./_bibliography
+#   bibliography: references.bib
+#   bibliography_template: "bib"
+
+#   replace_strings: true
+#   join_strings:    true
+
+#   details_dir:    bibliography
+#   details_layout: bibtex.html
+#   details_link:   Details
+
+#   query: "@*"
+
+# collections:
+#   labs:
+#     output: true
