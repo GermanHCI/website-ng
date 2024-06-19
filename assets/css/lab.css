@@ -154,3 +154,9 @@
 	width: 35%;
 	height: 100%;
 }
+.pin {
+    fill: red;
+    stroke: black;
+    stroke-width: 1px;
+    cursor: pointer;
+}
