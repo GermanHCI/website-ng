@@ -5,13 +5,19 @@
   <body>
     <div class="scrollcontainer">
       <div class="left">
-        {% assign lab_files = site.data.labs %}
+        {% assign lab_files = site.data.labs | sort %}
+        {% for city in site.data.cities %}
+        <h1>{{ city.name }}</h1>
         {% for file in lab_files %}
-        {% assign lab = file[1] %}
-        <h1>{{ lab.name }}</h1>
-        <h4>{{ lab.university }}, {{ lab.city }}</h4>
-        <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{ site.baseurl }}{{lab.url}}">Read more</a></p>
+          {% if file[1].city == city.name %}
+            {% assign lab = file[1] %}
+            <h2>{{ lab.name }}</h2>
+            <h4>Lead by: <a href="{{ lab.leadLink}}">{{lab.lead}}</a> <br/>
+            {{ lab.university }}, {{ lab.city }}</h4>
+            <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{ site.baseurl }}{{lab.url}}">Read more</a></p>
+          {% endif %}
         {% endfor %} 
+        {% endfor %}
       </div>
       <div class="right">
         <svg id="germany-map" width="600" height="800" viewBox="0 0 594 801" fill="none" xmlns="http://www.w3.org/2000/svg">
