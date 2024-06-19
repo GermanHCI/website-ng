@@ -128,3 +128,29 @@
 
 	} 
 }
+
+.scrollcontainer {
+	padding-top: 5%;
+	padding-inline: 5%;
+	width: 100%;
+	position: flex;
+	z-index: 1;
+	height:90%;
+}
+
+.split {
+	height: 100%;
+}
+
+.left {
+	left: 0;
+	width: 65%;
+	height: 100%;
+	overflow-y: auto; 
+}
+
+.right {
+	right: 0;
+	width: 35%;
+	height: 100%;
+}
