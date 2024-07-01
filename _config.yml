@@ -219,7 +219,9 @@ sass:
     sass_dir: _sass
     style: :compressed
 
-
+css:
+    css_dir: _css
+    style: :compressed
 #       ___                __      __  _
 #      /   |  ____  ____ _/ /_  __/ /_(_)_________
 #     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
