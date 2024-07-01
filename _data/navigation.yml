@@ -1,8 +1,7 @@
-- title: GermanHCI
+- title: "German HCI"
   url: ""
-  image: "/assets/img/logo.png"
   side: left
-
+  
 - title: "German HCI @ CHI"
   url: "/editions/"
   side: right

@@ -59,8 +59,7 @@ format: sub-lab
     </div>
 
     <h2> Latest Publications</h2>
-
-    
+    {% bibliography --file references.bib -q @*[year=2024 && series ^= CHI] %}
     </div>
 
     {% unless page.skip_boilerplate %}
@@ -68,5 +67,6 @@ format: sub-lab
 	{% endunless %}
 </body>
 </html>
+
 
 
