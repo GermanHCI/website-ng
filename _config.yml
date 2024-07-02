@@ -286,7 +286,7 @@ scholar:
 #   group_order: ascending
 
   source: /_bibliography
-  bibliography_template: bib
+  # bibliography_template: bib
 #   bibliography: references.bib
 #   bibliography_template: "bib"
 
