@@ -1,10 +1,35 @@
+<head>
+    <style>
+        details {
+            margin-bottom: 1em;
+            width: auto;
+            background-color: gray;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            width: auto;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<div style="display:flex; justify-content: space-around;">
+    <div>
+        {% if entry.image %}
+        <img src="{{ entry.image }}" alt="image" style="min-width: 200px;"/>
+        {% endif %}
+    </div>
+<div>
 <div class="text-justify">
-    {{reference}}
+    <h3>{{entry.author }}</h3>
+    <h3>{{ entry.title }}</h3>
 </div>
 
 {% if entry.abstract %}
 <div>
-    <em>{{ entry.abstract }}</em>
+    <summary>abstract</summary>
+    <details><em>{{ entry.abstract }}</em></details>
 </div>
 {% endif %}
 
@@ -12,14 +37,7 @@
     {% if entry.doi %}
     <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a></span>
     {% endif %}
-    {% if entry.hal_id %}
-    <span><a href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">hal</a></span>
-    {% endif %}
 </div>
-<!-- <div>
-    {% if entry.pdf %}
-    <span><a href="{{ entry.pdf }}">pdf</a></span>
-    {% endif %}
-</div> -->
-
-<div><pre>{{ entry.bibtex }}</pre></div>
+</div>
+</div>
+</body>
