@@ -276,15 +276,6 @@ asciidoctor:
 #For references
 
 scholar:
-  # style: apa
-#   locale: en
-
-#   sort_by: none
-#   order: ascending
-
-#   group_by: none
-#   group_order: ascending
-
   source: /_bibliography
   bibliography_template: bib
 #   bibliography: references.bib
