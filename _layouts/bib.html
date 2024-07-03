@@ -1,25 +1,40 @@
 <head>
     <style>
+        /* body{
+            margin-inline: 10%;
+        } */
         details {
             margin-bottom: 1em;
             width: auto;
-            background-color: gray;
+            background-color: rgb(188, 188, 188);
+            padding-inline: 3%;
+            text-align: justify;
+            /* border-radius: 0; */
+            
         }
         summary {
             font-weight: bold;
             cursor: pointer;
             width: auto;
-            background-color: gray;
+            background-color:  rgb(188, 188, 188);
+            /* border-radius: 30px; */
+            /* padding-left: 3%; */
         }
+        em {
+            margin-top: 3%;
+        }
+        a{
+            /* background-color: rgb(151, 172, 191); */
+            border-width: 1cm;
+            border-color: black;
+            size: auto;
+        }
+
     </style>
 </head>
 <body>
-<div style="display:flex; justify-content: space-around;">
-    <div>
-        {% if entry.image %}
-        <img src="{{ entry.image }}" alt="image" style="min-width: 200px;"/>
-        {% endif %}
-    </div>
+{% if entry.image %}
+<div style="display:flex; justify-content: space-between;">
 <div>
 <div class="text-justify">
     <h4>{{entry.author }}</h4>
@@ -27,17 +42,51 @@
 </div>
 
 {% if entry.abstract %}
-<div>
+<details style="{{max-width: 50%;}}">
     <summary>abstract</summary>
-    <details><em>{{ entry.abstract }}</em></details>
-</div>
+    <em>{{ entry.abstract }}</em>
+</details>
 {% endif %}
 
 <div>
     {% if entry.doi %}
-    <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a></span>
+    <a style="background-color: aliceblue;border-style: solid; border-width: 1px;border-color: black; padding-inline: 5px;" href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a>
     {% endif %}
+    {% if entry.youtube %}
+    <a style="background-color: aliceblue;border-style: solid; border-width: 1px;border-color: black; padding-inline: 5px;" href="{{ entry.youtube | prepend: 'https://www.youtube.com/' }}">Youtube</a>
+    {% endif %}
+    <p> Tags: {{ entry.tags }}</p>
 </div>
 </div>
+<div>
+    <img src="{{ entry.image }}" alt="image" style="min-width: 200px;"/>
+    
 </div>
+</div>
+
+{% else %}
+<div class="text-justify">
+    <h4>{{ entry.title }}</h4>
+    <p><i>{{ entry.author }}<br/>{{ entry.booktitle }}</i></p>
+</div>
+
+{% if entry.abstract %}
+<details>
+    <summary>abstract</summary>
+    <em>{{ entry.abstract }}</em>
+</details>
+{% endif %}
+
+<div stlye="display:flex;">
+    {% if entry.doi %}
+    <a  style="background-color: aliceblue;border-style: solid; border-width: 1px;border-color: black; padding-inline: 5px;" href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a>
+    {% endif %}
+    {% if entry.youtube %}
+    <a style="background-color: aliceblue;border-style: solid; border-width: 1px;border-color: black; padding-inline: 5px;" href="{{ entry.youtube | prepend: 'https://www.youtube.com/' }}">Youtube</a>
+    {% endif %}
+    <p> Tags: {{ entry.tags }}</p>
+</div>
+{% endif %}
+<hr>
+
 </body>
