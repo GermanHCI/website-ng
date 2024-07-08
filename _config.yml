@@ -271,5 +271,3 @@ asciidoctor:
     coderay-css: style
     icons: font 
 
-scholar:
-  style: modern-language-association
