@@ -269,4 +269,7 @@ asciidoctor:
   attributes:
     source-highlighter: coderay
     coderay-css: style
-    icons: font
+    icons: font 
+
+scholar:
+  style: modern-language-association
