@@ -25,7 +25,6 @@ description: 'The German research community in the area of »Human-Computer Inte
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-# url: 'https://germanhci.github.io/website-ng/'
 url: 'https://germanhci.github.io/website-ng/'
 baseurl: ''
 
