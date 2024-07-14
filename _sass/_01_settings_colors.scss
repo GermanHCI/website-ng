@@ -151,3 +151,23 @@ $highlight-name-tag: #000080;
 $highlight-text-whitespace: #bbbbbb;
 $highlight-literal-string-regex: #009926;
 $highlight-literal-string-symbol: #990073;
+
+/* Added a colour line before headings 
+---------------------------------------------------------------- */
+$head-text: #40A3A0; 
+
+.head-text {
+  position: relative;
+  padding-left: 20px; // Adjust this value to give space for the line
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: $head-text;
+  }
+
+}

@@ -82,13 +82,13 @@
               {% else %}
                 {% assign domain = site.url %}
               {% endif %}
-
+ 
           {% comment %}   If there are links for left side begin   {% endcomment %}
           {% if link.side == 'left' %}
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.image | escape }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}><img src="{{ domain }}{{ site.baseurl }}{{ link.image }}"/></a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
