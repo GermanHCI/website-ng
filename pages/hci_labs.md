@@ -3,11 +3,20 @@ layout: page-fullwidth
 title: "HCI labs in Germany"
 header: no
 permalink: "/hci_labs/"
+parent: "labs"
 ---
-In the following, we present a list of German HCI labs that have been particularly active at CHI in the past. This list is not complete – If your group is missing, please send a note to contact@germanhci.de.
+<div>
+{% assign querys = site.data[page.parent] %}
+{% for lab in site.data.labs %}
+    <h1> {{ data.name }} </h1>
+    <h4> {{ lab.university }} , {{ lab.city }} </h4>
+    <p> {{ lab.info }} </p>
+{% endfor %}
+</div>
 
-## | Aachen
-[Media Computing Group at RWTH Aachen (Jan Borchers and others)](https://hci.rwth-aachen.de)
+<!-- {% include _hci_labs.html %} -->
+
+<!-- [Media Computing Group at RWTH Aachen (Jan Borchers and others)](https://hci.rwth-aachen.de)
 
 ## | Bamberg
 [Human-Computer Interaction Group at Universität Bamberg (Tom Gross and others)](https://www.uni-bamberg.de/en/hci/team/tom-gross/)
@@ -44,7 +53,7 @@ In the following, we present a list of German HCI labs that have been particular
 ## | Dresden
 - [Interactive Media Lab at TU Dresden (Raimund Dachselt and others)](https://imld.de/en/)
 
-- [Human-Computer Interaction (Gerhard Weber and others)](https://tu-dresden.de/ing/informatik/ai/mci)
+- [Human-Computer Interaction (Gerhard Weber and others)](https://tu-dresden.de/ing/informatik/ai/mci) 
 
 ## | Duisburg
 - [Interactive Systems Group at University Duisburg-Essen (formerly: Jürgen Ziegler and others)](http://interactivesystems.info/)
@@ -132,4 +141,4 @@ In the following, we present a list of German HCI labs that have been particular
 ## | Würzburg
 - [Human-Computer Interaction group at Würzburg Universität (Marc Erich Latoschik and others)](http://www.hci.uni-wuerzburg.de)
 
-- [Psychological Ergonomics group at Julius-Maximilians-Universität Würzburg (Jörn Hurtienne and team)](http://psyergo.uni-wuerzburg.de/)
+- [Psychological Ergonomics group at Julius-Maximilians-Universität Würzburg (Jörn Hurtienne and team)](http://psyergo.uni-wuerzburg.de/)-->

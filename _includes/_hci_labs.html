@@ -1,0 +1,9 @@
+
+<div>
+{% assign querys = site.data[page.parent] %}
+{% for lab in site.data.labs %}
+    <h1> {{ data.name }} </h1>
+    <h4> {{ lab.university }} , {{ lab.city }} </h4>
+    <p> {{ lab.info }} </p>
+{% endfor %}
+</div>
