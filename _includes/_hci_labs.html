@@ -7,14 +7,14 @@
       <div class="left">
         {% assign lab_files = site.data.labs | sort %}
         {% for city in site.data.cities %}
-        <h1 id="{{city.name}}">{{ city.name }}</h1>
+        <h1 class="head-text" id="{{city.name}}">{{ city.name }}</h1>
         {% for file in lab_files %}
           {% if file[1].city == city.name %}
             {% assign lab = file[1] %}
-            <h2>{{ lab.name }}</h2>
+            <h2 class="head-text">{{ lab.name }}</h2>
             <h4>Lead by: <a href="{{ lab.leadLink}}">{{lab.lead}}</a> <br/>
             {{ lab.university }}, {{ lab.city }}</h4>
-            <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{ site.baseurl }}{{lab.url}}">Read more</a></p>
+            <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{lab.url}}">Read more</a></p>
           {% endif %}
         {% endfor %} 
         {% endfor %}
@@ -92,7 +92,7 @@
           </defs>
         </svg>            
       </div>
-      <script src="{{ url }}/assets/js/map_pins.js" ></script>
+      <script src="{{ site.url }}/assets/js/map_pins.js" ></script>
     </div>
 </body>
 </html>

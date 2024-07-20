@@ -29,12 +29,19 @@ function addPin(city) {
     const pin = createPinImage();
     pin.setAttribute('x', coords.x - 12); // Adjust position to center the pin
     pin.setAttribute('y', coords.y - 45);
+    pin.setAttribute('title', city.name); 
     pin.classList.add('pin');
-    pin.setAttribute('title', city.name); // Add a tooltip for the city name
     pin.addEventListener('click', function() {
         document.getElementById( city.name).scrollIntoView({ behavior: 'smooth' });
     });
     svg.appendChild(pin);
+
+    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    text.setAttribute('x', coords.x + 10); // Position the text slightly to the right of the pin
+    text.setAttribute('y', coords.y - 5); // Position the text slightly above the pin
+    text.textContent = city.name;
+    text.classList.add('city-name'); //corressponding css
+    svg.appendChild(text);
 }
 
 function convertLatLonToXY(lat, lon) {
