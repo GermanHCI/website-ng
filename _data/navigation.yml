@@ -4,30 +4,30 @@
   side: left
 
 - title: "German HCI @ CHI"
-  url: "/editions/"
+  url: "/editions"
   side: right
   dropdown:
   - title: "2024- Honolulu"
-    url: "/editions/2024/"
+    url: "/editions/2024"
   - title: "2023- Hamburg"
-    url: "/editions/2023/"
+    url: "/editions/2023"
   - title: "2022 - New Orleans"
-    url: "/editions/2022/"
+    url: "/editions/2022"
   - title: "2021 - Virtual CHI"
-    url: "/editions/2021/"
+    url: "/editions/2021"
   - title: "2020 - honolulu"
-    url: "/editions/2020/"
+    url: "/editions/2020"
   - title: "2019 - Glasgow"
-    url: "/editions/2019/"
+    url: "/editions/2019"
   - title: "2018 - Montreal"
-    url: "/editions/2018/"
+    url: "/editions/2018"
   - title: "2017 - Denver"
-    url: "/editions/2017/"
+    url: "/editions/2017"
   - title: "Early Days"
-    url: "/editions/early/"
+    url: "/editions/early"
 
 - title: "Community Events"
-  url: "/design/"
+  url: "/design"
   side: right
   dropdown:
   - title: "German Pre-CHI Event "
@@ -37,14 +37,21 @@
   - title: "2020 Virtual German CHI Week"
     url: ""
 
+- title: "Blog"
+  url: "/blog"
+  side: right
+  dropdown:
+  - title: "Blog archive"
+    url: "/blog/archive"
+
 - title: "German HCI LABS"
-  url: "/hci_labs/"
+  url: "/hci_labs"
   side: right
 
 - title: "Friends"
-  url: "/friends/"
+  url: "/friends"
   side: right
 
 - title: "About"
-  url: "/about/"
+  url: "/about"
   side: right
