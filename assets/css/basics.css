@@ -1,0 +1,7 @@
+.dropdown-menu {
+    display: none; /* Hidden by default */
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block; /* Show the dropdown on hover */
+  }
