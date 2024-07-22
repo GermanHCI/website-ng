@@ -2,11 +2,11 @@
 layout: page-fullwidth
 title: "Friends"
 header: no
-permalink: "/friends/"
+permalink: "/friends"
 ---
 The German HCI is just one of the many efforts the German research community put out. Here, we want to mention our friends and partners.
 
-If you have an interesting event or community related to HCI in Germany, we are happy to get in touch and see how we can mutually benefit from each other. Send an email to contact@germanhci.de or check out our [About page](/about/).
+If you have an interesting event or community related to HCI in Germany, we are happy to get in touch and see how we can mutually benefit from each other. Send an email to contact@germanhci.de or check out our [About page](/about).
 
 <h2 class="head-text"> Labs & Universities </h2>
 The German HCI is foremost a joint adventure by multiple labs from German universities. We want to thank them for all their contributions! The list of supporting labs from each year can be found in the respective editions; an almost complete list of all German HCI labs can be found here.
