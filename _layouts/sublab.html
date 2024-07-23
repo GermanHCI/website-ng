@@ -1,0 +1,70 @@
+---
+layout: compress
+format: sub-lab
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/lab.css">
+    <script src="{{ site.url }}/assets/js/scroll.js" defer></script> 
+    <!-- <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> -->
+
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
+
+    <div style="margin-top: 5rem; margin-inline: 6rem;">
+        <div style="display: flex;justify-content: space-between;">
+    <h1>{{ page.title }}</h1><img src="{{ page.logo }}" alt="logo" style="height: 70px; padding-right: 40px;"/></div>
+    <h4 style="margin-top: 1rem; margin-bottom: 4rem;">Lead by:  <a href="{{ page.leadLink }}">{{page.lead}}</a><br>
+        {{ page.university }}, {{ page.city }}</h4>
+
+    <p style="margin-bottom: 3rem;text-align: justify;">{{ page.info }} </p>
+    <p> want to know more about this lab? then <a href="{{ page.link }}">click here</a></p>
+
+    <h2>Latest Research</h2>  
+
+    <div class="wrapper">
+    <i id="left"  class="fa-solid  fas fa-angle-left"></i> 
+    <ul class="carousel"> 
+        {% for rtopic in page.research %}
+        <li class="card"> 
+            <div class="squareImg">
+                <img class="boximg" src= "{{ rtopic.rimg }}" 
+                alt="" draggable="false"> 
+            </div>
+            <h4 style="color: rgb(48, 48, 125); font-weight:bold;"> {{ rtopic.rname }} </h4> 
+            <span>{{ rtopic.rdesc }}</span> 
+        </li> 
+        {% endfor %}
+    </ul>
+    <i id="right" class="fa-solid fas fa-angle-right"></i> 
+    </div> 
+
+    <h2>The team</h2>  
+
+    <div style="display: grid; grid-template-columns: auto auto auto auto auto auto; row-gap: 10px;">
+        {% for person in page.team %}
+        <div style=" width: 200px;  height:340px; padding: 1rem; text-align: center;"> 
+            <img src= "{{ person.pimg }}" alt="person" class="circleImg"> 
+            <h4 style="color: rgb(48, 48, 125); font-weight:bold;margin: 0%;"> 
+                {{ person.name }} 
+           </h4> 
+         <span> {{ person.pos }}</span> 
+        </div>
+        {% endfor %}
+    </div>
+
+    <h2> Latest Publications</h2>
+    </div>
+
+    {% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
+</body>
+</html>
+
+

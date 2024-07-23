@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "About"
 header: no
-permalink: "/about/"
+permalink: "/about"
 ---
 The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for fascinating research, aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest of HCI research in a relaxed atmosphere. In addition, we also started to support further [community events](https://www.germanhci.de/community-events/) within the German HCI community.
 

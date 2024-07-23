@@ -5,8 +5,8 @@
 # this work, you have to use › layout: frontpage
 #
 callforaction:
-  url: "/"
-  text: Inform me telelel new updates and features ›
+  url: "/hci_labs"
+  text: Take a look at our lab locations ›
   style: alert
 permalink: /index.html
 
@@ -15,7 +15,7 @@ header:
   image_fullwidth: "/images/slider_hci_kickflickable.jpg"
 widget1:
   title: "German HCI @ CHI"
-  url: '/editions/'
+  url: '/editions'
   image: 
   text: 'some content anout '
 widget2:
