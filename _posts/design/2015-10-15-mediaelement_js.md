@@ -19,7 +19,7 @@ header: no
 image:
     title: mediaplayer_js-title.jpg
     thumb: mediaplayer_js-thumb.jpg
-    homepage: mediaplayer_js-home.jpg
+    # homepage: mediaplayer_js-home.jpg
     caption: Photo by Corey Blaz
     caption_url: https://blaz.photography/
 mediaplayer: true

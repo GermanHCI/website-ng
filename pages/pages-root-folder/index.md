@@ -1,55 +1,48 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
-callforaction:
-  url: "/hci_labs"
-  text: Take a look at our lab locations ›
-  style: alert
+
 permalink: /index.html
 
 layout: frontpage
+callforaction:
+  url: '/editions'
+  text: "Take a look at our previous editions"
 header:
   image_fullwidth: "/images/slider_hci_kickflickable.jpg"
+
 widget1:
-  title: "German HCI @ CHI"
-  url: '/editions'
-  image: 
-  text: 'some content anout '
+  title: 'German HCI at CHI2023'
+  url: '/editions/2023'
+  image: '/images/CHI2023.png'
+
 widget2:
-  title: "German HCI"
-  url: '/about'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: 'German HCI at CHI2022'
+  url: '/editions/2022'
+  image: '/images/CHI2022.jpg'
+
 widget3:
-  title: "German Labs"
-  url: '/hci_labs/'
-  image: 
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+  title: 'German HCI at CHI2021'
+  url: '/editions/2021'
+  image: '/images/CHI2021.jpg'
 
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
 homepage: true
 ---
+<div style="display: flex; justifycontent:space between;">
+<div>
+<h3 class="head-text"> About Us</h3>
+The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for the fascinating research, the aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest HCI research in a relaxed atmosphere. In addition, we also started to support further community events within the German HCI community.
 
-<!-- <div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div> -->
+If you have questions, comments, or want to join us, please do not hesitate to contact us.
+
+
+
+<h3 class="head-text">German HCI @ CHI</h3>
+Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event has grown to become the largest of its kind at CHI, with almost 1.000 guests.
+</div>
+<div>
+<h3 class="head-text">Community Events</h3>
+The German HCI community also organizes many different events, fostering the exchange of novel ideas and concepts and extending the outreach of Human-Computer Interaction.
+
+<h3 class="head-text">Report on GermanHCI Event @CHI2024</h3>
+The German HCI Event @CHI 2024 was a huge success – thank you to everyone involved. We wrote a brief summary, which you can read here!
+</div>
+</div>
