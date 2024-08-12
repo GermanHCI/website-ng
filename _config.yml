@@ -270,3 +270,4 @@ asciidoctor:
     coderay-css: style
     icons: font 
 
+urlimg: 'https://germanhci.github.io/website-ng/images/'
