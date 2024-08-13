@@ -3,6 +3,13 @@
   image: "/assets/img/header_logo.png"
   side: left
 
+- title: "Blog"
+  url: "/blog"
+  side: right
+  dropdown:
+  - title: "Blog archive"
+    url: "/blog/archive"
+
 - title: "German HCI @ CHI"
   url: "/editions"
   side: right
@@ -27,22 +34,15 @@
     url: "/editions/early"
 
 - title: "Community Events"
-  url: "/design"
+  url: "/community"
   side: right
   dropdown:
   - title: "German Pre-CHI Event "
-    url: ""
+    url: "/community/pre-chi-event"
   - title: "CHI 2023 in Germany"
-    url: ""
+    url: "/community/chi-2023-in-germany"
   - title: "2020 Virtual German CHI Week"
-    url: ""
-
-- title: "Blog"
-  url: "/blog"
-  side: right
-  dropdown:
-  - title: "Blog archive"
-    url: "/blog/archive"
+    url: "/community/2020-virtual-chi"
 
 - title: "German HCI LABS"
   url: "/hci_labs"
