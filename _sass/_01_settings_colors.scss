@@ -171,3 +171,23 @@ $head-text: #40A3A0;
   }
 
 }
+
+/* text colour for quick access
+---------------------------------------------------------------- */
+
+.quick-access{
+  position: relative;
+  padding-left: 10px;
+  color: #3c63d6;
+  font-weight: bold;
+  
+}
+
+/* scrolling text styles for Labs page
+---------------------------------------------------------------- */
+
+.section{
+  height: 100vh;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}

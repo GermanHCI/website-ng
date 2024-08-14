@@ -10,27 +10,30 @@
   <body>
     <div class="scrollcontainer">
       <div class="left">
-        <h1 class="head-text" >German HCI labs</h1>
-        <p> Here is a list of HCI labs in the country. There is atleast one HCI lab in the pinnedd locations. Click on the pins to know more about the labs in the city</p>
-        <p> Quick links: </p>
-        <p>
-        {% for city in site.data.cities %}
-        <span class="head-text" onclick="quicklink('{{ city.name }}')"> {{ city.name }} </span> 
-        <!-- change the class with different custom styles -->
-        {% endfor %}
-        </p>
+        <div class="section">
+          <h1 class="head-text" >German HCI labs</h1>
+          <p> Here is a list of HCI labs in the country. There is atleast one HCI lab in the pinnedd locations. Click on the pins to know more about the labs in the city</p>
+          <p> Quick links: 
+          {% for city in site.data.cities %}
+          <span class="quick-access" onclick="quicklink('{{ city.name }}')"> {{ city.name }} </span> 
+          <!-- change the class with different custom styles -->
+          {% endfor %}
+          </p>
+        </div>
         {% assign lab_files = site.data.labs | sort %}
         {% for city in site.data.cities %}
-        <h1 class="head-text" id="{{city.name}}">{{ city.name }}</h1>
-        {% for file in lab_files %}
-          {% if file[1].city == city.name %}
-            {% assign lab = file[1] %}
-            <h2 class="head-text">{{ lab.name }}</h2>
-            <h4>Lead by: <a href="{{ lab.leadLink}}">{{lab.lead}}</a> <br/>
-            {{ lab.university }}, {{ lab.city }}</h4>
-            <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{lab.url}}">Read more</a></p>
-          {% endif %}
-        {% endfor %} 
+        <div class="section">
+          <h1 class="head-text" id="{{city.name}}">{{ city.name }}</h1>
+          {% for file in lab_files %}
+            {% if file[1].city == city.name %}
+              {% assign lab = file[1] %}
+              <h2 class="head-text">{{ lab.name }}</h2>
+              <h4>Lead by: <a href="{{ lab.leadLink}}">{{lab.lead}}</a> <br/>
+              {{ lab.university }}, {{ lab.city }}</h4>
+              <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{lab.url}}">Read more</a></p>
+            {% endif %}
+          {% endfor %} 
+        </div>
         {% endfor %}
       </div>
       <div class="right">

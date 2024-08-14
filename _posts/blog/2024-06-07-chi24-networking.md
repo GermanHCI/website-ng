@@ -4,11 +4,11 @@ title:  "GermanHCI Networking Event at CHI’24"
 subheadline:  "A Memorable Gathering in Hawaii"
 teaser: "This year’s GermanHCI event at the CHI’24 conference was a standout, drawing over 700 participants."
 categories:
-    - design
+    - blog
 tags:
-    - design
-    - background color
-    - header
+    - CHI'24
+    - GermanHCI
+    - Hawaii
 
 header:
     image_fullwidth: "/images/germanHCI_hawaii_k.jpg"

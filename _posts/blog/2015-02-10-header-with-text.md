@@ -4,7 +4,7 @@ title: "Header With Text"
 subheadline: "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This header is with text."
 categories:
-    - design
+    - blog
 tags:
     - design
     - background color
