@@ -21,7 +21,7 @@ format: page-fullwidth
 		<article>
 			<header>
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-				<h1 class="head-text">{{ page.title }}</h1>
+				<h1 style="text-align: center;">{{ page.title }}</h1>
 			</header>
 
 			{% if page.teaser %}
@@ -36,3 +36,24 @@ format: page-fullwidth
 </div><!-- /.row -->
 
 
+{% if page.table %}
+<div class="row t30">
+	<div class="medium-12 columns">
+		<h2 class="head-text">{{page.table}}</h2>
+		<table>
+			<tr>
+				{% for head in page.heading %}
+				<th>{{ head }}</th>
+				{% endfor %}
+			</tr>
+			{% for row in page.rows %}
+			<tr>
+				{% for item in row %}
+				<td>{{item}}</td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+</div>
+{% endif %}

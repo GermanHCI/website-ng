@@ -7,7 +7,7 @@ callforaction:
   url: '/editions'
   text: "Take a look at our previous editions"
 header:
-  image_fullwidth: "/images/slider_hci_kickflickable.jpg"
+  image_fullwidth: "/assets/img/background-2.jpg"
 
 widget1:
   title: 'German HCI at CHI2023'
