@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "Pre CHI event"
+title: "German Pre-CHI event - German HCI"
 header: no
 permalink: "/community/pre-chi-event"
 table: All Editions
