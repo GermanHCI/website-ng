@@ -1,0 +1,55 @@
+---
+layout: default
+format: publications
+---
+<style>
+    .abstract {
+        display: none;
+        margin-top: 5px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+    }
+</style>
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+				<h1 style="text-align: center;">{{ page.title }}</h1>
+			</header>
+
+			{% if page.teaser %}
+			<p class="teaser">
+				{{ page.teaser }}
+			</p>
+			{% endif %}
+
+			{{ content }}
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
+<script>
+    function toggleAbstract(id) {
+        var abstract = document.getElementById(id);
+        if (abstract.style.display === "none") {
+            abstract.style.display = "block";
+        } else {
+            abstract.style.display = "none";
+        }
+    }
+</script>
+{% if page.bib %}
+<div class="row t30">
+	<div class="medium-12 columns">
+        {% for entry in site.data.references %}
+            <h3 class="head-text">{{ entry.title }}</h3></br>
+            {{ entry.author }}<br>
+            <span style="font-size: small;">In: {{ entry.year }}.</span><br>
+            <span onclick="toggleAbstract(abstract)" style="text-decoration: underline; color: brown;">Abstract</span>| Tags: {{ entry.tag }} | Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a><br>
+            <span class="abstract" id="abstract">{{ entry.abstract }}<br>Keywords: {{ entry.keywords }}</span>
+            <hr/>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

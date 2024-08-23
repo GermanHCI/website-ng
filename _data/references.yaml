@@ -28,6 +28,7 @@
   author: Kloft, Agnes Mercedes and Welsch, Robin and Kosch, Thomas and Villa, Steeven
   ENTRYTYPE: inproceedings
   ID: 10.1145/3613904.3642633
+  tag: Fullpaper, Case Study
 - series: CHI '24
   location: <conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>,
     </conf-loc>
@@ -62,6 +63,7 @@
     and Draxler, Fiona and Schmidt, Albrecht
   ENTRYTYPE: inproceedings
   ID: 10.1145/3613904.3641964
+  tag: Fullpaper, Case Study
 - series: CHI EA '24
   location: '<conf-loc>
 
@@ -102,6 +104,7 @@
   author: Sayffaerth, Clara and Rasch, Julian and M\"{u}ller, Florian
   ENTRYTYPE: inproceedings
   ID: 10.1145/3613905.3650834
+  tag: Fullpaper, Case Study
 - series: CHI '24
   location: <conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>,
     </conf-loc>
@@ -135,6 +138,7 @@
     Thomas and Malaka, Rainer
   ENTRYTYPE: inproceedings
   ID: 10.1145/3613904.3642426
+  tag: Fullpaper, Case Study
 - series: CHI EA '24
   location: '<conf-loc>
 
@@ -175,3 +179,4 @@
     Thomas
   ENTRYTYPE: inproceedings
   ID: 10.1145/3613905.3650938
+  tag: Fullpaper, Case Study
