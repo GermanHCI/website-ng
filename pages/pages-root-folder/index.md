@@ -12,19 +12,19 @@ header:
 widget1:
   title: 'German HCI at CHI2023'
   url: '/editions/2023'
-  image: '/images/CHI2023.png'
+  image: '/home/CHI2023.png'
 
 widget2:
   title: 'German HCI at CHI2022'
   url: '/editions/2022'
-  image: '/images/CHI2022.jpg'
+  image: '/home/CHI2022.jpg'
 
 widget3:
   title: 'German HCI at CHI2021'
   url: '/editions/2021'
-  image: '/images/CHI2021.jpg'
+  image: '/home/CHI2021.jpg'
 
-homepage: true
+homepage: true 
 ---
 <div style="display: flex; justifycontent:space between; gap: 2em; marginTop: 4em">
 <div>
