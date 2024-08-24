@@ -6,10 +6,10 @@ permalink: "/friends"
 ---
 The German HCI is just one of the many efforts the German research community put out. Here, we want to mention our friends and partners.
 
-If you have an interesting event or community related to HCI in Germany, we are happy to get in touch and see how we can mutually benefit from each other. Send an email to contact@germanhci.de or check out our [About page](/about).
+If you have an interesting event or community related to HCI in Germany, we are happy to get in touch and see how we can mutually benefit from each other. Send an email to contact@germanhci.de or check out our [About page](about).
 
 <h3 class="head-text"> Labs & Universities </h3>
-The German HCI is foremost a joint adventure by multiple labs from German universities. We want to thank them for all their contributions! The list of supporting labs from each year can be found in [the respective editions](/editions); an almost complete list of all German HCI labs can be found here.
+The German HCI is foremost a joint adventure by multiple labs from German universities. We want to thank them for all their contributions! The list of supporting labs from each year can be found in [the respective editions](editions); an almost complete list of all German HCI labs can be found here.
 
 <h3 class="head-text"> German ACM SIGCHI Chapter </h3>
 The German ACM SIGCHI Chapter also aims to increase the international visibility of the German HCI-Community by supporting HCI-related events organized in Germany. The chapter can help by promoting such events on its [website](https://www.sigchi.de) and in ACMs local activities calendar as well as by providing access to the ACM Distinguished Speakers Program.

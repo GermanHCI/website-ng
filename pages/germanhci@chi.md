@@ -13,5 +13,5 @@ Since 2017, the German HCI event accompanies the ACM CHI Conference on Human Fac
 - [2020 – German HCI @ CHI in Honolulu, US](editions/2020)
 - [2019 – German HCI @ CHI in Glasgow, UK](editions/2019)
 - [2018 – German HCI @ CHI in Montreal, Canada](editions/2018)
-- [2017 – German HCI @ CHI in Denver, US](editions/2017)
+- [2017 – German HCI @ CHI in Denver, US](editions/2017) 
 - [Early Days](editions/early)
