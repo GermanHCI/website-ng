@@ -32,7 +32,7 @@ format: publications
 <script>
     function toggleAbstract(id) {
         var abstract = document.getElementById(id);
-        if (abstract.style.display === "none") {
+        if (abstract.style.display === "none" || abstract.style.display === "") {
             abstract.style.display = "block";
         } else {
             abstract.style.display = "none";
@@ -41,13 +41,13 @@ format: publications
 </script>
 {% if page.bib %}
 <div class="row t30">
-	<div class="medium-12 columns">
+    <div class="medium-12 columns">
         {% for entry in site.data.references %}
             <h3 class="head-text">{{ entry.title }}</h3></br>
             {{ entry.author }}<br>
             <span style="font-size: small;">In: {{ entry.year }}.</span><br>
-            <span onclick="toggleAbstract(abstract)" style="text-decoration: underline; color: brown;">Abstract</span>| Tags: {{ entry.tag }} | Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a><br>
-            <span class="abstract" id="abstract">{{ entry.abstract }}<br>Keywords: {{ entry.keywords }}</span>
+            <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> | Tags: {{ entry.tag }} | Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a><br>
+            <span class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">{{ entry.abstract }}<br><p style="font-weight: bold;">Keywords: {{ entry.keywords }}</p></span>
             <hr/>
         {% endfor %}
     </div>
