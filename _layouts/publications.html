@@ -43,11 +43,11 @@ format: publications
 <div class="row t30">
     <div class="medium-12 columns">
         {% for entry in site.data.references %}
-            <h3 class="head-text">{{ entry.title }}</h3></br>
-            {{ entry.author }}<br>
-            <span style="font-size: small;">In: {{ entry.year }}.</span><br>
-            <span onclick="toggleAbstract('abstract')" style="text-decoration: underline; color: brown;">Abstract</span> | Tags: {{ entry.tag }} | Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a><br>
-            <span class="abstract" id="abstract" style="display: none;">{{ entry.abstract }}<br><p style="font-weight: bold;">Keywords: {{ entry.keywords }}</p></span>
+            <h3 class="head-text">{{ entry.title }}</h3><br/>
+            {{ entry.author }}<br/>
+            <p style="font-size: small;">In: {{ entry.year }}.</p>
+            <p><span onclick="toggleAbstract('abstract')" style="text-decoration: underline; color: brown;">Abstract</span> | Tags: {{ entry.tag }} | Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a></p>
+            <p class="abstract" id="abstract" style="display: none;">{{ entry.abstract }}<br><span style="font-weight: bold;">Keywords: {{ entry.keywords }}</span></p>
             <hr/>
         {% endfor %}
     </div>
