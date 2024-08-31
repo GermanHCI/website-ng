@@ -1,0 +1,7 @@
+university: "RWTH Aachen University"
+lab:
+  - labname: "Media Computing Group"
+    lablead: "Prof. Dr. Jan Borchers"
+    link: "https://hci.rwth-aachen.de"
+    leadLink: ""
+    info: "Our group, headed by Prof. Dr. Jan Borchers, works in Human-Computer Interaction (HCI). Grounded in Computer Science, we develop and study new interaction theories, techniques, and systems in areas like personal digital fabrication and personal design, mobile, wearable, and shape-changing user interfaces, soft robotics, interactive textiles, handheld augmented reality, interaction with AI, and visual coding environments. Our goal is to make the Brave New World of interactive technologies useful by making it usable. "

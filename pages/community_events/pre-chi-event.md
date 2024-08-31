@@ -41,6 +41,7 @@ rows:
         - OFFIS Oldenburg
         - Andrii Matviienko, Wilko Heuten, Susanne Boll (OFFIS)
         - April 11-12, 2019
+    
 
 ---
 Inspired by the Scottish tradition of meeting researchers from all over Scotland shortly before going to CHI, in 2019, this tradition was brought by Offis (Oldenburg) to Germany to bring the German HCI community and friends closer together. The idea of the German Pre-CHI Event is to provide an opportunity for researchers from Germany to present their accepted CHI papers and discuss them in a smaller circle. Additionally, it provides an excellent opportunity for younger researchers to get a taste of the quality of work presented at CHI and network with other peers, as well as senior researchers. Therefore, everyone from students to professors interested in HCI is welcome.
