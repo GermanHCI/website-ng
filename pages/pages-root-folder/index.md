@@ -26,8 +26,8 @@ widget3:
 
 homepage: true 
 ---
-<div style="display: flex; justifycontent:space between; gap: 2em; marginTop: 4em">
-<div>
+<div style="display: flex; gap:5rem; ">
+<div style="width: 130%">
 <h3 class="head-text"> About Us</h3>
 The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for the fascinating research, the aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest HCI research in a relaxed atmosphere. In addition, we also started to support further community events within the German HCI community.
 

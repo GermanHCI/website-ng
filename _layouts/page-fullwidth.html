@@ -57,32 +57,3 @@ format: page-fullwidth
 	</div>
 </div>
 {% endif %}
-
-{% if page.data %}
-<div class="row t30">
-	<div class="medium-12 columns">
-		{% for item in page.data %}
-			<h3 class="head-text">{{item.heading}}</h3>
-				{% if item.columns == 1 %}
-					{% for con in item.content %}
-						<p>{{ con }}</p>
-					{% endfor%}
-					{% if item.image %}
-						<img src="{{ site.url }}/assets/img/{{ item.image }}" alt="hello" >
-					{% endif %}			
-				{% endif %}
-				{% if item.columns == 2 %}
-					<div style="display: flex; justify-content: space-between; gap: 20px;">
-						{% for con in item.content %}
-							<p>{{ con }}</p>
-						{% endfor%}
-						{% if item.image %}
-							<img src="{{ site.url }}/assets/img/{{ item.image }}" alt="hello" width="300">
-						{% endif %}
-					</div>
-				{% endif %}
-				<hr style="margin-block: 50px;"/>
-		{% endfor %}
-	</div>
-</div>
-{% endif %}
