@@ -8,7 +8,7 @@ permalink: "/community/2020-virtual-chi"
 <div>
 With <b>83 accepted papers and 34 LBWs</b>, German researchers provided a sizable contribution to CHI 2020. Due to the cancellation of the conference, we wanted to honor the German contribution by organizing the <b>Virtual German CHI Week</b>. This event took place from <b>May 25th – May 29th 2020</b>.
 <br/><br/>
-Quick Access:  Schedule | FAQ | Organizers
+Quick Access:  <a href="{{ site.url }}/community/2020-virtual-chi/schedule">Schedule</a> | <a href="{{ site.url }}/community/2020-virtual-chi/faq">faq</a> | <a href="{{ site.url }}/community/2020-virtual-chi/organizers">Organizers</a>
 </div>
 <div>
 <img src="{{ site.url }}/assets/img/community/virtualchi_20/german-chi-week-2-1024x508.jpg" alt="2020 virtual CHI week">
