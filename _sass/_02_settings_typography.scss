@@ -22,12 +22,12 @@ $rem-base: $base-font-size;
 $base-line-height: 1.5 !default;
 
 
-$font-family-sans-serif: "Lato";
-$font-family-serif: "Poppins";
+$font-family-sans-serif: "Open Sans", sans-serif;
+$font-family-serif: "Open Sans Condensed", sans-serif;
 // $font-family-monospace: "Lucida Console", Monaco, monospace;
 
 $body-font-family: $font-family-sans-serif;
-$body-font-weight: normal;
+$body-font-weight: 300;
 $body-font-style: normal;
 
 $header-font-family: $font-family-serif;
@@ -37,7 +37,7 @@ $header-font-family: $font-family-serif;
 /* Font Weight
 ------------------------------------------------------------------- */
 
-$font-weight-normal: normal;
+$font-weight-normal: light;
 $font-weight-bold: bold;
 
 
