@@ -4,7 +4,7 @@
 // Licensed under MIT Open Source
 
 //
-// Foundation Variables
+// Foundation Variables 
 //
 
 // Data attribute namespace
@@ -430,4 +430,27 @@ $cursor-text-value: text !default;
     // Make select elements 100% width by default
     select { width: 100%; }
   }
+}
+
+// Additional Styles
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.general_display{
+  display: block;
+
+  @media (min-width: 900px) {
+    display: flex;
+    gap:5rem;
+  }
+}
+
+.main_organizers{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: 750px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }

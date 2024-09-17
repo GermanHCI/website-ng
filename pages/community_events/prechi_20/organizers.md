@@ -5,7 +5,7 @@ header: no
 permalink: "/community/2020-virtual-chi/organizers"
 ---
 <h2 class="head-text">Main Organizers</h2>
-<div style="display:flex; justify-content: space-between;">
+<div class="main_organizers">
 <div>
 <img src="{{ site.url }}/assets/img/community/virtualchi_20/profile-teresa_hirzle.jpg" alt="Teresa Hirzle" width="150">
 <p>Teresa Hirzle <br/><span style="font-size: 0.8em;">Ulm University</span></p>
