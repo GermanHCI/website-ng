@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    console.log("arrived here");
     const cities = [
         { name: 'Berlin', lat: 52.52, lon: 13.405 },
         { name: 'Hamburg', lat: 53.5511, lon: 9.9937 },
@@ -8,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Aachen', lat:50.7753, lon:6.0839}
         // Add more cities as needed
     ];
-
     cities.forEach(city => addPin(city));
+    
 });
-
+ 
 const mapBounds = {
     topLeft: { lat: 55.0079, lon: 5.98815 },
     bottomRight: { lat: 47.40724, lon: 14.98853 }
@@ -24,17 +25,16 @@ const svgDimensions = {
 
 function addPin(city) {
     const coords = convertLatLonToXY(city.lat, city.lon);
-    const svg = document.getElementById('germany_map');
+    const svg = document.getElementById('germany-map');
 
     const pin = createPinImage();
     pin.setAttribute('x', coords.x - 12); // Adjust position to center the pin
     pin.setAttribute('y', coords.y - 45);
     pin.setAttribute('title', city.name); 
     pin.classList.add('pin');
-    pin.addEventListener('click', function() {
-        document.getElementById( city.name).scrollIntoView({ behavior: 'smooth' });
-    });
     svg.appendChild(pin);
+    console.log(`City: ${city.name}, Coords: x=${coords.x}, y=${coords.y}`);
+   
 
     const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
     text.setAttribute('x', coords.x + 10); // Position the text slightly to the right of the pin
@@ -88,3 +88,6 @@ function createPinImage() {
 
     return svgElem;
 }
+// pin.addEventListener('click', function() {
+    //     document.getElementById( city.name).scrollIntoView({ behavior: 'smooth' });
+    // });
