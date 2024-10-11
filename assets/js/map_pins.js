@@ -24,7 +24,7 @@ const svgDimensions = {
 
 function addPin(city) {
     const coords = convertLatLonToXY(city.lat, city.lon);
-    const svg = document.getElementById('germany-map');
+    const svg = document.getElementById('germany_map');
 
     const pin = createPinImage();
     pin.setAttribute('x', coords.x - 12); // Adjust position to center the pin
