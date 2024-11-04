@@ -3,7 +3,7 @@
 	padding: 0; 
 	box-sizing: border-box; 
 } 
-.city-name {
+.uni-name {
     font-size: 12px;
     fill: black; /* or any color that suits your map */
 }

@@ -25,7 +25,7 @@
 <div class="row">
 {% for file in lab_files %}
 {% for entry in file %}
-  <h1 class="head-text" id="{{file.university}}">{{ entry.university }}</h1>
+  <h1 class="head-text" id="{{entry.name}}"> {{entry.name}} </h1>
   {% for lab in entry.lab %}
     <h2 class="head-text" >{{ lab.labname }}</h2>
     <h3>{{ lab.lablead }} - {{ lab.link }}</h3>

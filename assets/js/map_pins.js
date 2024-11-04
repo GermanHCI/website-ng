@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("arrived here");
-    const cities = [
-        { name: 'Berlin', lat: 52.52, lon: 13.405 },
-        { name: 'Hamburg', lat: 53.5511, lon: 9.9937 },
-        { name: 'Munich', lat: 48.1351, lon: 11.582 },
+    const universities = [
+        { name: 'TU Berlin', lat: 52.52, lon: 13.405 },
+        { name: 'TU Hamburg', lat: 53.5511, lon: 9.9937 },
+        { name: 'TU Munich', lat: 48.1351, lon: 11.582 },
         { name: 'Cologne', lat: 50.9375, lon: 6.9603 },
-        { name: 'Frankfurt', lat: 50.1109, lon: 8.6821 },
-        { name: 'Aachen', lat:50.7753, lon:6.0839}
+        { name: 'Universitat Bayreuth', lat: 50.1109, lon: 8.6821 },
+        { name: 'RWTH Aachen', lat:50.7753, lon:6.0839}
         // Add more cities as needed
     ];
-    cities.forEach(city => addPin(city));
+    universities.forEach(uni => addPin(uni));
     
 });
  
@@ -23,24 +23,34 @@ const svgDimensions = {
     height: 800
 };
 
-function addPin(city) {
-    const coords = convertLatLonToXY(city.lat, city.lon);
+function addPin(uni) {
+    const coords = convertLatLonToXY(uni.lat, uni.lon);
     const svg = document.getElementById('germany-map');
 
     const pin = createPinImage();
     pin.setAttribute('x', coords.x - 12); // Adjust position to center the pin
     pin.setAttribute('y', coords.y - 45);
-    pin.setAttribute('title', city.name); 
+    pin.setAttribute('title', uni.name); 
     pin.classList.add('pin');
+    pin.addEventListener('click', function() {
+        const element = document.getElementById(uni.name);
+        const offset = 70; 
+        const elementPosition = element.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({
+            top: elementPosition,
+            behavior: 'smooth'
+        });
+        console.log(`University: ${uni.name}`);
+    });
+    
     svg.appendChild(pin);
-    console.log(`City: ${city.name}, Coords: x=${coords.x}, y=${coords.y}`);
-   
+    
 
     const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
     text.setAttribute('x', coords.x + 10); // Position the text slightly to the right of the pin
     text.setAttribute('y', coords.y - 5); // Position the text slightly above the pin
-    text.textContent = city.name;
-    text.classList.add('city-name'); //corressponding css
+    text.textContent = uni.name;
+    text.classList.add('uni-name'); //corressponding css
     svg.appendChild(text);
 }
 
@@ -89,5 +99,7 @@ function createPinImage() {
     return svgElem;
 }
 // pin.addEventListener('click', function() {
-    //     document.getElementById( city.name).scrollIntoView({ behavior: 'smooth' });
-    // });
+//         document.getElementById(uni.name).scrollIntoView({ behavior: 'smooth' });
+//         console.log(`University: ${uni.name}`);
+   
+// });
