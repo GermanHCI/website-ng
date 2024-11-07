@@ -1,0 +1,169 @@
+---
+- bibtex_key: 10.1145/3613904.3642633
+  bibtex_type: :inproceedings
+  author: "{Kloft, Agnes Mercedes and Welsch, Robin and Kosch, Thomas and Villa, Steeven}"
+  title: '{"AI enhances our performance, I have no doubt this one will do the same":
+    The Placebo effect is robust to negative descriptions of AI}'
+  year: "{2024}"
+  isbn: "{9798400703300}"
+  publisher: "{Association for Computing Machinery}"
+  address: "{New York, NY, USA}"
+  url: "{https://doi.org/10.1145/3613904.3642633}"
+  doi: "{10.1145/3613904.3642633}"
+  abstract: "{Heightened AI expectations facilitate performance in human-AI interactions
+    through placebo effects. While lowering expectations to control for placebo effects
+    is advisable, overly negative expectations could induce nocebo effects. In a letter
+    discrimination task, we informed participants that an AI would either increase
+    or decrease their performance by adapting the interface, when in reality, no AI
+    was present in any condition. A Bayesian analysis showed that participants had
+    high expectations and performed descriptively better irrespective of the AI description
+    when a sham-AI was present. Using cognitive modeling, we could trace this advantage
+    back to participants gathering more information. A replication study verified
+    that negative AI descriptions do not alter expectations, suggesting that performance
+    expectations with AI are biased and robust to negative verbal descriptions. We
+    discuss the impact of user expectations on AI interactions and evaluation.}"
+  booktitle: "{Proceedings of the CHI Conference on Human Factors in Computing Systems}"
+  articleno: "{299}"
+  numpages: "{24}"
+  keywords: "{Artificial Intelligence, Decision-making, Performance expectation, Placebo}"
+  tags: "{CaseStudy, tem}"
+  new: "{temp}"
+  location: "{<conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>,
+    </conf-loc>}"
+  series: "{CHI '24}"
+- bibtex_key: 10.1145/3613904.3641964
+  bibtex_type: :inproceedings
+  author: "{Kobiella, Charlotte and Flores L\\'{o}pez, Yarhy Said and Waltenberger,
+    Franz and Draxler, Fiona and Schmidt, Albrecht}"
+  title: '{"If the Machine Is As Good As Me, Then What Use Am I?" – How the Use of
+    ChatGPT Changes Young Professionals'' Perception of Productivity and Accomplishment}'
+  year: "{2024}"
+  isbn: "{9798400703300}"
+  publisher: "{Association for Computing Machinery}"
+  address: "{New York, NY, USA}"
+  url: "{https://doi.org/10.1145/3613904.3641964}"
+  doi: "{10.1145/3613904.3641964}"
+  abstract: "{Large language models (LLMs) like ChatGPT have been widely adopted in
+    work contexts. We explore the impact of ChatGPT on young professionals’ perception
+    of productivity and sense of accomplishment. We collected LLMs’ main use cases
+    in knowledge work through a preliminary study, which served as the basis for a
+    two-week diary study with 21 young professionals reflecting on their ChatGPT use.
+    Findings indicate that ChatGPT enhanced some participants’ perceptions of productivity
+    and accomplishment by enabling greater creative output and satisfaction from efficient
+    tool utilization. Others experienced decreased perceived productivity and accomplishment,
+    driven by a diminished sense of ownership, perceived lack of challenge, and mediocre
+    results. We found that the suitability of task delegation to ChatGPT varies strongly
+    depending on the task nature. It’s especially suitable for comprehending broad
+    subject domains, generating creative solutions, and uncovering new information.
+    It’s less suitable for research tasks due to hallucinations, which necessitate
+    extensive validation.}"
+  booktitle: "{Proceedings of the CHI Conference on Human Factors in Computing Systems}"
+  articleno: "{1018}"
+  numpages: "{16}"
+  keywords: "{Generative AI, knowledge work, productivity, self-efficacy, sense of
+    accomplishment}"
+  tags: "{CaseStudy}"
+  location: "{<conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>,
+    </conf-loc>}"
+  series: "{CHI '24}"
+- bibtex_key: 10.1145/3613905.3650834
+  bibtex_type: :inproceedings
+  author: '{Sayffaerth, Clara and Rasch, Julian and M\"{u}ller, Florian}'
+  title: "{“Tele” Me More: Using Telepresence Charades to Connect Strangers and Exhibits
+    in Different Museums}"
+  year: "{2024}"
+  isbn: "{9798400703317}"
+  publisher: "{Association for Computing Machinery}"
+  address: "{New York, NY, USA}"
+  url: "{https://doi.org/10.1145/3613905.3650834}"
+  doi: "{10.1145/3613905.3650834}"
+  abstract: "{The museum is changing from a place of passive consumption to a place
+    of interactive experiences, opening up new ways of engaging with exhibits and
+    others. As a promising direction, this paper explores the potential of telepresence
+    stations in the museum context to enhance social connectedness among visitors
+    over distance. Emphasizing the significance of social exchange, our research focuses
+    on studying telepresence to foster interactions between strangers, share knowledge,
+    and promote social connectedness. To do so, we first observe exhibitions and then
+    interview individual visitors of a technical museum about their experiences and
+    needs. Based on the results, we design appropriate voiceless and touchless communication
+    channels and test them in a study. The findings of our in-situ user study with
+    24 visitors unfamiliar with each other in the museum provide insights into behaviors
+    and perceptions, contributing valuable knowledge on seamlessly integrating telepresence
+    technology in exhibitions, with a focus on enhancing learning, social connections,
+    and the museum experience in general.}"
+  booktitle: "{Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing
+    Systems}"
+  articleno: "{389}"
+  numpages: "{8}"
+  keywords: "{Museum, Remote Play, Social Connectedness, Telepresence}"
+  tags: "{CaseStudy, Full paper}"
+  location: "{<conf-loc> <city>Honolulu</city> <state>HI</state> <country>USA</country>
+    </conf-loc>}"
+  series: "{CHI EA '24}"
+- bibtex_key: 10.1145/3613904.3642426
+  bibtex_type: :inproceedings
+  author: "{Zargham, Nima and Fetni, Mohamed Lamine and Spillner, Laura and Muender,
+    Thomas and Malaka, Rainer}"
+  title: '{"I Know What You Mean": Context-Aware Recognition to Enhance Speech-Based
+    Games}'
+  year: "{2024}"
+  isbn: "{9798400703300}"
+  publisher: "{Association for Computing Machinery}"
+  address: "{New York, NY, USA}"
+  url: "{https://doi.org/10.1145/3613904.3642426}"
+  doi: "{10.1145/3613904.3642426}"
+  abstract: "{Recent advances in language processing and speech recognition open up
+    a large opportunity for video game companies to embrace voice interaction as an
+    intuitive feature and appealing game mechanics. However, speech-based systems
+    still remain liable to recognition errors. These add a layer of challenge on top
+    of the game’s existing obstacles, preventing players from reaching their goals
+    and thus often resulting in player frustration. This work investigates a novel
+    method called context-aware speech recognition, where the game environment and
+    actions are used as supplementary information to enhance recognition in a speech-based
+    game. In a between-subject user study (N = 40), we compared our proposed method
+    with a standard method in which recognition is based only on the voice input without
+    taking context into account. Our results indicate that our proposed method could
+    improve the player experience and the usability of the speech system.}"
+  booktitle: "{Proceedings of the CHI Conference on Human Factors in Computing Systems}"
+  articleno: "{956}"
+  numpages: "{18}"
+  keywords: "{Game Design, Speech Recognition, Speech-Based Systems, Voice Interaction,
+    Voice-Controlled Game}"
+  tags: "{CaseStudy, Full paper}"
+  location: "{<conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>,
+    </conf-loc>}"
+  series: "{CHI '24}"
+- bibtex_key: 10.1145/3613905.3650938
+  bibtex_type: :inproceedings
+  author: '{Schmitz, Martin and Sch\"{o}n, Dominik and Klagemann, Henning and Kosch,
+    Thomas}'
+  title: "{3DA: Assessing 3D-Printed Electrodes for Measuring Electrodermal Activity}"
+  year: "{2024}"
+  isbn: "{9798400703317}"
+  publisher: "{Association for Computing Machinery}"
+  address: "{New York, NY, USA}"
+  url: "{https://doi.org/10.1145/3613905.3650938}"
+  doi: "{10.1145/3613905.3650938}"
+  abstract: "{Electrodermal activity (EDA) reflects changes in skin conductance, which
+    are closely tied to human psychophysiological states. For example, EDA sensors
+    can assess stress, cognitive workload, arousal, or other measures tied to the
+    sympathetic nervous system for interactive human-centered applications. Yet, current
+    limitations involve the complex attachment and proper skin contact with EDA sensors.
+    This paper explores the concept of 3D printing electrodes for EDA measurements,
+    integrating sensors into arbitrary 3D-printed objects, alleviating the need for
+    complex assembly and attachment. We examine the adaptation of conventional EDA
+    circuits for 3D-printed electrodes, assessing different electrode shapes and their
+    impact on the sensing accuracy. A user study (N=6) revealed that 3D-printed electrodes
+    can measure EDA with similar accuracy, suggesting larger contact areas for improved
+    precision. We derive design implications to facilitate the integration of EDA
+    sensors into 3D-printed devices to foster diverse integration into everyday objects
+    for prototyping physiological interfaces.}"
+  booktitle: "{Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing
+    Systems}"
+  articleno: "{14}"
+  numpages: "{7}"
+  keywords: "{3D Printing, Electrodermal Activity, Physiological Sensing}"
+  tags: "{CaseStudy, Full paper}"
+  location: "{<conf-loc> <city>Honolulu</city> <state>HI</state> <country>USA</country>
+    </conf-loc>}"
+  series: "{CHI EA '24}"
