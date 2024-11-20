@@ -2,6 +2,7 @@
 layout: default
 format: publications
 ---
+<meta charset="UTF-8">
 <style>
     .abstract {
         display: none;
@@ -42,14 +43,29 @@ format: publications
 {% if page.bib %}
 <div class="row t30">
     <div class="medium-12 columns">
-        {% for entry in site.data.references %}
-            <h3 class="head-text">{{ entry.title }}</h3><br/>
-            {{ entry.author }}<br/>
-            <p style="font-size: small;">In: {{ entry.year }}.</p>
-            <p><span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> | Tags: {{ entry.tag }} | Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a></p>
-            <p class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">{{ entry.abstract }}<br><span style="font-weight: bold;">Keywords: {{ entry.keywords }}</span></p>
+        {% for entry in site.data.bibliography_yaml.references %}
+            {% assign clean_title = entry.title | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_author = entry.author | xml_escape | replace: "{", "" | replace: "}", ""  %}
+            {% assign clean_year = entry.year | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_tag = entry.tag | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_abstract = entry.abstract | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_keywords = entry.keywords | replace: "{", "" | replace: "}", "" | xml_escape %}
+
+            <h3 class="head-text">{{ clean_title }}</h3><br/>
+            {{ clean_author }}<br/>
+            <p style="font-size: small;">In: {{ clean_year }}.</p>
+            <p>
+                <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> |
+                Tags: {{ clean_tag }} |
+                Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a>
+            </p>
+            <p class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">
+                {{ clean_abstract }}<br>
+                <span style="font-weight: bold;">Keywords: {{ clean_keywords }}</span>
+            </p>
             <hr/>
         {% endfor %}
     </div>
 </div>
+
 {% endif %}

@@ -1,0 +1,9 @@
+university: "TU Dresden"
+name: "TU Dresden"
+lab:
+  - labname: "Interactive Media Lab"
+    lablead: "Prof. Dr. Raimund Dachselt"
+    logo: logo_IML.png
+    link: "https://imld.de/en/"
+    leadLink: ""
+    info: "The Interactive Media Lab Dresden (Chair of Multimedia Technology) at the Institute of Software and Multimedia Technology of the Faculty of Computer Science at TU Dresden was established in April 2012 and is led by Prof. Raimund Dachselt. The Interactive Media Lab at the Technische Universität Dresden is conducting research primarily in the field of modern Human-Computer Interaction and interactive Information Visualization. Our main focus are natural user interfaces, in particular the development of interaction techniques and data visualization approaches using various interaction modalities (multitouch, pen, gaze, tangibles, gestures) and their combination. Typical research setups are multi-display and Mixed Reality environments as well as wearables for augmenting humans. We apply our basic research results to several application domains, like biology, medicine and cyber-physical systems, and develop domain-specific solutions."

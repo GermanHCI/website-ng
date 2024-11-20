@@ -27,12 +27,19 @@
 {% for entry in file %}
   <h1 class="head-text" id="{{entry.name}}"> {{entry.name}} </h1>
   {% for lab in entry.lab %}
-    <h2 class="head-text" >{{ lab.labname }}</h2>
-    <h3>{{ lab.lablead }} - {{ lab.link }}</h3>
+  {% if {{lab.logo}} %}
+  <div style="display: flex; justify-content: space-between;"> <h2 class="head-text" >{{ lab.labname }}</h2>
+    <img width="300" height="100" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="lab logo"/> 
+    <!-- change the height and width adjustment to scss with maxwidth and minwidth -->
+  </div>
+  {% else %}
+  <h2 class="head-text" >{{ lab.labname }}</h2>
+  {% endif %}
+    <h3>{{ lab.lablead }} - <a href="{{lab.link}}">{{lab.link}}</a></h3>
     <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{lab.url}}">Read more</a></p>
   {% endfor %}
 {% endfor %}
-<hr/>
+<hr style="border-color: #E98737; border-width: 1px;"/>
 {% endfor %} 
 </div> 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/map_pins.js" ></script>

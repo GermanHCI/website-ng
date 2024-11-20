@@ -1,0 +1,7 @@
+university: "Bundeswehr University Munich"
+name: "Bundeswehr University Munich"
+lab:
+  - labname: "The Usable Security and privacy group"
+    lablead: "Prof. Florian Alt."
+    link: "https://www.unibw.de/usable-security-and-privacy-en"
+    info: "The Usable Security and Privacy Group is part of the Research Institute CODE at the University of the Bundeswehr, Munich. The group is headed by Prof. Florian Alt. We explore the design of secure and privacy-preserving systems that blend with the way in which users interact with computing devices. In particular, our research focuses on understanding users' behavior in security critical contexts, in building and enhancing security and privacy mechanisms based on users' behavior (behavioral biometrics)and physiology (physiological security) and in understanding and investigating threats that emerge from novel ubiquitous technologies (ubiquitous security). Specific application areas are mixed reality, smart homes, and social engineering."

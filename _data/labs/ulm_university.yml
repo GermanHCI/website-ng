@@ -1,0 +1,7 @@
+university: "Ulm University"
+name: "Ulm University"
+lab:
+  - labname: "Institute of Media Informatics – Human-Computer-Interaction Group"
+    lablead: "Enrico Rukzio "
+    link: "https://www.uni-ulm.de/in/mi/hci/"
+    info: "The Human-Computer-Interaction Group is located at the Institute of Media Informatics at Ulm University, and is headed by Enrico Rukzio. We are interested in designing intelligent interactive systems that enable people to be more efficient, satisfied and expressive in their daily lives. We design, implement (hard- and software) and evaluate novel interaction techniques, applications and services which either solve existing problems or provide new opportunities. Our research approach is based on design thinking, user centred design and iterative prototyping. At this, we involve potential users in all steps of the process, use a large body of low- and high-fidelity prototyping techniques and conduct a large number of user studies, evaluations and field tests. Our research focuses on the design of novel interaction concepts, devices and applications in areas such as mobile and wearable interaction, projected user interfaces, computerized eyewear, cross-device interactions, interaction in smart environments, human-technology interaction for elderly people, automotive user interfaces and interactive production planning."

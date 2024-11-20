@@ -1,0 +1,13 @@
+university: "University of Duisburg-Essen"
+name: "University of Duisburg-Essen"
+lab:
+  - labname: "paluno, HCI Group"
+    lablead: "Max Mühlhäuser"
+    link: "https://hci.informatik.uni-due.de/en/"
+    leadLink: ""
+    info: "The HCI Group at the University of Duisburg-Essen (Campus Essen) researches on the crossroads of human-computer interaction and ubiquitous computing. We explore how mobile, wearable, and ubiquitous computer can be used to create a benefit to the user. We particularly focus in our current research projects on providing novel and implicit ways to authenticate users, improve user’s health through digital technology, interacting with autonomous systems, and providing immerse multi-user environments in virtual reality. We are part of the paluno, the Ruhr Institute for Software Technology."
+  
+  - labname: "Group of Interactive Systems"
+    lablead: "Michael Prilla"
+    link: "https://www.uni-due.de/interaktivesysteme/"
+    info: "​​Am Lehrstuhl Interaktive Systeme untersuchen wir Fragestellungen der Mensch-Computer-Interaktion und der Kooperationsunterstützung. Wir verbinden unsere Forschung zur menschzentrierten Mensch-Computer-Interaktion und Kooperationsunterstützung mit dem Konzept sozio-technischer Systeme, in dem technische und soziale Systeme sich kontinuierlich gegenseitig beeinflussen und (weiter-) entwickeln. Diesen Ansatz verfolgen wir für aktuelle Fragestellungen und Technologien wie bspw. Künstliche Intelligenz, Augmented Reality, Kooperation von Mensch und Roboter sowie von Mensch und KI, und Digitalisierung in Branchen wie Gesundheitswesen, Handwerk, Handel und Produktion. Unser Ziel ist die Gestaltung mensch-zentrierter Technologien im Kontext ihrer Anwendungen. Der Mensch steht bei unserer Arbeit immer im Mittelpunkt. Dazu untersuchen wir die Arbeit, das Lernen und das Verhalten von Menschen, um diese zielgerichtet mit IT-Werkzeugen zu unterstützen. Ein besonderes Augenmerk gilt dabei der Praxis der Menschen, also der Gesamtheit der Einflüsse und Hintergründe des Handelns von Menschen. Technik ist hier eine wichtige, aber nicht die einzige Komponente. Gegenstand unserer Arbeit ist die Gestaltung aktueller und zukünftiger sozio-technischer Systeme.​"

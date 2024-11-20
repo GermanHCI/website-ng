@@ -26,11 +26,11 @@ module Jekyll
         next if File.exist?(output_path)
 
         # Parse the BibTeX file and convert it to YAML
-        bib = BibTeX.open(file)
+        bib = BibTeX.open(file,encoding: 'UTF-8')
         entries = bib.map { |entry| entry.to_hash.transform_keys(&:to_s) }
 
         # Write the entries to the YAML file
-        File.open(output_path, 'w') do |f|
+        File.open(output_path, 'w:UTF-8') do |f|
           f.write(entries.to_yaml)
         end
 

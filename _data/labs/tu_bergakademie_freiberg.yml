@@ -1,0 +1,9 @@
+university: "TU Bergakademie Freiberg"
+name: "TU Bergakademie Freiberg"
+lab:
+  - labname: "Ubiquitous Computing & Smart Systems Group"
+    lablead: "Bastian Pfleging"
+    logo: new_logo_sw_textonly.png
+    link: "https://ubisys.org"
+    leadLink: ""
+    info: "Our research group conducts research at the intersection of ubiquitous / smart computer systems and human-computer interaction. We address both basic research questions and questions that arise in context-specific applications. The goal of our research is to understand how ubiquitous computing systems can be used to support humans in their tasks and activities while keeping humans themselves in the loop and in control. Especially in the age of increasing automation and more autonomous systems, this is a growing challenge."

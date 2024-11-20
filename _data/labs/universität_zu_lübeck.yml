@@ -1,0 +1,12 @@
+university: "Universität zu Lübeck"
+name: "Universität zu Lübeck"
+lab:
+  - labname: "Interaktionsdesign und User Experience"
+    lablead: "Hans-Christian Jetter"
+    link: "https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-interaktionsdesign-und-user-experience"
+    info: "Since August 2020, Hans-Christian Jetter has been Professor of Interaction Design and User Experience and Head of the iDUX (Interaction Design and User Experience) working group at the University of Lübeck. The research focus of the professorship is in the field of interaction design for better human-computer interaction and in particular for better human-data interaction. For this purpose, the professorship and work group designs, implements and evaluates novel mobile, ubiquitous and collaborative systems, e.g. interactive tables, walls, rooms or the seamless interaction across multiple devices. These support users in the exploration, visualization and interpretation of complex data sets and models. Increasingly, mixed reality technologies such as augmented reality or virtual reality are also playing a role here, e.g. for Immersive Analytics."
+
+  - labname: "Human-Computer Interaction und Usable Safety Engineering"
+    lablead:  "André Calero Valdez"
+    link: https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-human-computer-interaction-und-usable-safety-engineering
+    info: "The central approach is a multi-method approach that combines methods from computer science and the social sciences. Thus, methods of human-technology interaction (e.g. user-centered design, participatory design, walkthroughs, heuristic evaluation) are combined with methods of psychology (e.g. qualitative and quantitative empirical social research, acceptance research, conjoint methods, structural equation modeling) and with methods of socioinformatics (e.g. agent-based modeling, system dynamics modeling, computational social network analysis) in order to find suitable answers to the increasingly complex questions of real-world requirements."

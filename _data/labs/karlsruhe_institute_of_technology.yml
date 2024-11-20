@@ -1,0 +1,18 @@
+university: "Karlsruhe Institute of Technology"
+name: "Karlsruhe Institute of Technology"
+lab:
+  - labname: "Institute for Anthropomatics and Robotics (IAR)"
+
+  - labname: "Computer Vision for Human-Computer Interaction Lab"
+    lablead: "Rainer Stiefelhagen"
+    logo: cv_hci_kit_simple_rgb.png
+    link: https://cvhci.anthropomatik.kit.edu/587.php
+    info: "The Center for Digital Accessibility and Assistive Technology (ACCESS@KIT) – the former Study Center for Visually impaired students (SZS) supports and advises visually impaired students and prospective students in all study courses offered at KIT. We also play an active role in teaching and in research on Assistive Technology. ACCESS@KIT works closely with the Computer Vision for Human-Computer Interaction research group."
+
+  - labname: "Human Centered Systems lab"
+    lablead: "Prof. Dr. Alexander Mädche"
+    logo: LOGO_lang_klein_RZ.svg
+    link: https://h-lab.iism.kit.edu/index.php
+    info: "The human-centered systems lab (h-lab) headed by Prof. Dr. Alexander Maedche (research group “Information Systems I”, formerly ISSD) focuses in research, education, and innovation on designing human-centered systems for better work & life. Our mission is to create impactful knowledge for designing human-centered systems for human productivity and well-being through relevant and rigor scientific research. We leverage advanced artificial intelligence (AI) and biosignal sensor technologies and follow a socio-technical research paradigm for increasing human productivity and well-being through human-centered systems. We contribute to the fields of human-computer interaction (HCI) (Mensch-Computer Interaktion) and information systems (IS) (Wirtschaftsinformatik). We believe that delivering cutting-edge knowledge and inspiring education, as well as an ongoing dialog with the public need to go hand in hand to maximize the impact of our work in organizations and society."
+
+    

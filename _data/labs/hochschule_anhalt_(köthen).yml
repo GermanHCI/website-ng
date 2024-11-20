@@ -1,0 +1,8 @@
+university: "Hochschule Anhalt (Köthen)"
+name: "Hochschule Anhalt (Köthen)"
+lab:
+  - labname: "Informatik und Sprachen"
+    lablead: "Arne Berger"
+    logo: hu_berlin_logo.svg
+    link: "https://www.hs-anhalt.de/en/university/department-5/forschung.html"
+    info: 

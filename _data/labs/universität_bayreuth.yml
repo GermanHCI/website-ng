@@ -1,0 +1,8 @@
+university: "Universität Bayreuth"
+name: "Universität Bayreuth"
+lab:
+  - labname: "Mobile Intelligent User Interfaces"
+    lablead: "Daniel Buschek"
+    logo: logo_university_of_bayreuth.png
+    link: "https://www.hciai.uni-bayreuth.de/"
+    info: "We conduct research at the intersection of Human-Computer Interaction (HCI) and Artificial Intelligence (AI) with two goals: AI for better UIs: Improving user interfaces through the use of computational methods to make digital technology more effective, efficient, and expressive to use. Better UIs for AI: Making AI systems interactive to enable humans to better explore, steer, and apply AI, and to extend human capabilities in challenging tasks. Together, we thus explore AI as a tool to empower people instead of replacing them."

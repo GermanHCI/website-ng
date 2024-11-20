@@ -1,0 +1,7 @@
+university: "University of Konstanz"
+name: "University of Konstanz"
+lab:
+  - labname: "HCI Group"
+    lablead: "Harald Reiterer and Tiare Feuchtner"
+    link: "https://hci.uni-konstanz.de"
+    info: "Our goal is to conceive, develop and evaluate novel concepts for human-computer interaction that dissolve the user interface as a barrier between real and virtual, and instead allow the user to seamlessly transition between different realities. We call this extended form of interaction “Embodied Cross-Reality Interaction” and the supporting user interfaces “Transitional Interfaces.” Such interfaces support crossing between different realities: from being in the physical world and using our existing cognitive and bodily skills, to gradually moving into a virtual reality with more advanced or “magical” skills, and back again."

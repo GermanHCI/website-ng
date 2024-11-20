@@ -1,0 +1,9 @@
+university: "University of Siegen"
+name: "University of Siegen"
+lab:
+  - labname: "IT for the Ageing Society"
+    lablead: "Claudia Müller"
+    logo: logo_IML.png
+    link: "https://italg.wineme.uni-siegen.de/"
+    info: "The Chair of Information Systems, esp. IT for the Aging Society (Prof. Dr. Claudia Müller) researches and teaches at the interface of demographic and digital change. The focus is on the practice-based and participatory design of socio-technical infrastructures and digital solutions in the field of “health & aging”. The objectives include maintaining and increasing the social participation of older and vulnerable people, their mobility and independence, as well as maintaining or improving their well-being, health and quality of life at home."
+    

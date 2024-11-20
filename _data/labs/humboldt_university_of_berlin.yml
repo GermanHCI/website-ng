@@ -1,0 +1,8 @@
+university: "Humboldt University of Berlin"
+name: "Humboldt University of Berlin"
+lab:
+  - labname: "Human-Computer Interaction for Scientific Software"
+    lablead: "Thomas Kosch"
+    logo: hu_berlin_logo.svg
+    link: "https://cognisense.group/"
+    info: "no data"
