@@ -3,43 +3,7 @@ layout: default
 format: publications
 ---
 <meta charset="UTF-8">
-<style>
-    .abstract {
-        display: none;
-        margin-top: 5px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        background-color: #f9f9f9;
-    }
-    .search-container {
-            margin: 20px;
-            text-align: center;
-        }
-    .search-input {
-        padding: 10px;
-        width: 300px;
-        font-size: 16px;
-    }
-    .search-button {
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-    .entry {
-        margin: 10px 0;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    .hidden {
-        display: none;
-    }
-    .highlight {
-            background-color: yellow;
-            font-weight: bold;
-    }
-    
-</style>
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/pub.css">
 <div class="row t30">
 	<div class="medium-12 columns">
 		<article>
@@ -70,6 +34,7 @@ format: publications
         <label for="searchInput">Enter your search:</label>
         <input type="text" id="searchInput" name="searchInput" required>
         <button type="submit">Search</button>
+        <p id="clearSearch">Show all</p>
     </form>
 
     <div class="output" id="output"></div>
@@ -91,7 +56,7 @@ format: publications
             
             <h3 class="head-text">{{ clean_title }}</h3><br/>
             {{ clean_author }}<br/>
-            <p style="font-size: small;">In: {{ clean_year }}.</p>
+            <p style="font-size: small;">In: {{ clean_year }}</p>
             <p>
                 <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> |
                 Tags: {{ clean_tag }} |
