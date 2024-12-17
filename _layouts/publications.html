@@ -67,6 +67,7 @@ format: publications
         }
     }
 </script>
+
 <div class="row t30">
     <div class="medium-12 columns">
     <!-- TO DO -->
@@ -82,8 +83,43 @@ format: publications
     </form>
 
     <div class="output" id="output"></div>
-    <script>
-        document.getElementById('searchForm').addEventListener('submit', function(event) {
+
+    </div>
+</div>
+
+{% if page.bib %}
+<div class="row t30" id="content">
+    <div class="medium-12 columns">
+        {% for entry in site.data.bibliography_yaml.references %}
+        <div class="paper-section">
+            {% assign clean_title = entry.title | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_author = entry.author | xml_escape | replace: "{", "" | replace: "}", ""  %}
+            {% assign clean_year = entry.year | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_tag = entry.tag | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_abstract = entry.abstract | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_keywords = entry.keywords | replace: "{", "" | replace: "}", "" | xml_escape %}
+            
+            <h3 class="head-text">{{ clean_title }}</h3><br/>
+            {{ clean_author }}<br/>
+            <p style="font-size: small;">In: {{ clean_year }}.</p>
+            <p>
+                <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> |
+                Tags: {{ clean_tag }} |
+                Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a>
+            </p>
+            <p class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">
+                {{ clean_abstract }}<br>
+                <span style="font-weight: bold;">Keywords: {{ clean_keywords }}</span>
+            </p>
+            <hr/>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endif %}
+<script>
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent the form from reloading the page
     
             // Get the search input value
@@ -124,38 +160,4 @@ format: publications
                 outputDiv.textContent = '';
             }
         });
-    </script>    
-    </div>
-</div>
-
-{% if page.bib %}
-<div class="row t30" id="content">
-    <div class="medium-12 columns">
-        {% for entry in site.data.bibliography_yaml.references %}
-        <div class="paper-section">
-            {% assign clean_title = entry.title | replace: "{", "" | replace: "}", "" | xml_escape %}
-            {% assign clean_author = entry.author | xml_escape | replace: "{", "" | replace: "}", ""  %}
-            {% assign clean_year = entry.year | replace: "{", "" | replace: "}", "" | xml_escape %}
-            {% assign clean_tag = entry.tag | replace: "{", "" | replace: "}", "" | xml_escape %}
-            {% assign clean_abstract = entry.abstract | replace: "{", "" | replace: "}", "" | xml_escape %}
-            {% assign clean_keywords = entry.keywords | replace: "{", "" | replace: "}", "" | xml_escape %}
-            
-            <h3 class="head-text">{{ clean_title }}</h3><br/>
-            {{ clean_author }}<br/>
-            <p style="font-size: small;">In: {{ clean_year }}.</p>
-            <p>
-                <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> |
-                Tags: {{ clean_tag }} |
-                Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a>
-            </p>
-            <p class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">
-                {{ clean_abstract }}<br>
-                <span style="font-weight: bold;">Keywords: {{ clean_keywords }}</span>
-            </p>
-            <hr/>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-
-{% endif %}
+</script>
