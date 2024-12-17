@@ -29,7 +29,7 @@
   {% for lab in entry.lab %}
   {% if {{lab.logo}} %}
   <div style="display: flex; justify-content: space-between;"> <h2 class="head-text" >{{ lab.labname }}</h2>
-    <img width="300" height="100" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="lab logo"/> 
+    <img width="300" height="100" style="max-width: 300;min-width: none;" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="lab logo"/> 
     <!-- change the height and width adjustment to scss with maxwidth and minwidth -->
   </div>
   {% else %}

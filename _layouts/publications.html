@@ -11,6 +11,34 @@ format: publications
         border: 1px solid #ddd;
         background-color: #f9f9f9;
     }
+    .search-container {
+            margin: 20px;
+            text-align: center;
+        }
+    .search-input {
+        padding: 10px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .search-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .entry {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .hidden {
+        display: none;
+    }
+    .highlight {
+            background-color: yellow;
+            font-weight: bold;
+    }
+    
 </style>
 <div class="row t30">
 	<div class="medium-12 columns">
@@ -26,7 +54,6 @@ format: publications
 			</p>
 			{% endif %}
 
-			{{ content }}
 		</article>
 	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
@@ -40,17 +67,79 @@ format: publications
         }
     }
 </script>
-{% if page.bib %}
 <div class="row t30">
     <div class="medium-12 columns">
+    <!-- TO DO -->
+    We curated a list of this year’s publications — including links to social media, lab websites, and supplemental material. We have 58 full papers, 13 LBWs, one DC paper, and one Student Game Competition, and we lead five workshops. Two papers were awarded a best paper award, and four papers received an honourable mention.
+    Is your publication missing? Send us an email: contact@germanhci.de
+
+    {{ content }}
+
+    <form id="searchForm">
+        <label for="searchInput">Enter your search:</label>
+        <input type="text" id="searchInput" name="searchInput" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="output" id="output"></div>
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from reloading the page
+    
+            // Get the search input value
+            const searchText = document.getElementById('searchInput').value.trim();
+    
+            // Display the searched text below the form
+            const outputDiv = document.getElementById('output');
+            outputDiv.textContent = `You searched for: ${searchText}`;
+    
+            // Get the content container
+            const contentElement = document.getElementById('content');
+            const sections = contentElement.querySelectorAll('.paper-section');
+    
+            let matchFound = false; // Flag to check if any match is found
+    
+            if (searchText) {
+                sections.forEach(section => {
+                    const text = section.textContent || section.innerText;
+                    // Check if the section contains the search text
+                    if (text.toLowerCase().includes(searchText.toLowerCase())) {
+                        // Show only the matched section
+                        section.style.display = 'block';
+                        matchFound = true;
+                    } else {
+                        // Hide the other sections
+                        section.style.display = 'none';
+                    }
+                });
+    
+                if (!matchFound) {
+                    outputDiv.textContent = `No matches found for: ${searchText}`;
+                }
+            } else {
+                // If search is empty, reset to show all sections
+                sections.forEach(section => {
+                    section.style.display = 'block';
+                });
+                outputDiv.textContent = '';
+            }
+        });
+    </script>    
+    </div>
+</div>
+
+{% if page.bib %}
+<div class="row t30" id="content">
+    <div class="medium-12 columns">
         {% for entry in site.data.bibliography_yaml.references %}
+        <div class="paper-section">
             {% assign clean_title = entry.title | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_author = entry.author | xml_escape | replace: "{", "" | replace: "}", ""  %}
             {% assign clean_year = entry.year | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_tag = entry.tag | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_abstract = entry.abstract | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_keywords = entry.keywords | replace: "{", "" | replace: "}", "" | xml_escape %}
-
+            
             <h3 class="head-text">{{ clean_title }}</h3><br/>
             {{ clean_author }}<br/>
             <p style="font-size: small;">In: {{ clean_year }}.</p>
@@ -64,6 +153,7 @@ format: publications
                 <span style="font-weight: bold;">Keywords: {{ clean_keywords }}</span>
             </p>
             <hr/>
+        </div>
         {% endfor %}
     </div>
 </div>
