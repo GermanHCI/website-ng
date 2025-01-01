@@ -30,6 +30,30 @@ format: publications
 
     {{ content }}
 
+   <!-- Tags from the entry are taken and made into a list -->
+    {% assign raw_tags = "" | split: "" %}
+
+    {% for entry in site.data.bibliography_yaml.references %}
+    {% assign tags = entry.tags | remove: "{" | remove: "}" | split: "," %}
+        {% for tag in tags %}
+            {% assign tag = tag | strip %}
+            {% unless raw_tags contains tag %}
+                {% assign raw_tags = raw_tags | push: tag %}
+            {% endunless %}
+        {% endfor %}
+    {% endfor %}
+
+    <!-- Display unique tags -->
+    <ul style="display: flex; justify-content: center; list-style: none; padding: 0;">
+        {% for tag in raw_tags %}
+            <li style="margin: 0 10px;">
+                <p class="searchable-tag" onclick="searchTag('{{ tag }}')" style="text-decoration: underline; color: blue;">{{ tag }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+    
+        
+  
     <form id="searchForm">
         <label for="searchInput">Enter your search:</label>
         <input type="text" id="searchInput" name="searchInput" required>
@@ -50,7 +74,7 @@ format: publications
             {% assign clean_title = entry.title | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_author = entry.author | xml_escape | replace: "{", "" | replace: "}", ""  %}
             {% assign clean_year = entry.year | replace: "{", "" | replace: "}", "" | xml_escape %}
-            {% assign clean_tag = entry.tag | replace: "{", "" | replace: "}", "" | xml_escape %}
+            {% assign clean_tag = entry.tags | replace: "{", "" | replace: "}", "" | split: "," | join: ", " | xml_escape %}
             {% assign clean_abstract = entry.abstract | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_keywords = entry.keywords | replace: "{", "" | replace: "}", "" | xml_escape %}
             

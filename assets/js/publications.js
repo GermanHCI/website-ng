@@ -65,3 +65,31 @@ function toggleAbstract(id) {
         abstract.style.display = "none";
     }
 }
+//  add function for searching tags 
+function searchTag(tag) {
+
+    const searchText = tag.toLowerCase();
+   
+    let matchFound = false; // Flag to check if any match is found
+
+    if (searchText) {
+        sections.forEach(section => {
+            const text = section.textContent || section.innerText;
+            // Check if the section contains the search text
+            if (text.toLowerCase().includes(searchText.toLowerCase())) {
+                // Show only the matched section
+                section.style.display = 'block';
+                matchFound = true;
+            } else {
+                // Hide the other sections
+                section.style.display = 'none';
+            }
+        });
+    } else {
+        // If search is empty, reset to show all sections
+        sections.forEach(section => {
+            section.style.display = 'block';
+        });
+        // outputDiv.textContent = '';
+    }
+}
