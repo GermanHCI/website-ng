@@ -85,6 +85,16 @@ function searchTag(tag) {
                 section.style.display = 'none';
             }
         });
+        
+        if (matchFound) {
+            // outputDiv.textContent = `You searched for: ${searchText}`;
+            clearSearch.style.display= 'inline-block';
+
+        }
+        else{
+            // outputDiv.textContent = `No matches found!`;
+            clearSearch.style.display = 'none';
+        }
     } else {
         // If search is empty, reset to show all sections
         sections.forEach(section => {
