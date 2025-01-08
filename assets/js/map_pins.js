@@ -103,3 +103,17 @@ function createPinImage() {
 //         console.log(`University: ${uni.name}`);
    
 // });
+
+function moveTo(name){
+    console.log(`${name}`); 
+    const offset = 70; 
+    const element = document.getElementById(name);
+    if (element) {
+        // Get the position of the element relative to the viewport
+        const rect = element.getBoundingClientRect();
+        // Scroll to the element's top position adjusted by the offset
+        window.scrollTo({ top: window.scrollY + rect.top - offset, behavior: 'smooth' });
+    } else {
+        console.error(`Element with ID "${name}" not found.`);
+    }
+}
