@@ -178,3 +178,6 @@
 	float: right;
 	margin-right: 10%;
 }
+.searchButton{
+	border-radius: 10%;
+}

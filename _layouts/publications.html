@@ -47,7 +47,7 @@ format: publications
     <ul style="display: flex; justify-content: center; list-style: none; padding: 0;">
         {% for tag in raw_tags %}
             <li style="margin: 0 10px;">
-                <p class="searchable-tag" onclick="searchTag('{{ tag }}')" style="text-decoration: underline; color: blue;">{{ tag }}</p>
+                <p class="searchable-tag" onclick="searchTag('{{ tag }}')" style="color: blue;">{{ tag }}</p>
             </li>
         {% endfor %}
     </ul>
@@ -55,9 +55,10 @@ format: publications
         
   
     <form id="searchForm">
-        <label for="searchInput">Enter your search:</label>
-        <input type="text" id="searchInput" name="searchInput" required>
-        <button type="submit">Search</button>
+        <div style="display: flex; justify-content: space-between; gap:2rem">
+        <input type="text" id="searchInput" name="searchInput" placeholder="Enter search word" required>
+        <button type="submit" name="searchButton">Search</button>
+        </div>
         <p id="clearSearch">Show all</p>
     </form>
 
