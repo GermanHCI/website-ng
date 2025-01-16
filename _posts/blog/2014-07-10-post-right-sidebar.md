@@ -7,8 +7,6 @@ teaser: "This is an example of page/post with a sidebar on the right."
 breadcrumb: true
 tags:
     - post format
-categories:
-    - blog
 image:
     thumb: gallery-example-2-thumb.jpg
     title: gallery-example-2.jpg
