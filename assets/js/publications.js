@@ -69,7 +69,6 @@ function toggleAbstract(id) {
 function searchTag(tag) {
 
     const searchText = tag.toLowerCase();
-   
     let matchFound = false; // Flag to check if any match is found
 
     if (searchText) {

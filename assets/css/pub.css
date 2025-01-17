@@ -38,3 +38,9 @@
     color: blue;
     display: none;
 }
+#search-tag{
+	color: blue;
+}
+.bold {
+    font-weight: bold;
+  }
