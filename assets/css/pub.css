@@ -33,9 +33,8 @@
     font-weight: bold;
 }
 #clearSearch{
-    text-decoration: underline;
-    text-decoration-color: blue;
-    color: blue;
+    text-decoration: underline; 
+    color: #3E9898;
     display: none;
 }
 .searchable-tag{
