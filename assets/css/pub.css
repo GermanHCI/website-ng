@@ -38,8 +38,12 @@
     color: blue;
     display: none;
 }
-#search-tag{
-	color: blue;
+.searchable-tag{
+
+	color: #3E3E3E;
+}
+.searchable-tag:focus{
+    color: #3E9898;
 }
 .bold {
     font-weight: bold;

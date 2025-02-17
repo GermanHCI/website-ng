@@ -2,12 +2,12 @@
 layout: default 
 format: frontpage
 ---
-<div id="header-home">
+<!-- <div id="header-home">
     <div class="row">
         <div class="small-12 columns">
-        </div><!-- /.medium-4.columns -->
-    </div><!-- /.row -->
-</div><!-- /#header-home -->
+        </div>
+    </div>
+</div> -->
 
 
 {% comment %}
@@ -48,8 +48,8 @@ format: frontpage
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
-
-    <div class="row">
+<!-- Articles -->
+    <!-- <div class="row">
         <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
@@ -59,14 +59,14 @@ format: frontpage
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
-        </div><!-- /.medium-5.columns -->
+        </div>
 
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts entries='3' offset='1' %}
-        </div><!-- /.medium-7.columns -->
-    </div><!-- /.row -->
+        </div>
+    </div> -->
 {% endunless %}
 
 
@@ -76,7 +76,10 @@ format: frontpage
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
+<!-- contunie here -->
 <div class="row t60">
+    <h2>German HCI@CHI</h2>
+    <p>Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event has grown to become the largest of its kind at CHI, with almost 1.000 guests.</p>
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}

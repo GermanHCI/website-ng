@@ -52,10 +52,10 @@ clearSearch.addEventListener('click', function() {
 });
 function resetSearch(){
     searchInput.value = ''; // Clear search input
-        clearSearch.style.display = 'none'; // Hide "Show All" button
-        sections.forEach(section => {
-            section.style.display = 'block'; // Show all sections
-        });
+    clearSearch.style.display = 'none'; // Hide "Show All" button
+    sections.forEach(section => { section.style.display = 'block'; });
+    var colorTag= document.getElementsByClassName('searchable-tag');
+    colorTag.style.color = '#111111';
 }
 function toggleAbstract(id) {
     var abstract = document.getElementById(id);
@@ -84,15 +84,16 @@ function searchTag(tag) {
                 section.style.display = 'none';
             }
         });
-        
+        var colorTag= document.getElementById(tag);
         if (matchFound) {
             // outputDiv.textContent = `You searched for: ${searchText}`;
             clearSearch.style.display= 'inline-block';
-
+            colorTag.style.color = '#3E9898';
         }
         else{
             // outputDiv.textContent = `No matches found!`;
             clearSearch.style.display = 'none';
+            colorTag.style.color = '#3E3E3E';
         }
     } else {
         // If search is empty, reset to show all sections
