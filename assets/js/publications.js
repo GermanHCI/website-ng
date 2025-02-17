@@ -1,6 +1,7 @@
     // Get the content container
     const contentElement = document.getElementById('content');
     const sections = contentElement.querySelectorAll('.paper-section');
+    var globalTag;
 document.getElementById('searchForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the form from reloading the page
 
@@ -54,7 +55,9 @@ function resetSearch(){
     searchInput.value = ''; // Clear search input
     clearSearch.style.display = 'none'; // Hide "Show All" button
     sections.forEach(section => { section.style.display = 'block'; });
-    var colorTag= document.getElementsByClassName('searchable-tag');
+    var colorTag=document.getElementById(globalTag);
+    // var colorTag= document.getElementsByClassName('searchable-tag');
+    console.log(colorTag);
     colorTag.style.color = '#111111';
 }
 function toggleAbstract(id) {
@@ -84,6 +87,7 @@ function searchTag(tag) {
                 section.style.display = 'none';
             }
         });
+        globalTag=tag;
         var colorTag= document.getElementById(tag);
         if (matchFound) {
             // outputDiv.textContent = `You searched for: ${searchText}`;
