@@ -59,6 +59,7 @@ function resetSearch(){
     // var colorTag= document.getElementsByClassName('searchable-tag');
     console.log(colorTag);
     colorTag.style.color = '#111111';
+    colorTag.style.fontSize ="16px";
 }
 function toggleAbstract(id) {
     var abstract = document.getElementById(id);
@@ -92,11 +93,13 @@ function searchTag(tag) {
         if (matchFound) {
             // outputDiv.textContent = `You searched for: ${searchText}`;
             clearSearch.style.display= 'inline-block';
+            colorTag.style.fontSize = '2rem';
             colorTag.style.color = '#3E9898';
         }
         else{
             // outputDiv.textContent = `No matches found!`;
             clearSearch.style.display = 'none';
+            colorTag.style.fontSize = '16px';
             colorTag.style.color = '#3E3E3E';
         }
     } else {

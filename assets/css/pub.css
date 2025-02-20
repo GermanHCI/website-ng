@@ -40,6 +40,7 @@
 .searchable-tag{
 
 	color: #3E3E3E;
+    font-size: 1rem;
 }
 .searchable-tag:focus{
     color: #3E9898;
