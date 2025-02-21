@@ -1,19 +1,27 @@
 university: "Saarland University"
 name: "Saarland University"
 lab:
-  - labname: "HCI Lab"
+  - labname: "Human Computer Interaction Lab"
     lablead: "Jürgen Steimle"
-    logo: tk_HintergrundTransparent.png
     link: "https://hci.cs.uni-saarland.de"
     info: "Our research mission is to contribute to a next generation of user interfaces that seamlessly merge with the physical world and the human body. These interfaces create more effective, expressive, and engaging interactions with interactive systems and devices. Moreover, they are compatible with challenging mobility contexts and integrate well with real-world activities. This opens up a wide range of applications in various fields, including mobile and wearable computing, robotics, smart home, health and fitness devices. We develop user interface technologies for advanced sensing and displays, invent new concepts for interaction, and empirically study user behavior."
 
   - labname: "Ubiquitous Media Technology Lab, German Research Center for Artificial Intelligence (DFKI)"
     lablead: "Antonio Krüger"
     link: "https://peasec.de/"
-    leadlink: ""
     info: "Advances in science and technology, esp. in information technology, play a crucial role in the context of peace and security. The Chair of Science and Technology for Peace and Security (PEASEC) led by Prof. Dr. Dr. Christian Reuter & team in the Department of Computer Science with secondary appointment in the Department of History and Social Sciences at Technical University of Darmstadt combines computer science with peace and security research. On the intersection of the disciplines Cyber Security and Privacy, Peace and Conflict Studies as well as Human-Computer Interaction the more than 30-person PEASEC team specifically addresses: Peace Informatics and Technical Peace Research, Crisis Informatics and Information Warfare, as well as Usable Safety, Security and Privacy. Methodologically, empirical studies (qualitative and quantitative survey of current developments e.g. of self-help organization during COVID-19) are combined with technical research (conceptualization of innovative interaction concepts, security mechanisms, privacy-enhancing technologies, machine learning algorithms) and final evaluations in the application field (e.g. social media analytics for crisis management). The often interdisciplinary research is regularly awarded and resulted in about 300 scientific (mostly peer-reviewed) publications including the textbooks “Information Technology for Peace and Security” and “Safety Critical Human-Computer Interaction”. Teaching covers both aforementioned research topics and the fundamentals of computer science and was honored with the Athene Award for Teaching Excellence – Special Award for Interdisciplinary Teaching."
 
   - labname: "Computational Interaction Group"
     lablead: "Anna Maria Feit"
     link: "https://cix.cs.uni-saarland.de/"
     info: "Our research is in the area of Human-Computer Interaction, a highly interdisciplinary field where we actively draw on findings from areas such as Human Factors, Psychology, or Cognitive Science, to connect them with methods from Machine Learning, Optimization, Data Science, and others. Specifically, we develop computational methods to enable the design of intelligent interfaces that make optimal use of people’s abilities, skills, and experiences. Our goal is for interfaces to seamlessly integrate with our real world, as they adapt to a person’s environment, preferences, or cognitive capacities in a way that is predictable and adjustable by end-users."
+
+  - labname: "Sensorimotor Interaction group"
+    lablead: "Paul Strohmeier"
+    link: https://sensint.mpi-inf.mpg.de
+    info: "The Sensorimotor Interaction group (senSInt) is a newly formed research group at the Max Planck Institute for Informatics (MPI-INF). The group is led by Paul Strohmeier, we conduct research into human perception and computer sensing to improve Human Computer Interaction (HCI). Our research topics include Tactile Rendering, Sensorimotor Augmentation, and On-Body Systems."
+
+  - labname: "Technology Enhanced learning Group"
+    lablead: "Tomo Nagashima"
+    link: https://tomonag.org
+    info: "I am a tenure-track Junior (=Assistant) Professor of Technology-Enhanced Learning in the Department of Computer Science at Saarland University in Germany. I am also a Faculty Associate at Harvard University’s Berkman Klein Center for Internet & Society in the US. I am a learning scientist working with education stakeholders to support meaningful human learning activities with technologies. I co-design intelligent technologies and novel learning strategies with educators and learners, and conduct school-based experimental studies and qualitative studies to understand and support human learning."

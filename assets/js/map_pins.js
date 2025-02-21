@@ -1,12 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("arrived here");
     const universities = [
-        { name: 'TU Berlin', lat: 52.52, lon: 13.405 },
-        { name: 'TU Hamburg', lat: 53.5511, lon: 9.9937 },
+        { name: "Karlsruhe Institute of Technology", lat: 49.20, lon: 8.35},
+        { name: 'Universität Hamburg',lat:  53.5330, lon: 10.04 },
         { name: 'TU Munich', lat: 48.1351, lon: 11.582 },
         { name: 'Cologne', lat: 50.9375, lon: 6.9603 },
         { name: 'Universitat Bayreuth', lat: 50.1109, lon: 8.6821 },
-        { name: 'RWTH Aachen', lat:50.7753, lon:6.0839}
+        { name: 'RWTH Aachen', lat: 51.1075, lon: 6.3672},
+        {name: 'Universität Bayreuth', lat:49.932807,lon:11.4913831},
+        {name: 'Humboldt University of Berlin', lat:52.52, lon:13.406 },
+        {name: "Saarland University", lat:49.555,lon:7.0306731}
         // Add more cities as needed
     ];
     universities.forEach(uni => addPin(uni));

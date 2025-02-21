@@ -1,8 +1,8 @@
 university: "Humboldt University of Berlin"
 name: "Humboldt University of Berlin"
 lab:
-  - labname: "Human-Computer Interaction for Scientific Software"
+  - labname: "HCIstudio Research Group"
     lablead: "Thomas Kosch"
     logo: hu_berlin_logo.svg
-    link: "https://cognisense.group/"
+    link: "https://www.hcistudio.org"
     info: "no data"

@@ -1,9 +1,8 @@
 university: "Universität Hamburg"
 name: "Universität Hamburg"
 lab:
-  - labname: "Human-Computer Interaction"
+  - labname: "Human Computer Interaction Group"
     lablead: "Frank Steinicke"
     logo: uhh-logo.png
-    link: "www.inf.uni-hamburg.de/en/inst/ab/hci.html"
-    leadLink: ""
+    link: www.inf.uni-hamburg.de/en/inst/ab/hci.html
     info: "Our group is particularly interested in developing innovative user interfaces for computer-mediated blended realities in which the two-dimensional digital world and intelligence meets human intelligence and the three-dimensional physical world we live in. The figure shows some examples from research project from our group in this context: Super-Natural spatial user interaction: We developed 3D user interfaces, which allow, for instance, humans to explore large-scale virtual environments in the most natural way, i.e., by real walking. Smart blended agents: We explore the interaction with artificial humans in a blended space in which virtual humanoid representations can affect real-world objects by using robotics and chemical engineering. Telepresence and collaboration with mixed reality robots: We consider novel approaches for human-robot interaction by combining mixed reality and physical robots. Multi-user interaction in social blended reality spaces: We develop techniques for collaborations and social interaction between humans, avatars and agents. As a common theme in all of these projects, we try to bridge the gap between the semantic differentials of real and virtual, artificial and natural as well as human and artificial intelligence, resulting in mixed spaces in which the borders disappear."
