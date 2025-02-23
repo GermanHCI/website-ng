@@ -2,15 +2,23 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("arrived here");
     const universities = [
         { name: "Karlsruhe Institute of Technology", lat: 49.20, lon: 8.35},
-        { name: 'Universität Hamburg',lat:  53.5330, lon: 10.04 },
+        { name: "Universität Hamburg",lat:  53.5330, lon: 10.04 },
+        { name: "Universität Bamberg", lat: 49.8938, lon: 10.8835},
+        { name: 'Universität Bayreuth', lat:49.932807,lon:11.4913831},
+        { name: "Ruhr-Universität Bochum", lat:51.4444, lon: 7.2587},
+        { name: "University of Bremen", lat: 53.1565, lon: 8.9527 },
+        { name: "TU Chemintz", lat: 50.8397,lon:12.9252},
+        { name: "TU Darmstadt", lat: 50.02,lon: 8.6539},
+        { name: "TU Dortmund", lat:51.5194, lon:7.4120},
+        { name: "TU Dresden", lat: 51.0769, lon:13.6074},
+        { name: "Frankfurt university of Applied Sciences", lat:50.3304, lon:8.6899},
+        { name: "TU Freiberg", lat:50.9204, lon:13.2846},
+        { name: "Leibniz Universität Hannover", lat:52.3822,lon:9.7152},
         { name: 'TU Munich', lat: 48.1351, lon: 11.582 },
         { name: 'Cologne', lat: 50.9375, lon: 6.9603 },
-        { name: 'Universitat Bayreuth', lat: 50.1109, lon: 8.6821 },
         { name: 'RWTH Aachen', lat: 51.1075, lon: 6.3672},
-        {name: 'Universität Bayreuth', lat:49.932807,lon:11.4913831},
-        {name: 'Humboldt University of Berlin', lat:52.52, lon:13.406 },
-        {name: "Saarland University", lat:49.555,lon:7.0306731}
-        // Add more cities as needed
+        { name: 'Humboldt University of Berlin', lat:52.6181, lon:13.0938 },
+        { name: "Saarland University", lat:49.555,lon:7.0306731}
     ];
     universities.forEach(uni => addPin(uni));
     

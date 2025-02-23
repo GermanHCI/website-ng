@@ -2,7 +2,12 @@ university: "Universität Bayreuth"
 name: "Universität Bayreuth"
 lab:
   - labname: "Mobile Intelligent User Interfaces"
-    lablead: "Daniel Buschek"
-    logo: logo_university_of_bayreuth.png
-    link: "https://www.hciai.uni-bayreuth.de/"
+    lablead: "Prof. Dr. Daniel Buschek"
+    # logo: logo_university_of_bayreuth.png
+    link: https://www.hciai.uni-bayreuth.de/
     info: "We conduct research at the intersection of Human-Computer Interaction (HCI) and Artificial Intelligence (AI) with two goals: AI for better UIs: Improving user interfaces through the use of computational methods to make digital technology more effective, efficient, and expressive to use. Better UIs for AI: Making AI systems interactive to enable humans to better explore, steer, and apply AI, and to extend human capabilities in challenging tasks. Together, we thus explore AI as a tool to empower people instead of replacing them."
+  - labname: "Serious Games"
+    lablead: " Prof. Dr. Jörg Müller"
+    # logo: logo_university_of_bayreuth.png
+    link: https://www.ai8.uni-bayreuth.de/en/index.html
+    info: "Welcome to the Homepage of the Chair for Applied Computer Science VIII (Serious Games)! The chair AI VIII focuses on the interaction between humans and computers, in particular through computer games. Our primary research fields are modelling, simulation and optimization of human-computer interaction (HCI) with dynamical system models, bio-mechanical HCI simulations, ultrasonic levitating interfaces and Augmented & Virtual Reality."

@@ -1,8 +1,8 @@
 university: "Universität Bremen"
 name: "Universität Bremen"
 lab:
-  - labname: "Digital Media Lab, TZI"
-    lablead: "Rainer Malaka"
-    logo: dmls.png
-    link: "https://www.uni-bremen.de/en/dmlab"
+  - labname: "Digital Media Lab TZI"
+    lablead: "Prof. Dr. Rainer Malaka"
+    # logo: dmls.png
+    link: https://www.uni-bremen.de/dmlab/
     info: "The Center for Computing Technologies (TZI) at the University of Bremen conducts research at the core of a massive societal trend: The digital revolution, which affects all areas of our lives. Important research questions include: What kind of technologies will we have in 10 to 20 years? How can we make sure that they will be safe, dependable, and beneficial for society? And most of all: How can technology serve humans–instead of replacing them? TZI has conducted research in these areas since its foundation in 1995, working on approximately 120 projects per year. One main goal is to transfer results from basic research to industry as quickly as possible in order to generate the greatest benefits for society. The knowledge generated in our projects has already been applied in a wide range of areas such as healthcare, telecommunication, automotive industry, and “smart homes.” This is made possible by encouraging interdisciplinary cooperation of scientists in different fields. On average, about 150 employees from various areas at the University of Bremen are TZI members. In addition, many projects are based on international cooperation with other research institutions. TZI focuses on two main research areas: „Everyday Activity Science and Engineering Innovation” and „Empowering Digital Media“."

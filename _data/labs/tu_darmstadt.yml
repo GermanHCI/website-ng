@@ -3,16 +3,10 @@ name: "TU Darmstadt"
 lab:
   - labname: "Telecooperation Lab"
     lablead: "Max Mühlhäuser"
-    logo: tk_HintergrundTransparent.png
     link: "https://www.informatik.tu-darmstadt.de/telekooperation/telecooperation_group/index.en.jsp"
-    leadLink: ""
     info: "Telecooperation Lab (TK) at Darmstadt Technical University, Department of Computer Science, researches concepts and methods for human-centered smart spaces of all sizes: from personal cyber workstations and intelligent meeting rooms to smart cities and intelligent, resilient infrastructures. Our unique strength is our ability to combine different research areas in support of Smart Spaces: advanced networking (e.g. Edge Computing and IoT platforms), applied AI (e.g. Federated Assistance and Process Mining), HCI (e.g. AR/VR and Tangible 3D-Printed Interaction) and cybersecurity (e.g. Privacy and Trust). Prof. Dr. Max Mühlhäuser is heading this group together with several senior researchers and group leaders. We coordinate a doctoral school (DFG Research Training Group) on Privacy and Trust for Mobile Users, play a major role in the national cooperative research center on the Future Internet and conduct various research projects funded by the EU, federal and state ministries, and industry."
   
   - labname: "PEASEC – Science and Technology for Peace and Security"
     lablead: "Christian Reuter"
     link: "https://peasec.de/"
-    leadlink: ""
     info: "Advances in science and technology, esp. in information technology, play a crucial role in the context of peace and security. The Chair of Science and Technology for Peace and Security (PEASEC) led by Prof. Dr. Dr. Christian Reuter & team in the Department of Computer Science with secondary appointment in the Department of History and Social Sciences at Technical University of Darmstadt combines computer science with peace and security research. On the intersection of the disciplines Cyber Security and Privacy, Peace and Conflict Studies as well as Human-Computer Interaction the more than 30-person PEASEC team specifically addresses: Peace Informatics and Technical Peace Research, Crisis Informatics and Information Warfare, as well as Usable Safety, Security and Privacy. Methodologically, empirical studies (qualitative and quantitative survey of current developments e.g. of self-help organization during COVID-19) are combined with technical research (conceptualization of innovative interaction concepts, security mechanisms, privacy-enhancing technologies, machine learning algorithms) and final evaluations in the application field (e.g. social media analytics for crisis management). The often interdisciplinary research is regularly awarded and resulted in about 300 scientific (mostly peer-reviewed) publications including the textbooks “Information Technology for Peace and Security” and “Safety Critical Human-Computer Interaction”. Teaching covers both aforementioned research topics and the fundamentals of computer science and was honored with the Athene Award for Teaching Excellence – Special Award for Interdisciplinary Teaching."
-
-  - labname: "Group of Human-Computer Interaction"
-    lablead: "Jan Gugenheimer"

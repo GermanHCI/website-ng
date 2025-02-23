@@ -3,6 +3,5 @@ name: "Humboldt University of Berlin"
 lab:
   - labname: "HCIstudio Research Group"
     lablead: "Thomas Kosch"
-    logo: hu_berlin_logo.svg
-    link: "https://www.hcistudio.org"
-    info: "no data"
+    link: https://www.hcistudio.org
+    info: "Welcome to the HCIstudio research group at the Humboldt University of Berlin. Our passion for Human-Computer Interaction (HCI) research drives us to shape the future of how people interact with technology. Our team pioneers advancements in interactive artificial intelligence, adaptive user interfaces, physiological interaction, extended reality, and HCI research methods."

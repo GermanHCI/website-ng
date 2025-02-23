@@ -1,0 +1,7 @@
+university: "TU Dortmund"
+name: "TU Dortmund"
+lab:
+  - labname: "Inclusive Human-Robot Interaction Group"
+    lablead: "Prof. Dr. Jens Gerken"
+    link: "https://imld.de/en/"
+    info: "Our research and teaching activities are motivated by a significant shift that we can see in the future interplay between humans and technology. While technology in the past was mostly regarded as a practical tool, recent developments in Artificial Intelligence as well as in Computing and Mechanics offer a path forward to technology becoming a partner in everyday life. "
