@@ -1,0 +1,7 @@
+university: "Bauhaus-Universität Weimar"
+name: "Bauhaus-Universität Weimar"
+lab:
+  - labname: "Human-Computer-Interaction Group"
+    lablead: "Prof. Dr. Ing. Eva Hornecker"
+    link: https://www.uni-weimar.de/en/media/chairs/computer-science-department/human-computer-interaction/
+    info: "The HCI research group works across technology, social sciences, and design. Our research is driven by the notion of Tangible and Embodied Interaction (TEI), which we address from these angles - building and exploring technology, designing and exploring novel applications, and through extensive user studies. We also engage in reflective and conceptual work that contributes to HCI theory. In the TEI tradition, we are enthusiastic about creating ‘physical computing’ objects - we focus on computational artefacts (or interactive spaces) that are physical, inhabit the same space as users, and require physical interaction. This is complemented by user study research that investigates people’s experience with technology and their embedding in social contexts. "

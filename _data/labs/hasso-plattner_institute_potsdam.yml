@@ -1,0 +1,7 @@
+university: "Hasso-Plattner Institute "
+name: "Hasso-Plattner Institute "
+lab:
+  - labname: "Human Computer Interaction Lab"
+    lablead: "Prof. Dr. Patrick Baudisch"
+    link: https://hpi.de/baudisch/home.html
+    info: "We believe that computer science and mechanical engineering are about to unite. In the future, users will solve mechanical problems by digitizing the involved objects using 3D scanners, solving the problem in the digital domain using the means of computer science, and converting the result back to the mechanical domain using a 3D printer. This will allow solving mechanical problems with the effectiveness and efficiency of computer science, including the ability to scale massively."

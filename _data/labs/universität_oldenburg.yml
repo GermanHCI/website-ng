@@ -1,7 +1,7 @@
-university: "University of Oldenburg"
-name: "University of Oldenburg"
+university: "Universität Oldenburg"
+name: "Universität Oldenburg"
 lab:
   - labname: "Media Informatics and Multimedia Systems"
     lablead: "Susanne Boll"
-    link: "https://uol.de/en/media-informatics"
+    link: https://uol.de/en/media-informatics
     info: "The Media Informatics and Multimedia Systems Group is working in the fields of Interactive Systems, Ambient Displays, Automotive User Interfaces, and Augmented und Virtual Reality. We develop interactive systems and computing technologies to enhance users’ lives. We focus primarily on mobile and ambient user interfaces, where we explore different novel modalities such as visual, auditory and tactile channels in pervasive displays. We strongly embed our research in the fields of personal health and safe transportation, that serve as major application domains. The group is headed by Prof. Dr. Susanne Boll. She is also a member of the executive board of the OFFIS–Institute for Information Technology in Oldenburg, an associated research institute of the University of Oldenburg. Her research interests lie in the field of multimedia and intelligent user interfaces. She teaches Interactive Systems and Interactive Multimedia in the Bachelor Programme in Computer Science and offers lectures and practical lab courses in HCI, Wearable Computing and Digital Fabrication in the Master Programme in Computer Science. Since recently Susanne Boll is also a co-founder of the new Master Programme in Computer Science „Engineering Socio-Technical Systems“. She is leading several national and international scientific projects with strong cooperation with research experts world wide. She head one of the few leading groups in Europe that works on mobile and ambient user interfaces exploring different novel modalities such as visual, auditory and tactile in pervasive displays."

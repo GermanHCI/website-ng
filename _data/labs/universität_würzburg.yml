@@ -1,6 +1,10 @@
 university: "Universität Würzburg"
 name: "Universität Würzburg"
 lab:
+  - labname: "Human Computer Interaction"
+    lablead: "Prof. Dr. Marc Erich Latoschik"
+    link: https://hci.uni-wuerzburg.de
+    info: "Computer systems pervade almost every aspect of modern life. They are becoming ubiquitous, with diverse characteristics and appearances. This development poses interesting questions: How do we want to interact with such systems?, Are historical machine-centric operations sufficient?, How would alternative interaction metaphors look like?, How do we actually build and develop alternatives?, The HCI group explores novel forms of human-computer interaction that focus on the user and the interaction experience, taking into account the requirements defined by the physical, cognitive, and perceptive skills of users."
   - labname: "Psychological Ergonomics"
     lablead: "Jörn Hurtienne"
     link: "https://www.mcm.uni-wuerzburg.de/psyergo/startseite/"
