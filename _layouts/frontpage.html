@@ -47,6 +47,24 @@ format: frontpage
             {% endfor %}
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
+<!-- German HCI Labs -->
+ <div style="background-color: black; padding-block: 3rem;">
+    <div class="row">
+        <div class=" medium-6 columns">
+            <div style="text-align: right; color: white;">
+                <h1 style="color: white;margin-top: 2rem;">German HCI LABS</h1>
+                <p style="text-align: right;font-size: 1rem;"> All across Germany</p>
+                <p style="text-align: right;font-size: 1.5rem;margin-block: 3rem;">Germany is a hub for HCI innovation, with a vibrant community actively contributing to CHI and a network of renowned HCI labs spread across the country.</p>
+                <a style="padding:10px; border:2px black solid; border-radius: 25px;background-color: #40A3A0;color: white;font-size: 1.2rem;" href="{{ site.url }}{{ site.baseurl }}/hci_labs">More info</a>
+            </div> 
+        </div>
+        <div class="medium-6 columns">
+            <div>
+                <img id="germany-map" src="{{site.url}}{{site.baseurl}}/assets/img/map_blackbg.svg"/>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Articles -->
     <!-- <div class="row">
@@ -78,8 +96,8 @@ format: frontpage
 {% endcomment %}
 <!-- contunie here -->
 <div class="row t60">
-    <h2>German HCI@CHI</h2>
-    <p>Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event has grown to become the largest of its kind at CHI, with almost 1.000 guests.</p>
+    <h2 style="text-align: center; margin-bottom: 2rem;">German HCI@CHI</h2>
+    <p style="margin-bottom: 2rem;" s>Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event has grown to become the largest of its kind at CHI, with almost 1.000 guests.</p>
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -110,7 +128,7 @@ format: frontpage
 {% if page.callforaction %}
     <div class="row t60 b60">
         <div class="small-12 text-center columns">
-            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+            <a style="padding:10px; border:2px black solid;border-radius: 25px;" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 {% endif %}
