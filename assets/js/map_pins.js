@@ -49,10 +49,33 @@ function addPin(uni) {
     const svg = document.getElementById('germany-map');
 
     const pin = createPinImage();
-    pin.setAttribute('x', coords.x - 12); // Adjust position to center the pin
-    pin.setAttribute('y', coords.y - 45);
+    pin.setAttribute('x', coords.x); 
+    pin.setAttribute('y', coords.y-2);
     pin.setAttribute('title', uni.name); 
     pin.classList.add('pin');
+
+    // const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    // text.setAttribute('x', coords.x + 5); // Position the text slightly to the right of the pin
+    // text.setAttribute('y', coords.y - 5); // Position the text below the pin
+    // text.textContent = uni.name;
+    // text.classList.add('uni-name');
+    // text.style.fill = "#2C5BA5"; // Text color initial, matches the pin
+    // text.style.display = "none";
+
+    pin.addEventListener('mouseenter', function() {
+        pin.querySelector("circle").setAttribute("fill", "#E98737"); // Change to orange
+        pin.querySelector("circle").setAttribute("stroke", "#E98737"); // Change border
+        text.style.fill = "#E98737"; // Change text color to orange
+        text.style.display = "block"; // show the text while hovering
+    });
+
+    pin.addEventListener('mouseleave', function() {
+        pin.querySelector("circle").setAttribute("fill", "#2C5BA5"); // Back to original blue
+        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5"); // Reset border
+        text.style.fill = "#2C5BA5"; // Reset text color to blue
+        text.style.display = "none"; // Hide the text when mouse leaves
+    });
+
     pin.addEventListener('click', function() {
         const element = document.getElementById(uni.name);
         const offset = 70; 
@@ -68,10 +91,12 @@ function addPin(uni) {
     
 
     const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    text.setAttribute('x', coords.x + 10); // Position the text slightly to the right of the pin
+    text.setAttribute('x', coords.x + 5); // Position the text slightly to the right of the pin
     text.setAttribute('y', coords.y - 5); // Position the text slightly above the pin
     text.textContent = uni.name;
     text.classList.add('uni-name'); //corressponding css
+    text.style.fill = "#2C5BA5";
+    text.style.display = "none";
     svg.appendChild(text);
 }
 
@@ -81,41 +106,23 @@ function convertLatLonToXY(lat, lon) {
     return { x, y };
 }
 
+
 function createPinImage() {
     const xmlns = "http://www.w3.org/2000/svg";
     const svgElem = document.createElementNS(xmlns, "svg");
-    svgElem.setAttribute("width", "32");
-    svgElem.setAttribute("height", "55");
-    svgElem.setAttribute("viewBox", "0 0 32 55");
+    svgElem.setAttribute("width", "16");
+    svgElem.setAttribute("height", "16");
+    svgElem.setAttribute("viewBox", "0 0 16 16");
     svgElem.setAttribute("fill", "none");
-    svgElem.setAttribute("xmlns", xmlns);
 
-    const circle1 = document.createElementNS(xmlns, "circle");
-    circle1.setAttribute("cx", "16");
-    circle1.setAttribute("cy", "16");
-    circle1.setAttribute("r", "15");
-    circle1.setAttribute("fill","none");
-    circle1.setAttribute("stroke", "#E98737");
-    circle1.setAttribute("stroke-width", "2");
+    const circle = document.createElementNS(xmlns, "circle");
+    circle.setAttribute("cx", "8");
+    circle.setAttribute("cy", "8"); 
+    circle.setAttribute("r", "5"); 
+    circle.setAttribute("fill", "#2C5BA5"); 
+    circle.setAttribute("stroke", "#2C5BA5");
 
-    const circle2 = document.createElementNS(xmlns, "circle");
-    circle2.setAttribute("cx", "15.5");
-    circle2.setAttribute("cy", "16.5");
-    circle2.setAttribute("r", "8");
-    circle2.setAttribute("fill", "#E98737");
-    circle2.setAttribute("stroke", "#E98737");
-
-    const line = document.createElementNS(xmlns, "line");
-    line.setAttribute("x1", "16");
-    line.setAttribute("y1", "55");
-    line.setAttribute("x2", "16");
-    line.setAttribute("y2", "30");
-    line.setAttribute("stroke", "#E98737");
-    line.setAttribute("stroke-width", "4");
-
-    svgElem.appendChild(circle1);
-    svgElem.appendChild(circle2);
-    svgElem.appendChild(line);
+    svgElem.appendChild(circle);
 
     return svgElem;
 }
