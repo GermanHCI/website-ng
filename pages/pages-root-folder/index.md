@@ -26,11 +26,11 @@ widget3:
 homepage: true 
 ---
 
-<div class="row" style="padding-top:4rem;">
+<!-- <div class="row" style="padding-top:4rem;">
   <div class=" medium-6 columns">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logo.png" style="max-width:auto; height: 300px;"/>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logo.svg" style="max-width:auto; height: 300px;"/>
   </div>
   <div class=" medium-6 columns">
     <p>The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for the fascinating research, the aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest HCI research in a relaxed atmosphere. In addition, we also started to support further community events within the German HCI community.</p>
   </div>
-</div>
+</div> -->
