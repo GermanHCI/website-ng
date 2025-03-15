@@ -10,12 +10,14 @@
   - title: "Blog archive"
     url: "/blog/archive"
 
+- title: "Publications"
+  url: "/publications"
+  side: right
+  
 - title: "German HCI @ CHI"
   url: "/editions"
   side: right
   dropdown:
-  - title: "Publications"
-    url: "/publications"
   - title: "2024- Honolulu"
     url: "/editions/2024"
   - title: "2023- Hamburg"

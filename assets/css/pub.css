@@ -34,16 +34,20 @@
 }
 #clearSearch{
     text-decoration: underline; 
-    color: #3E9898;
+    color: #45B29D;
     display: none;
 }
 .searchable-tag{
-
+    padding:0.2rem;
+    background-color: #45B29D;
 	color: #3E3E3E;
     font-size: 1rem;
+    border-radius: 10px;
 }
 .searchable-tag:focus{
-    color: #3E9898;
+    color: #45B29D;
+    background-color: #3E3E3E;
+    
 }
 .bold {
     font-weight: bold;

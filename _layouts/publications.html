@@ -44,9 +44,9 @@ format: publications
     {% endfor %}
 
     <!-- Display unique tags -->
-    <ul style="display: flex; justify-content: center; list-style: none; padding: 0;">
+    <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px;margin-bottom: 10px; gap: 0px 5px; align-items: center;">
         {% for tag in raw_tags %}
-            <li style="margin: 0 10px;">
+            <li>
                 <p class="searchable-tag" onclick="searchTag('{{ tag }}')" id="{{tag}}">{{ tag }}</p>
             </li>
         {% endfor %}

@@ -58,8 +58,10 @@ function resetSearch(){
     var colorTag=document.getElementById(globalTag);
     // var colorTag= document.getElementsByClassName('searchable-tag');
     console.log(colorTag);
-    colorTag.style.color = '#111111';
+    colorTag.style.color = '#3E3E3E';
+    colorTag.style.backgroundColor = ' #45B29D';
     colorTag.style.fontSize ="16px";
+    colorTag.style.borderRadius = "10px";
 }
 function toggleAbstract(id) {
     var abstract = document.getElementById(id);
@@ -94,13 +96,17 @@ function searchTag(tag) {
             // outputDiv.textContent = `You searched for: ${searchText}`;
             clearSearch.style.display= 'inline-block';
             colorTag.style.fontSize = '2rem';
-            colorTag.style.color = '#3E9898';
+            colorTag.style.color = '#45B29D';
+            colorTag.style.backgroundColor = ' #3E3E3E';
+            colorTag.style.borderRadius = "10px";
         }
         else{
             // outputDiv.textContent = `No matches found!`;
             clearSearch.style.display = 'none';
             colorTag.style.fontSize = '16px';
             colorTag.style.color = '#3E3E3E';
+            colorTag.style.backgroundColor = ' #45B29D';
+            colorTag.style.borderRadius = "10px";
         }
     } else {
         // If search is empty, reset to show all sections
