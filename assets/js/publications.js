@@ -60,7 +60,6 @@ function resetSearch(){
     console.log(colorTag);
     colorTag.style.color = '#3E3E3E';
     colorTag.style.backgroundColor = ' #45B29D';
-    colorTag.style.fontSize ="16px";
     colorTag.style.borderRadius = "10px";
 }
 function toggleAbstract(id) {
@@ -95,7 +94,6 @@ function searchTag(tag) {
         if (matchFound) {
             // outputDiv.textContent = `You searched for: ${searchText}`;
             clearSearch.style.display= 'inline-block';
-            colorTag.style.fontSize = '2rem';
             colorTag.style.color = '#45B29D';
             colorTag.style.backgroundColor = ' #3E3E3E';
             colorTag.style.borderRadius = "10px";
@@ -103,7 +101,6 @@ function searchTag(tag) {
         else{
             // outputDiv.textContent = `No matches found!`;
             clearSearch.style.display = 'none';
-            colorTag.style.fontSize = '16px';
             colorTag.style.color = '#3E3E3E';
             colorTag.style.backgroundColor = ' #45B29D';
             colorTag.style.borderRadius = "10px";
