@@ -52,32 +52,38 @@ module Jekyll
     end
 
     def decode_latex_accents(text)
-      # Remove unnecessary curly braces around encoded characters
-      text.gsub!(/\{\\'([a-zA-Z])\}/, '\1́')  # {\'e} → é
-      text.gsub!(/\{\\`([a-zA-Z])\}/, '\1̀')  # {\`e} → è
-      text.gsub!(/\{\\^([a-zA-Z])\}/, '\1̂')  # {\^e} → ê
-      text.gsub!(/\{\\~([a-zA-Z])\}/, '\1̃')  # {\~n} → ñ
-      text.gsub!(/\{\\\"([a-zA-Z])\}/, '\1̈') # {\"o} → ö, {\"u} → ü
-      text.gsub!(/\{\\c ([a-zA-Z])\}/, '\1̧') # {\c c} → ç
+      # Handle nested braces like \"{a} → ä
+      text.gsub!(/\\\"\{([a-zA-Z])\}/, '\"\\1')
+      text.gsub!(/\\'?\{([a-zA-Z])\}/, '\\1') # Remove curly braces around single characters
     
-      # Handle LaTeX accents without braces
-      text.gsub!(/\\'([a-zA-Z])/, '\1́')  # \'e → é
-      text.gsub!(/\\`([a-zA-Z])/, '\1̀')  # \`e → è
-      text.gsub!(/\\^([a-zA-Z])/, '\1̂')  # \^e → ê
-      text.gsub!(/\\~([a-zA-Z])/, '\1̃')  # \~n → ñ
-      text.gsub!(/\\\"([a-zA-Z])/, '\1̈') # \"o → ö, \"u → ü
-      text.gsub!(/\\c ([a-zA-Z])/, '\1̧') # \c c → ç
+      # Mapping LaTeX accents to Unicode
+      latex_replacements = {
+        /\\'a/  => 'á', /\\'e/  => 'é', /\\'i/  => 'í', /\\'o/  => 'ó', /\\'u/  => 'ú',
+        /\\'A/  => 'Á', /\\'E/  => 'É', /\\'I/  => 'Í', /\\'O/  => 'Ó', /\\'U/  => 'Ú',
+        /\\`a/  => 'à', /\\`e/  => 'è', /\\`i/  => 'ì', /\\`o/  => 'ò', /\\`u/  => 'ù',
+        /\\`A/  => 'À', /\\`E/  => 'È', /\\`I/  => 'Ì', /\\`O/  => 'Ò', /\\`U/  => 'Ù',
+        /\\^a/  => 'â', /\\^e/  => 'ê', /\\^i/  => 'î', /\\^o/  => 'ô', /\\^u/  => 'û',
+        /\\^A/  => 'Â', /\\^E/  => 'Ê', /\\^I/  => 'Î', /\\^O/  => 'Ô', /\\^U/  => 'Û',
+        /\\~n/  => 'ñ', /\\~o/  => 'õ', /\\~a/  => 'ã',
+        /\\~N/  => 'Ñ', /\\~O/  => 'Õ', /\\~A/  => 'Ã',
+        /\\\"a/ => 'ä', /\\\"e/ => 'ë', /\\\"i/ => 'ï', /\\\"o/ => 'ö', /\\\"u/ => 'ü',
+        /\\\"A/ => 'Ä', /\\\"E/ => 'Ë', /\\\"I/ => 'Ï', /\\\"O/ => 'Ö', /\\\"U/ => 'Ü',
+        /\\c c/ => 'ç', /\\c C/ => 'Ç',
+        /\\ss/  => 'ß', /\\o/   => 'ø', /\\O/   => 'Ø',
+        /\\AE/  => 'Æ', /\\ae/  => 'æ',
+        /\\OE/  => 'Œ', /\\oe/  => 'œ',
+        /\\l/   => 'ł', /\\L/   => 'Ł'
+      }
     
-      # Handle special characters
-      text.gsub!(/\\ss/, 'ß')  # \ss → ß
-      text.gsub!(/\\o/, 'ø')   # \o → ø
-      text.gsub!(/\\AE/, 'Æ')  # \AE → Æ
-      text.gsub!(/\\ae/, 'æ')  # \ae → æ
-      text.gsub!(/\\OE/, 'Œ')  # \OE → Œ
-      text.gsub!(/\\oe/, 'œ')  # \oe → œ
-      text.gsub!(/\\l/, 'ł')   # \l → ł
+      # Apply replacements
+      latex_replacements.each do |latex, unicode|
+        text.gsub!(latex, unicode)
+      end
+    
+      # Final cleanup: Remove any remaining curly braces
+      text.gsub!(/\{(.*?)\}/, '\1')
     
       return text
-    end
+    end         
   end    
 end

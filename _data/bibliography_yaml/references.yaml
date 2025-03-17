@@ -152,7 +152,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642086
   bibtex_type: :inproceedings
-  author: Jesse W. Grootjen, Henrike Weing\"artner, Sven Mayer
+  author: Jesse W. Grootjen, Henrike Weingärtner, Sven Mayer
   title: "{Uncovering and Addressing Blink-Related Challenges in Using Eye Tracking
     for Interactive Systems}"
   year: "{2024}"
@@ -184,7 +184,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642292
   bibtex_type: :inproceedings
-  author: Florian Dufresne, Tommy Nilsson, Geoffrey Gorisse, Enrico Guerra, Andr\'e
+  author: Florian Dufresne, Tommy Nilsson, Geoffrey Gorisse, Enrico Guerra, Andre
     Zenner, Olivier Christmann, Leonie Bensch, Nikolai Anton Callus, Aidan Cowley
   title: "{Touching the Moon: Leveraging Passive Haptics, Embodiment and Presence
     for Operational Assessments in Virtual Reality}"
@@ -250,7 +250,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3641933
   bibtex_type: :inproceedings
-  author: Martin Feick, Andr\'e Zenner, Simon Seibert, Anthony Tang, Antonio Kr\"uger
+  author: Martin Feick, Andre Zenner, Simon Seibert, Anthony Tang, Antonio Krüger
   title: "{The Impact of Avatar Completeness on Embodiment and the Detectability of
     Hand Redirection in Virtual Reality}"
   year: "{2024}"
@@ -316,7 +316,7 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613905.3651058
   bibtex_type: :inproceedings
-  author: Sara Wolf, Paula Friedrich, J\"orn Hurtienne
+  author: Sara Wolf, Paula Friedrich, Jörn Hurtienne
   title: "{Still Not a Lot of Research? Re-Examining HCI Research on Religion and
     Spirituality}"
   year: "{2024}"
@@ -347,7 +347,7 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613904.3642657
   bibtex_type: :inproceedings
-  author: Christian Krauter, Katrin Angerbauer, Aim\'ee Sousa Calepso, Alexander Achberger,
+  author: Christian Krauter, Katrin Angerbauer, Aimee Sousa Calepso, Alexander Achberger,
     Sven Mayer, Michael Sedlmair
   title: "{Sitting Posture Recognition and Feedback: A Literature Review}"
   year: "{2024}"
@@ -412,7 +412,7 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613904.3641907
   bibtex_type: :inproceedings
-  author: Arata Jingu, Nihar Sabnis, Paul Strohmeier, J\"urgen Steimle
+  author: Arata Jingu, Nihar Sabnis, Paul Strohmeier, Jürgen Steimle
   title: "{Shaping Compliance: Inducing Haptic Illusion of Compliance in Different
     Shapes with Electrotactile Grains}"
   year: "{2024}"
@@ -511,7 +511,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642583
   bibtex_type: :inproceedings
-  author: Na\dja Terzimehi\'c, Julia Huber, Sarah Aragon-Hahner, Sven Mayer
+  author: Na\dja Terzimehic, Julia Huber, Sarah Aragon-Hahner, Sven Mayer
   title: "{Real-World Winds: Micro Challenges to Promote Balance Post Smartphone Overload}"
   year: "{2024}"
   isbn: "{9798400703300}"
@@ -575,7 +575,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642355
   bibtex_type: :inproceedings
-  author: Annika Kaltenhauser, Evropi Stefanidi, Johannes Sch\"oning
+  author: Annika Kaltenhauser, Evropi Stefanidi, Johannes Schöning
   title: "{Playing with Perspectives and Unveiling the Autoethnographic Kaleidoscope
     in HCI – A Literature Review of Autoethnographies}"
   year: "{2024}"
@@ -641,8 +641,7 @@
   tags: "{Full Paper,Honorable Mention,CHI24}"
 - bibtex_key: 10.1145/3613904.3642083
   bibtex_type: :inproceedings
-  author: Evgeny Stemasov, Simon Demharter, Max R\"adler, Jan Gugenheimer, Enrico
-    Rukzio
+  author: Evgeny Stemasov, Simon Demharter, Max Rädler, Jan Gugenheimer, Enrico Rukzio
   title: "{pARam: Leveraging Parametric Design in Extended Reality to Support the
     Personalization of Artifacts for Personal Fabrication}"
   year: "{2024}"
@@ -848,7 +847,7 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613905.3636310
   bibtex_type: :inproceedings
-  author: Colin M. Gray, Johanna T. Gunawan, Ren\'e Sch\"afer, Nataliia Bielova, Lorena
+  author: Colin M. Gray, Johanna T. Gunawan, Rene Schäfer, Nataliia Bielova, Lorena
     Sanchez Chamorro, Katie Seaborn, Thomas Mildner, Hauke Sandhaus
   title: "{Mobilizing Research and Regulatory Action on Dark Patterns and Deceptive
     Design Practices}"
@@ -912,8 +911,8 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613905.3650982
   bibtex_type: :inproceedings
-  author: Carina Liebers, Niklas Pf\"utzenreuter, Marvin Prochazka, Pranav Megarajan,
-    Eike Furuno, Jan L\"ober, Tim C. Stratmann, Jonas Auda, Donald Degraen, Uwe Gruenefeld,
+  author: Carina Liebers, Niklas Pfützenreuter, Marvin Prochazka, Pranav Megarajan,
+    Eike Furuno, Jan Löber, Tim C. Stratmann, Jonas Auda, Donald Degraen, Uwe Gruenefeld,
     Stefan Schneegass
   title: "{Look Over Here! Comparing Interaction Methods for User-Assisted Remote
     Scene Reconstruction}"
@@ -1014,8 +1013,8 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613905.3636291
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Mario Boot, Andreas L\"ocken, Bastian Pfleging, Markus
-    L\"ochtefeld, Tamara Von Sawitzky, Gian-Luca Savino, Miriam Sturdee, Josh Andres,
+  author: Andrii Matviienko, Mario Boot, Andreas Löcken, Bastian Pfleging, Markus
+    Löchtefeld, Tamara Von Sawitzky, Gian-Luca Savino, Miriam Sturdee, Josh Andres,
     Kristy Elizabeth Boyer, Stephen Anthony Brewster, Florian ‘Floyd’ Mueller
   title: "{Learning from Cycling: Discovering Lessons Learned from CyclingHCI}"
   year: "{2024}"
@@ -1105,7 +1104,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642864
   bibtex_type: :inproceedings
-  author: Julian Rasch, Florian Perzl, Yannick Weiss, Florian M\"uller
+  author: Julian Rasch, Florian Perzl, Yannick Weiss, Florian Müller
   title: "{Just Undo It: Exploring Undo Mechanics in Multi-User Virtual Reality}"
   year: "{2024}"
   isbn: "{9798400703300}"
@@ -1167,7 +1166,7 @@
 - bibtex_key: 10.1145/3613905.3651009
   bibtex_type: :inproceedings
   author: Thomas Reiter, Sophia Sakel, Julian Scharbert, Julian Ter Horst, Mitja Back,
-    Maarten Van Zalk, Markus B\"uhner, Ramona Schoedel
+    Maarten Van Zalk, Markus Bühner, Ramona Schoedel
   title: "{Investigating Phubbing in Everyday Life: Challenges \\& Lessons for Future
     Research}"
   year: "{2024}"
@@ -1304,7 +1303,7 @@
 - bibtex_key: 10.1145/3613904.3642428
   bibtex_type: :inproceedings
   author: Florian Leiser, Sven Eckhardt, Valentin Leuthe, Merlin Knaeble, Alexander
-    M\"adche, Gerhard Schwabe, Ali Sunyaev
+    Mädche, Gerhard Schwabe, Ali Sunyaev
   title: "{HILL: A Hallucination Identifier for Large Language Models}"
   year: "{2024}"
   isbn: "{9798400703300}"
@@ -1339,7 +1338,7 @@
   author: Don Samitha Elvitigala, Arma\ugan Karahano\uglu, Andrii Matviienko, Laia
     Turmo Vidal, Dees Postma, Michael D Jones, Maria F. Montoya, Daniel Harrison,
     Lars Elbæk, Florian Daiber, Lisa Anneke Burr, Rakesh Patibanda, Paolo Buono, Perttu
-    H\"am\"al\"ainen, Robby Van Delden, Regina Bernhaupt, Xipei Ren, Vincent Van Rheden,
+    Hämäläinen, Robby Van Delden, Regina Bernhaupt, Xipei Ren, Vincent Van Rheden,
     Fabio Zambetta, Elise Van Den Hoven, Carine Lallemand, Dennis Reidsma, Florian
     ‘Floyd’ Mueller
   title: "{Grand Challenges in SportsHCI}"
@@ -1373,7 +1372,7 @@
 - bibtex_key: 10.1145/3613904.3642038
   bibtex_type: :inproceedings
   author: Pol van Rijn, Silvan Mertes, Kathrin Janowski, Katharina Weitz, Nori Jacoby,
-    Elisabeth Andr\'e
+    Elisabeth Andre
   title: "{Giving Robots a Voice: Human-in-the-Loop Voice Creation and open-ended
     Labeling}"
   year: "{2024}"
@@ -1507,7 +1506,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642848
   bibtex_type: :inproceedings
-  author: Alice C Haynes, J\"urgen Steimle
+  author: Alice C Haynes, Jürgen Steimle
   title: "{Flextiles: Designing Customisable Shape-Change in Textiles with SMA-Actuated
     Smocking Patterns}"
   year: "{2024}"
@@ -1541,7 +1540,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642849
   bibtex_type: :inproceedings
-  author: Alice C Haynes, J\"urgen Steimle
+  author: Alice C Haynes, Jürgen Steimle
   title: "{Flextiles: Designing Customisable Shape-Change in Textiles with SMA-Actuated
     Smocking Patterns}"
   year: "{2024}"
@@ -1575,8 +1574,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642661
   bibtex_type: :inproceedings
-  author: Ren\'e Sch\"afer, Paul Miles Preuschoff, Ren\'e R\"opke, Sarah Sahabi, Jan
-    Borchers
+  author: Rene Schäfer, Paul Miles Preuschoff, Rene Röpke, Sarah Sahabi, Jan Borchers
   title: "{Fighting Malicious Designs: Towards Visual Countermeasures Against Dark
     Patterns}"
   year: "{2024}"
@@ -1707,7 +1705,7 @@
 - bibtex_key: 10.1145/3613904.3642176
   bibtex_type: :inproceedings
   author: Carolin Stellmacher, Florian Mathis, Yannick Weiss, Meagan B. Loerakker,
-    Nadine Wagener, Johannes Sch\"oning
+    Nadine Wagener, Johannes Schöning
   title: "{Exploring Mobile Devices as Haptic Interfaces for Mixed Reality}"
   year: "{2024}"
   isbn: "{9798400703300}"
@@ -1738,8 +1736,8 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642563
   bibtex_type: :inproceedings
-  author: Katharina Weitz, Ruben Schlagowski, Elisabeth Andr\'e, Maris M\"anniste,
-    Ceenu George
+  author: Katharina Weitz, Ruben Schlagowski, Elisabeth Andre, Maris Männiste, Ceenu
+    George
   title: "{Explaining It Your Way - Findings from a Co-Creative Design Workshop on
     Designing XAI Applications with AI End-Users from the Public Sector}"
   year: "{2024}"
@@ -1772,8 +1770,8 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642564
   bibtex_type: :inproceedings
-  author: Katharina Weitz, Ruben Schlagowski, Elisabeth Andr\'e, Maris M\"anniste,
-    Ceenu George
+  author: Katharina Weitz, Ruben Schlagowski, Elisabeth Andre, Maris Männiste, Ceenu
+    George
   title: "{Explaining It Your Way - Findings from a Co-Creative Design Workshop on
     Designing XAI Applications with AI End-Users from the Public Sector}"
   year: "{2024}"
@@ -1869,8 +1867,8 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613904.3641909
   bibtex_type: :inproceedings
-  author: Mark Colley, Beate Wanner, Max R\"adler, Marcel R\"otzer, Julian Frommel,
-    Teresa Hirzle, Pascal Jansen, Enrico Rukzio
+  author: Mark Colley, Beate Wanner, Max Rädler, Marcel Rötzer, Julian Frommel, Teresa
+    Hirzle, Pascal Jansen, Enrico Rukzio
   title: "{Effects of a Gaze-Based 2D Platform Game on User Enjoyment, Perceived Competence,
     and Digital Eye Strain}"
   year: "{2024}"
@@ -2070,8 +2068,8 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642591
   bibtex_type: :inproceedings
-  author: Karola Marky, Alina St\"over, Sarah Prange, Kira Bleck, Paul Gerber, Verena
-    Zimmermann, Florian M\"uller, Florian Alt, Max M\"uhlh\"auser
+  author: Karola Marky, Alina Stöver, Sarah Prange, Kira Bleck, Paul Gerber, Verena
+    Zimmermann, Florian Müller, Florian Alt, Max Mühlhäuser
   title: "{Decide Yourself or Delegate - User Preferences Regarding the Autonomy of
     Personal Privacy Assistants in Private IoT-Equipped Environments}"
   year: "{2024}"
@@ -2269,7 +2267,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642073
   bibtex_type: :inproceedings
-  author: Andr\'e Zenner, Chiara Karr, Martin Feick, Oscar Ariza, Antonio Kr\"uger
+  author: Andre Zenner, Chiara Karr, Martin Feick, Oscar Ariza, Antonio Krüger
   title: "{Beyond the Blink: Investigating Combined Saccadic \\& Blink-Suppressed
     Hand Redirection in Virtual Reality}"
   year: "{2024}"
@@ -2333,8 +2331,8 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642631
   bibtex_type: :inproceedings
-  author: Christopher Katins, Paweł W. Wo\'zniak, Aodi Chen, Ihsan Tumay, Luu Viet
-    Trinh Le, John Uschold, Thomas Kosch
+  author: Christopher Katins, Paweł W. Wozniak, Aodi Chen, Ihsan Tumay, Luu Viet Trinh
+    Le, John Uschold, Thomas Kosch
   title: "{Assessing User Apprehensions About Mixed Reality Artifacts and Applications:
     The Mixed Reality Concerns (MRC) Questionnaire}"
   year: "{2024}"
@@ -2475,8 +2473,8 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642370
   bibtex_type: :inproceedings
-  author: Luke Haliburton, David Joachim Gr\"uning, Frederik Riedel, Albrecht Schmidt,
-    Na\dja Terzimehi\'c
+  author: Luke Haliburton, David Joachim Grüning, Frederik Riedel, Albrecht Schmidt,
+    Na\dja Terzimehic
   title: "{A Longitudinal In-the-Wild Investigation of Design Frictions to Prevent
     Smartphone Overuse}"
   year: "{2024}"
@@ -2543,7 +2541,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613905.3650938
   bibtex_type: :inproceedings
-  author: Martin Schmitz, Dominik Sch\"on, Henning Klagemann, Thomas Kosch
+  author: Martin Schmitz, Dominik Schön, Henning Klagemann, Thomas Kosch
   title: "{3DA: Assessing 3D-Printed Electrodes for Measuring Electrodermal Activity}"
   year: "{2024}"
   isbn: "{9798400703317}"
@@ -2610,7 +2608,7 @@
   tags: "{Full Paper,Honorable Mention,CHI24}"
 - bibtex_key: 10.1145/3613905.3650834
   bibtex_type: :inproceedings
-  author: Clara Sayffaerth, Julian Rasch, Florian M\"uller
+  author: Clara Sayffaerth, Julian Rasch, Florian Müller
   title: "{“Tele” Me More: Using Telepresence Charades to Connect Strangers and Exhibits
     in Different Museums}"
   year: "{2024}"
@@ -2643,8 +2641,8 @@
   tags: "{Late Breaking Work,CHI24}"
 - bibtex_key: 10.1145/3613904.3641964
   bibtex_type: :inproceedings
-  author: Charlotte Kobiella, Yarhy Said Flores L\'opez, Franz Waltenberger, Fiona
-    Draxler, Albrecht Schmidt
+  author: Charlotte Kobiella, Yarhy Said Flores Lopez, Franz Waltenberger, Fiona Draxler,
+    Albrecht Schmidt
   title: '{"If the Machine Is As Good As Me, Then What Use Am I?" – How the Use of
     ChatGPT Changes Young Professionals'' Perception of Productivity and Accomplishment}'
   year: "{2024}"
@@ -2709,7 +2707,7 @@
   tags: "{Full Paper,CHI24}"
 - bibtex_key: 10.1145/3613904.3642368
   bibtex_type: :inproceedings
-  author: Marc-Andr\'e Kaufhold, Thea Riebe, Markus Bayer, Christian Reuter
+  author: Marc-Andre Kaufhold, Thea Riebe, Markus Bayer, Christian Reuter
   title: "{‘We Do Not Have the Capacity to Monitor All Media’: A Design Case Study
     on Cyber Situational Awareness in Computer Emergency Response Teams}"
   year: "{2024}"
@@ -2772,7 +2770,7 @@
 - bibtex_key: 10.1145/3503514
   bibtex_type: :article
   author: Karola Marky, Kirill Ragozin, George Chernyshov, Andrii Matviienko, Martin
-    Schmitz, Max M\"uhlh\"auser, Chloe Eghtebas, Kai Kunze
+    Schmitz, Max Mühlhäuser, Chloe Eghtebas, Kai Kunze
   title: "{“Nah, it’s just annoying!” A Deep Dive into User Perceptions of Two-Factor
     Authentication}"
   year: "{2022}"
@@ -2841,7 +2839,7 @@
 - bibtex_key: 10.1145/3544548.3581527
   bibtex_type: :inproceedings
   author: Philip Engelbutzeder, Yannick Bollmann, Katie Berns, Marvin Landwehr, Franka
-    Sch\"afer, Dave Randall, Volker Wulf
+    Schäfer, Dave Randall, Volker Wulf
   title: "{(Re-)Distributional Food Justice: Negotiating conflicting views of fairness
     within a local grassroots community}"
   year: "{2023}"
@@ -2874,7 +2872,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581163
   bibtex_type: :inproceedings
-  author: Anastasia Sergeeva, Bj\"orn Rohles, Verena Distler, Vincent Koenig
+  author: Anastasia Sergeeva, Björn Rohles, Verena Distler, Vincent Koenig
   title: "{“We Need a Big Revolution in Email Advertising”: Users’ Perception of Persuasion
     in Permission-based Advertising Emails}"
   year: "{2023}"
@@ -2941,7 +2939,7 @@
 - bibtex_key: 10.1145/3544548.3581410
   bibtex_type: :inproceedings
   author: Franziska Herbert, Steffen Becker, Leonie Schaewitz, Jonas Hielscher, Marvin
-    Kowalewski, Angela Sasse, Yasemin Acar, Markus D\"urmuth
+    Kowalewski, Angela Sasse, Yasemin Acar, Markus Dürmuth
   title: "{A World Full of Privacy and Security (Mis)conceptions? Findings of a Representative
     Survey in 12 Countries}"
   year: "{2023}"
@@ -3137,7 +3135,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544549.3585822
   bibtex_type: :inproceedings
-  author: Nadine Flegel, Daniel Wessel, Jonas P\"ohler, Kristof Van Laerhoven, Tilo
+  author: Nadine Flegel, Daniel Wessel, Jonas Pöhler, Kristof Van Laerhoven, Tilo
     Mentler
   title: "{Autonomy and Safety: A Quantitative Study with Control Room Operators on
     Affinity for Technology Interaction and Wish for Pervasive Computing Solutions}"
@@ -3171,8 +3169,8 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544548.3580760
   bibtex_type: :inproceedings
-  author: Pascal Jansen, Julian Britten, Alexander H\"ausele, Thilo Segschneider,
-    Mark Colley, Enrico Rukzio
+  author: Pascal Jansen, Julian Britten, Alexander Häusele, Thilo Segschneider, Mark
+    Colley, Enrico Rukzio
   title: "{AutoVis: Enabling Mixed-Immersive Analysis of Automotive User Interface
     Interaction Studies}"
   year: "{2023}"
@@ -3429,7 +3427,7 @@
   tags: "{CHI23,Full Paper}"
 - bibtex_key: 10.1145/3544548.3581216
   bibtex_type: :inproceedings
-  author: Evropi Stefanidi, Johannes Sch\"oning, Yvonne Rogers, Jasmin Niess
+  author: Evropi Stefanidi, Johannes Schöning, Yvonne Rogers, Jasmin Niess
   title: "{Children with ADHD and their Care Ecosystem: Designing Beyond Symptoms}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -3527,7 +3525,7 @@
   tags: "{Full Paper,Honorable Mention,CHI23}"
 - bibtex_key: 10.1145/3544548.3580879
   bibtex_type: :inproceedings
-  author: Jan-Henrik Schr\"oder, Daniel Schacht, Niklas Peper, Anita Marie Hamurculu,
+  author: Jan-Henrik Schröder, Daniel Schacht, Niklas Peper, Anita Marie Hamurculu,
     Hans-Christian Jetter
   title: "{Collaborating Across Realities: Analytical Lenses for Understanding Dyadic
     Collaboration in Transitional Interfaces}"
@@ -3669,7 +3667,7 @@
   tags: "{CHI23,Full Paper}"
 - bibtex_key: 10.1145/3544549.3583891
   bibtex_type: :inproceedings
-  author: Wolfgang B\"uschel, Katja Krug, Konstantin Klamka, Raimund Dachselt
+  author: Wolfgang Büschel, Katja Krug, Konstantin Klamka, Raimund Dachselt
   title: "{Demonstrating CleAR Sight: Transparent Interaction Panels for Augmented
     Reality}"
   year: "{2023}"
@@ -3736,7 +3734,7 @@
   tags: "{Interactivity/Demonstration,CHI23}"
 - bibtex_key: 10.1145/3544549.3583916
   bibtex_type: :inproceedings
-  author: J\"urgen Steimle, Marie Muehlhaus, Madalina Luciana Nicolae, Aditya Shekhar
+  author: Jürgen Steimle, Marie Muehlhaus, Madalina Luciana Nicolae, Aditya Shekhar
     Nittala, Narjes Pourjafarian, Adwait Sharma, Marc Teyssier, Marion Koelle, Bruno
     Fruchard, Paul Strohmeier
   title: "{Design and Fabrication of Body-Based Interfaces (Demo of Saarland HCI Lab)}"
@@ -3771,7 +3769,7 @@
 - bibtex_key: 10.1145/3544548.3581421
   bibtex_type: :inproceedings
   author: Sara Wolf, Simon Luthe, Lennart Baumeister, Frauke Moerike, Vyjayanthi Janakiraman,
-    J\"orn Hurtienne
+    Jörn Hurtienne
   title: "{Designing for Uncontrollability: Drawing Inspiration from the Blessing
     Companion}"
   year: "{2023}"
@@ -3902,7 +3900,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544549.3585855
   bibtex_type: :inproceedings
-  author: Ren\'e Sch\"afer, Tobias Wagner, Ulyana Lavnikevich, Jan Borchers
+  author: Rene Schäfer, Tobias Wagner, Ulyana Lavnikevich, Jan Borchers
   title: "{Enhancing Notification Awareness for Online Presenters via a Wrist-Worn
     Device}"
   year: "{2023}"
@@ -4064,7 +4062,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544548.3581223
   bibtex_type: :inproceedings
-  author: Yannick Weiss, Steeven Villa, Albrecht Schmidt, Sven Mayer, Florian M\"uller
+  author: Yannick Weiss, Steeven Villa, Albrecht Schmidt, Sven Mayer, Florian Müller
   title: "{Using Pseudo-Stiffness to Enrich the Haptic Experience in Virtual Reality}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -4126,7 +4124,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544549.3585674
   bibtex_type: :inproceedings
-  author: Ga\"elle Clavelin, Mickael Bouhier, Wen-Jie Tseng, Jan Gugenheimer
+  author: Gaëlle Clavelin, Mickael Bouhier, Wen-Jie Tseng, Jan Gugenheimer
   title: "{Exploring the Perception of Pain in Virtual Reality through Perceptual
     Manipulations}"
   year: "{2023}"
@@ -4252,7 +4250,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544548.3580993
   bibtex_type: :inproceedings
-  author: Leon W\"ursching, Florentin Putz, Steffen Haesler, Matthias Hollick
+  author: Leon Würsching, Florentin Putz, Steffen Haesler, Matthias Hollick
   title: "{FIDO2 the Rescue? Platform vs. Roaming Authentication on Smartphones}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -4314,7 +4312,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3533015
   bibtex_type: :article
-  author: Anke Brocker, Ren\'e Sch\"afer, Christian Remy, Simon Voelker, Jan Borchers
+  author: Anke Brocker, Rene Schäfer, Christian Remy, Simon Voelker, Jan Borchers
   title: "{Flowboard: How Seamless, Live, Flow-Based Programming Impacts Learning
     to Code for Embedded Electronics}"
   year: "{2023}"
@@ -4350,7 +4348,7 @@
   month_numeric: "{3}"
 - bibtex_key: 10.1145/3544548.3581259
   bibtex_type: :inproceedings
-  author: Julian Rasch, Vladislav Dmitrievic Rusakov, Martin Schmitz, Florian M\"uller
+  author: Julian Rasch, Vladislav Dmitrievic Rusakov, Martin Schmitz, Florian Müller
   title: "{Going, Going, Gone: Exploring Intention Communication for Multi-User Locomotion
     in Virtual Reality}"
   year: "{2023}"
@@ -4418,7 +4416,7 @@
 - bibtex_key: 10.1145/3544548.3580691
   bibtex_type: :inproceedings
   author: Narjes Pourjafarian, Fjolla Mjaku, Marion Koelle, Martin Schmitz, Jan Borchers,
-    J\"urgen Steimle
+    Jürgen Steimle
   title: "{Handheld Tools Unleashed: Mixed-Initiative Physical Sketching with a Robotic
     Printer}"
   year: "{2023}"
@@ -4454,7 +4452,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3580716
   bibtex_type: :inproceedings
-  author: Nihar Sabnis, Dennis Wittchen, Courtney N. Reed, Narjes Pourjafarian, J\"urgen
+  author: Nihar Sabnis, Dennis Wittchen, Courtney N. Reed, Narjes Pourjafarian, Jürgen
     Steimle, Paul Strohmeier
   title: "{Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating
     or Augmenting Material Experiences}"
@@ -4585,7 +4583,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581184
   bibtex_type: :inproceedings
-  author: Marie Muehlhaus, Marion Koelle, Artin Saberpour, J\"urgen Steimle
+  author: Marie Muehlhaus, Marion Koelle, Artin Saberpour, Jürgen Steimle
   title: "{I Need a Third Arm! Eliciting Body-based Interactions with a Wearable Robotic
     Arm}"
   year: "{2023}"
@@ -4682,7 +4680,7 @@
 - bibtex_key: 10.1145/3544548.3581193
   bibtex_type: :inproceedings
   author: Wieslaw Bartkowski, Andrzej Nowak, Filip Ignacy Czajkowski, Albrecht Schmidt,
-    Florian M\"uller
+    Florian Müller
   title: "{In Sync: Exploring Synchronization to Increase Trust Between Humans and
     Non-humanoid Robots}"
   year: "{2023}"
@@ -4714,7 +4712,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3580888
   bibtex_type: :inproceedings
-  author: Andr\'e Zenner, Kristin Ullmann, Oscar Ariza, Frank Steinicke, Antonio Kr\"uger
+  author: Andre Zenner, Kristin Ullmann, Oscar Ariza, Frank Steinicke, Antonio Krüger
   title: "{Induce a Blink of the Eye: Evaluating Techniques for Triggering Eye Blinks
     in Virtual Reality}"
   year: "{2023}"
@@ -4745,8 +4743,8 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581497
   bibtex_type: :inproceedings
-  author: Mikołaj P. Wo\'zniak, Sarah V\"oge, Ronja Kr\"uger, Heiko M\"uller, Marion
-    Koelle, Susanne Boll
+  author: Mikołaj P. Wozniak, Sarah Vöge, Ronja Krüger, Heiko Müller, Marion Koelle,
+    Susanne Boll
   title: "{Inhabiting Interconnected Spaces: How Users Shape and Appropriate Their
     Smart Home Ecosystems}"
   year: "{2023}"
@@ -5120,8 +5118,8 @@
   month_numeric: "{3}"
 - bibtex_key: 10.1145/3544548.3581332
   bibtex_type: :inproceedings
-  author: Evropi Stefanidi, Marit Bentvelzen, Paweł W. Wo\'zniak, Thomas Kosch, Mikołaj
-    P. Wo\'zniak, Thomas Mildner, Stefan Schneegass, Heiko M\"uller, Jasmin Niess
+  author: Evropi Stefanidi, Marit Bentvelzen, Paweł W. Wozniak, Thomas Kosch, Mikołaj
+    P. Wozniak, Thomas Mildner, Stefan Schneegass, Heiko Müller, Jasmin Niess
   title: "{Literature Reviews in HCI: A Review of Reviews}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -5219,7 +5217,7 @@
 - bibtex_key: 10.1145/3544548.3580973
   bibtex_type: :inproceedings
   author: Sebastian Cmentowski, Sukran Karaosmanoglu, Lennart E. Nacke, Frank Steinicke,
-    Jens Harald Kr\"uger
+    Jens Harald Krüger
   title: "{Never Skip Leg Day Again: Training the Lower Body with Vertical Jumps in
     a Virtual Reality Exergame}"
   year: "{2023}"
@@ -5383,7 +5381,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544548.3581433
   bibtex_type: :inproceedings
-  author: Beat Rossmy, Na\dja Terzimehi\'c, Tanja D\"oring, Daniel Buschek, Alexander
+  author: Beat Rossmy, Na\dja Terzimehic, Tanja Döring, Daniel Buschek, Alexander
     Wiethoff
   title: "{Point of no Undo: Irreversible Interactions as a Design Strategy}"
   year: "{2023}"
@@ -5418,7 +5416,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544549.3585773
   bibtex_type: :inproceedings
-  author: Dimitar Valkov, Pascal Kockwelp, Florian Daiber, Antonio Kr\"uger
+  author: Dimitar Valkov, Pascal Kockwelp, Florian Daiber, Antonio Krüger
   title: "{Reach Prediction using Finger Motion Dynamics}"
   year: "{2023}"
   isbn: "{9781450394222}"
@@ -5516,8 +5514,8 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3569894
   bibtex_type: :article
-  author: Adwait Sharma, Christina Salchow-H\"ommen, Vimal Suresh Mollyn, Aditya Shekhar
-    Nittala, Michael A. Hedderich, Marion Koelle, Thomas Seel, J\"urgen Steimle
+  author: Adwait Sharma, Christina Salchow-Hömmen, Vimal Suresh Mollyn, Aditya Shekhar
+    Nittala, Michael A. Hedderich, Marion Koelle, Thomas Seel, Jürgen Steimle
   title: "{SparseIMU: Computational Design of Sparse IMU Layouts for Sensing Fine-grained
     Finger Microgestures}"
   year: "{2023}"
@@ -5586,7 +5584,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544549.3585739
   bibtex_type: :inproceedings
-  author: Jan Preßler, Lukas Schmid, J\"orn Hurtienne
+  author: Jan Preßler, Lukas Schmid, Jörn Hurtienne
   title: "{Statistically Controlling for Processing Fluency Reduces the Aesthetic-Usability
     Effect}"
   year: "{2023}"
@@ -5618,7 +5616,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544549.3574171
   bibtex_type: :inproceedings
-  author: Andr\'e Calero Valdez, Lilian Kojan, Nicholas Patrick Danks, Soumya Ray
+  author: Andre Calero Valdez, Lilian Kojan, Nicholas Patrick Danks, Soumya Ray
   title: "{Structural Equation Modeling in HCI Research using SEMinR}"
   year: "{2023}"
   isbn: "{9781450394222}"
@@ -5648,7 +5646,7 @@
   tags: "{Course,CHI23}"
 - bibtex_key: 10.1145/3544548.3581180
   bibtex_type: :inproceedings
-  author: Tobias Grundgeiger, Alea M\"unz, Paul Schlosser, Oliver Happel
+  author: Tobias Grundgeiger, Alea Münz, Paul Schlosser, Oliver Happel
   title: "{Supervising Multiple Operating Rooms Using a Head-Worn display: A Longitudinal
     Evaluation of the Experience of Supervising Anesthesiologists and Their Co-Workers}"
   year: "{2023}"
@@ -5679,7 +5677,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581150
   bibtex_type: :inproceedings
-  author: Laura Gr\"onewald, Julian Weiblen, Matthias Laschke, Lara Christoforakos,
+  author: Laura Grönewald, Julian Weiblen, Matthias Laschke, Lara Christoforakos,
     Marc Hassenzahl
   title: "{Sustainability by Design. How to Encourage Users to Choose Energy-Saving
     Programs and Settings when Washing Laundry}"
@@ -5748,8 +5746,8 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581461
   bibtex_type: :inproceedings
-  author: Dominik Sch\"on, Thomas Kosch, Florian M\"uller, Martin Schmitz, Sebastian
-    G\"unther, Lukas Bommhardt, Max M\"uhlh\"auser
+  author: Dominik Schön, Thomas Kosch, Florian Müller, Martin Schmitz, Sebastian Günther,
+    Lukas Bommhardt, Max Mühlhäuser
   title: "{Tailor Twist: Assessing Rotational Mid-Air Interactions for Augmented Reality}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -5779,7 +5777,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544549.3585734
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Jean-Baptiste Durand-Pierre, Jona Cvancar, Max M\"uhlh\"auser
+  author: Andrii Matviienko, Jean-Baptiste Durand-Pierre, Jona Cvancar, Max Mühlhäuser
   title: "{Text Me if You Can: Investigating Text Input Methods for Cyclists}"
   year: "{2023}"
   isbn: "{9781450394222}"
@@ -5809,7 +5807,7 @@
   tags: "{Late Breaking Work,CHI23}"
 - bibtex_key: 10.1145/3544549.3583937
   bibtex_type: :inproceedings
-  author: Jan Borchers, Anke Brocker, Sebastian Hueber, Oliver Nowak, Ren\'e Sch\"afer,
+  author: Jan Borchers, Anke Brocker, Sebastian Hueber, Oliver Nowak, Rene Schäfer,
     Adrian Wagner, Paul Miles Preuschoff, Lea Emilia Schirp
   title: "{The Aachen Lab Demo: From Fundamental Perception to Design Tools}"
   year: "{2023}"
@@ -5839,8 +5837,7 @@
   tags: "{Interactivity/Demonstration,CHI23}"
 - bibtex_key: 10.1145/3544549.3583893
   bibtex_type: :inproceedings
-  author: Frederike Jung, Jonah-No\"el Kaiser, Kai Von Holdt, Wilko Heuten, Jochen
-    Meyer
+  author: Frederike Jung, Jonah-Noël Kaiser, Kai Von Holdt, Wilko Heuten, Jochen Meyer
   title: "{The Art of Privacy – A Theatrical Privacy Installation in Virtual Reality}"
   year: "{2023}"
   isbn: "{9781450394222}"
@@ -5964,7 +5961,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581526
   bibtex_type: :inproceedings
-  author: Judith D\"orrenb\"acher, Ronda Ringfort-Felner, Marc Hassenzahl
+  author: Judith Dörrenbächer, Ronda Ringfort-Felner, Marc Hassenzahl
   title: "{The Intricacies of Social Robots: Secondary Analysis of Fictional Documentaries
     to Explore the Benefits and Challenges of Robots in Complex Social Settings}"
   year: "{2023}"
@@ -6093,7 +6090,7 @@
   tags: "{Course,CHI23}"
 - bibtex_key: 10.1145/3544548.3580986
   bibtex_type: :inproceedings
-  author: Luke Haliburton, Natalia Bartłomiejczyk, Albrecht Schmidt, Paweł W. Wo\'zniak,
+  author: Luke Haliburton, Natalia Bartłomiejczyk, Albrecht Schmidt, Paweł W. Wozniak,
     Jasmin Niess
   title: "{The Walking Talking Stick: Understanding Automated Note-Taking in Walking
     Meetings}"
@@ -6128,7 +6125,7 @@
   tags: "{Best Paper,Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544549.3583901
   bibtex_type: :inproceedings
-  author: Philipp Pascal Hoffmann, Hesham Elsayed, Max M\"uhlh\"auser, Rina R. Wehbe,
+  author: Philipp Pascal Hoffmann, Hesham Elsayed, Max Mühlhäuser, Rina R. Wehbe,
     Mayra Donaji Barrera Machuca
   title: "{ThermalPen: Adding Thermal Haptic Feedback to 3D Sketching}"
   year: "{2023}"
@@ -6159,8 +6156,8 @@
   tags: "{Interactivity/Demonstration,CHI23}"
 - bibtex_key: 10.1145/3544548.3580954
   bibtex_type: :inproceedings
-  author: Florian M\"uller, Daniel Schmitt, Andrii Matviienko, Dominik Sch\"on, Sebastian
-    G\"unther, Thomas Kosch, Martin Schmitz
+  author: Florian Müller, Daniel Schmitt, Andrii Matviienko, Dominik Schön, Sebastian
+    Günther, Thomas Kosch, Martin Schmitz
   title: "{TicTacToes: Assessing Toe Movements as an Input Modality}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -6192,7 +6189,7 @@
 - bibtex_key: 10.1145/3544548.3581420
   bibtex_type: :inproceedings
   author: Masoumehsadat Hosseini, Tjado Ihmels, Ziqian Chen, Marion Koelle, Heiko
-    M\"uller, Susanne Boll
+    Müller, Susanne Boll
   title: "{Towards a Consensus Gesture Set: A Survey of Mid-Air Gestures in HCI for
     Maximized Agreement Across Domains}"
   year: "{2023}"
@@ -6321,7 +6318,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3581557
   bibtex_type: :inproceedings
-  author: Florian M\"uller, Arantxa Ye, Dominik Sch\"on, Julian Rasch
+  author: Florian Müller, Arantxa Ye, Dominik Schön, Julian Rasch
   title: "{UndoPort: Exploring the Influence of Undo-Actions for Locomotion in Virtual
     Reality on the Efficiency, Spatial Understanding and User Experience}"
   year: "{2023}"
@@ -6383,7 +6380,7 @@
 - bibtex_key: 10.1145/3544549.3583895
   bibtex_type: :inproceedings
   author: Anke Verena Reinschluessel, Thomas Muender, Roland Fischer, Valentin Kraft,
-    Verena Nicole Uslar, Dirk Weyhe, Andrea Schenk, Gabriel Zachmann, Tanja D\"oring,
+    Verena Nicole Uslar, Dirk Weyhe, Andrea Schenk, Gabriel Zachmann, Tanja Döring,
     Rainer Malaka
   title: "{Versatile Immersive Virtual and Augmented Tangible OR – Using VR, AR and
     Tangibles to Support Surgical Practice}"
@@ -6415,7 +6412,7 @@
   tags: "{Interactivity/Demonstration,CHI23}"
 - bibtex_key: 10.1145/3544549.3585594
   bibtex_type: :inproceedings
-  author: Sara Wolf, Michael Weber, J\"orn Hurtienne
+  author: Sara Wolf, Michael Weber, Jörn Hurtienne
   title: "{Virtual Tourism, Real Experience: A Motive-Oriented Approach to Virtual
     Tourism}"
   year: "{2023}"
@@ -6544,7 +6541,7 @@
   tags: "{Doctoral Consortium,CHI23}"
 - bibtex_key: 10.1145/3544548.3581050
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Hajris Hoxha, Max M\"uhlh\"auser
+  author: Andrii Matviienko, Hajris Hoxha, Max Mühlhäuser
   title: "{What does it mean to cycle in Virtual Reality? Exploring Cycling Fidelity
     and Control of VR Bicycle Simulators}"
   year: "{2023}"
@@ -6575,8 +6572,7 @@
   tags: "{Full Paper,CHI23}"
 - bibtex_key: 10.1145/3544548.3580920
   bibtex_type: :inproceedings
-  author: Ren\'e Sch\"afer, Oliver Nowak, Lovis Bero Suchmann, S\"oren Schr\"oder,
-    Jan Borchers
+  author: Rene Schäfer, Oliver Nowak, Lovis Bero Suchmann, Sören Schröder, Jan Borchers
   title: "{What’s That Shape? Investigating Eyes-Free Recognition of Textile Icons}"
   year: "{2023}"
   isbn: "{9781450394215}"
@@ -6608,7 +6604,7 @@
   tags: "{Full Paper,Interactivity/Demonstration,CHI23}"
 - bibtex_key: 10.1145/3544548.3581072
   bibtex_type: :inproceedings
-  author: Teresa Hirzle, Florian M\"uller, Fiona Draxler, Martin Schmitz, Pascal Knierim,
+  author: Teresa Hirzle, Florian Müller, Fiona Draxler, Martin Schmitz, Pascal Knierim,
     Kasper Hornbæk
   title: "{When XR and AI Meet - A Scoping Review on Extended Reality and Artificial
     Intelligence}"
@@ -6674,8 +6670,8 @@
   tags: "{CHI22,Full Paper}"
 - bibtex_key: 10.1145/3491101.3519717
   bibtex_type: :inproceedings
-  author: Akhmajon Makhsadov, Donald Degraen, Andr\'e Zenner, Felix Kosmalla, Kamila
-    Mushkina, Antonio Kr\"uger
+  author: Akhmajon Makhsadov, Donald Degraen, Andre Zenner, Felix Kosmalla, Kamila
+    Mushkina, Antonio Krüger
   title: "{VRySmart: a Framework for Embedding Smart Devices in Virtual Reality}"
   year: "{2022}"
   isbn: "{9781450391566}"
@@ -6741,7 +6737,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491101.3519613
   bibtex_type: :inproceedings
-  author: Nina D\"ollinger, Erik Wolf, David Mal, Nico Erdmannsd\"orfer, Mario Botsch,
+  author: Nina Döllinger, Erik Wolf, David Mal, Nico Erdmannsdörfer, Mario Botsch,
     Marc Erich Latoschik, Carolin Wienrich
   title: "{Virtual Reality for Mind and Body: Does the Sense of Embodiment Towards
     a Virtual Body Affect Physical Body Awareness?}"
@@ -6805,7 +6801,7 @@
   tags: "{CHI22,Late Breaking Work}"
 - bibtex_key: 10.1145/3491102.3502058
   bibtex_type: :inproceedings
-  author: Sarah Theres V\"olkel, Ramona Schoedel, Lale Kaya, Sven Mayer
+  author: Sarah Theres Völkel, Ramona Schoedel, Lale Kaya, Sven Mayer
   title: "{User Perceptions of Extraversion in Chatbots after Repeated Use}"
   year: "{2022}"
   isbn: "{9781450391573}"
@@ -6972,7 +6968,7 @@
 - bibtex_key: 10.1145/3491102.3517447
   bibtex_type: :inproceedings
   author: Matthias Hoppe, Andrea Baumann, Patrick Chofor Tamunjoh, Tonja-Katrin Machulla,
-    Paweł W. Wo\'zniak, Albrecht Schmidt, Robin Welsch
+    Paweł W. Wozniak, Albrecht Schmidt, Robin Welsch
   title: "{There Is No First- or Third-Person View in Virtual Reality: Understanding
     the Perspective Continuum}"
   year: "{2022}"
@@ -7136,7 +7132,7 @@
   tags: "{CHI22,Late Breaking Work}"
 - bibtex_key: 10.1145/3491102.3501981
   bibtex_type: :inproceedings
-  author: Martin Schmitz, Sebastian G\"unther, Dominik Sch\"on, Florian M\"uller
+  author: Martin Schmitz, Sebastian Günther, Dominik Schön, Florian Müller
   title: "{Squeezy-Feely: Investigating Lateral Thumb-Index Pinching as an Input Modality}"
   year: "{2022}"
   isbn: "{9781450391573}"
@@ -7165,7 +7161,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491101.3519856
   bibtex_type: :inproceedings
-  author: Sara Wolf, Frauke Moerike, Simon Luthe, Ilona Nord, J\"orn Hurtienne
+  author: Sara Wolf, Frauke Moerike, Simon Luthe, Ilona Nord, Jörn Hurtienne
   title: "{Spirituality at the Breakfast Table: Experiences of Christian Online Worship
     Services}"
   year: "{2022}"
@@ -7198,7 +7194,7 @@
 - bibtex_key: 10.1145/3491101.3519758
   bibtex_type: :inproceedings
   author: Dirk Queck, Iannis Albert, Nicole Burkard, Philipp Zimmer, Georg Volkmar,
-    Bastian D\"anekas, Rainer Malaka, Marc Herrlich
+    Bastian Dänekas, Rainer Malaka, Marc Herrlich
   title: "{SpiderClip: Towards an Open Source System for Wearable Device Simulation
     in Virtual Reality}"
   year: "{2022}"
@@ -7231,7 +7227,7 @@
   tags: "{CHI22,Late Breaking Work}"
 - bibtex_key: 10.1145/3491101.3519770
   bibtex_type: :inproceedings
-  author: Anke Brocker, Jakob Str\"uver, Simon Voelker, Jan Borchers
+  author: Anke Brocker, Jakob Strüver, Simon Voelker, Jan Borchers
   title: "{SoRoCAD: A Design Tool for the Building Blocks of Pneumatic Soft Robotics}"
   year: "{2022}"
   isbn: "{9781450391566}"
@@ -7260,8 +7256,8 @@
   tags: "{CHI22,Late Breaking Work}"
 - bibtex_key: 10.1145/3491102.3517454
   bibtex_type: :inproceedings
-  author: Sebastian G\"unther, Julian Rasch, Dominik Sch\"on, Florian M\"uller, Martin
-    Schmitz, Jan Riemann, Andrii Matviienko, Max M\"uhlh\"auser
+  author: Sebastian Günther, Julian Rasch, Dominik Schön, Florian Müller, Martin Schmitz,
+    Jan Riemann, Andrii Matviienko, Max Mühlhäuser
   title: "{Smooth as Steel Wool: Effects of Visual Stimuli on the Haptic Perception
     of Roughness in Virtual Reality}"
   year: "{2022}"
@@ -7294,8 +7290,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491102.3501983
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Florian M\"uller, Martin Schmitz, Marco Fendrich, Max
-    M\"uhlh\"auser
+  author: Andrii Matviienko, Florian Müller, Martin Schmitz, Marco Fendrich, Max Mühlhäuser
   title: "{SkyPort: Investigating 3D Teleportation Methods in Virtual Environments}"
   year: "{2022}"
   isbn: "{9781450391573}"
@@ -7325,7 +7320,7 @@
   tags: "{Full Paper,Honorable Mention,CHI22}"
 - bibtex_key: 10.1145/3491102.3517473
   bibtex_type: :inproceedings
-  author: Oliver Nowak, Ren\'e Sch\"afer, Anke Brocker, Philipp Wacker, Jan Borchers
+  author: Oliver Nowak, Rene Schäfer, Anke Brocker, Philipp Wacker, Jan Borchers
   title: "{Shaping Textile Sliders: An Evaluation of Form Factors and Tick Marks for
     Textile Sliders}"
   year: "{2022}"
@@ -7392,8 +7387,8 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3472617
   bibtex_type: :article
-  author: Rivu Radiah, Ville M\"akel\"a, Sarah Prange, Sarah Delgado Rodriguez, Robin
-    Piening, Yumeng Zhou, Kay K\"ohle, Ken Pfeuffer, Yomna Abdelrahman, Matthias Hoppe,
+  author: Rivu Radiah, Ville Mäkelä, Sarah Prange, Sarah Delgado Rodriguez, Robin
+    Piening, Yumeng Zhou, Kay Köhle, Ken Pfeuffer, Yomna Abdelrahman, Matthias Hoppe,
     Albrecht Schmidt, Florian Alt
   title: "{Remote VR Studies: A Framework for Running Virtual Reality Studies Remotely
     Via Participant-Owned HMDs}"
@@ -7461,8 +7456,8 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491102.3501959
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Florian M\"uller, Marcel Zickler, Lisa Alina Gasche,
-    Julia Abels, Till Steinert, Max M\"uhlh\"auser
+  author: Andrii Matviienko, Florian Müller, Marcel Zickler, Lisa Alina Gasche, Julia
+    Abels, Till Steinert, Max Mühlhäuser
   title: "{Reducing Virtual Reality Sickness for Cyclists in VR Bicycle Simulators}"
   year: "{2022}"
   isbn: "{9781450391573}"
@@ -7525,7 +7520,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491102.3502074
   bibtex_type: :inproceedings
-  author: Narjes Pourjafarian, Marion Koelle, Fjolla Mjaku, Paul Strohmeier, J\"urgen
+  author: Narjes Pourjafarian, Marion Koelle, Fjolla Mjaku, Paul Strohmeier, Jürgen
     Steimle
   title: "{Print-A-Sketch: A Handheld Printer for Physical Sketching of Circuits and
     Sensors on Everyday Surfaces}"
@@ -7621,7 +7616,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491102.3501937
   bibtex_type: :inproceedings
-  author: Ville M\"akel\"a, Jonas Winter, Jasmin Schwab, Michael Koch, Florian Alt
+  author: Ville Mäkelä, Jonas Winter, Jasmin Schwab, Michael Koch, Florian Alt
   title: "{Pandemic Displays: Considering Hygiene on Public Touchscreens in the Post-Pandemic
     Era}"
   year: "{2022}"
@@ -7721,7 +7716,7 @@
   tags: "{Late Breaking Work,CHI22}"
 - bibtex_key: 10.1145/3491102.3517668
   bibtex_type: :inproceedings
-  author: Aditya Shekhar Nittala, J\"urgen Steimle
+  author: Aditya Shekhar Nittala, Jürgen Steimle
   title: "{Next Steps in Epidermal Computing: Opportunities and Challenges for Soft
     On-Skin Devices}"
   year: "{2022}"
@@ -7754,7 +7749,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491102.3501861
   bibtex_type: :inproceedings
-  author: Nadine Wagener, Jasmin Niess, Yvonne Rogers, Johannes Sch\"oning
+  author: Nadine Wagener, Jasmin Niess, Yvonne Rogers, Johannes Schöning
   title: "{Mood Worlds: A Virtual Environment for Autonomous Emotional Expression}"
   year: "{2022}"
   isbn: "{9781450391573}"
@@ -7918,7 +7913,7 @@
 - bibtex_key: 10.1145/3491101.3503743
   bibtex_type: :inproceedings
   author: Karola Marky, Annika Kilian, Andreas Weiß, Jakob Karolus, Matthias Hoppe,
-    Pawel W. Wozniak, Max M\"uhlh\"auser, Thomas Kosch
+    Pawel W. Wozniak, Max Mühlhäuser, Thomas Kosch
   title: "{Intelligent Music Interfaces: When Interactive Assistance and Augmentation
     Meet Musical Instruments}"
   year: "{2022}"
@@ -8010,7 +8005,7 @@
   tags: "{Late Breaking Work,CHI22}"
 - bibtex_key: 10.1145/3491101.3503706
   bibtex_type: :inproceedings
-  author: Vikram Kamath Cannanure, Naveena Karusala, Cuauht\'emoc Rivera-Loaiza, Annu
+  author: Vikram Kamath Cannanure, Naveena Karusala, Cuauhtemoc Rivera-Loaiza, Annu
     Sible Prabhakar, Rama Adithya Varanasi, Anupriya Tuli, Dilrukshi Gamage, Faria
     Noor, David Nemer, Dipto Das, Susan Dray, Christian Sturm, Neha Kumar
   title: "{HCI Across Borders: Navigating Shifting Borders at CHI}"
@@ -8040,7 +8035,7 @@
 - bibtex_key: 10.1145/3491102.3501953
   bibtex_type: :inproceedings
   author: Thomas Muender, Michael Bonfert, Anke Verena Reinschluessel, Rainer Malaka,
-    Tanja D\"oring
+    Tanja Döring
   title: "{Haptic Fidelity Framework: Defining the Factors of Realistic Haptic Feedback
     for Virtual Reality}"
   year: "{2022}"
@@ -8170,8 +8165,8 @@
   tags: "{Late Breaking Work,CHI22}"
 - bibtex_key: 10.1145/3491101.3519715
   bibtex_type: :inproceedings
-  author: Thomas Muender, Anke Verena Reinschluessel, Daniela Salzmann, Thomas L\"uck,
-    Andrea Schenk, Dirk Weyhe, Tanja D\"oring, Rainer Malaka
+  author: Thomas Muender, Anke Verena Reinschluessel, Daniela Salzmann, Thomas Lück,
+    Andrea Schenk, Dirk Weyhe, Tanja Döring, Rainer Malaka
   title: "{Evaluating Soft Organ-Shaped Tangibles for Medical Virtual Reality}"
   year: "{2022}"
   isbn: "{9781450391566}"
@@ -8263,8 +8258,8 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491101.3519831
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Florian M\"uller, Dominik Sch\"on, R\'egis Fayard, Salar
-    Abaspur, Yi Li, Max M\"uhlh\"auser
+  author: Andrii Matviienko, Florian Müller, Dominik Schön, Regis Fayard, Salar Abaspur,
+    Yi Li, Max Mühlhäuser
   title: "{E-ScootAR: Exploring Unimodal Warnings for E-Scooter Riders in Augmented
     Reality}"
   year: "{2022}"
@@ -8295,7 +8290,7 @@
   tags: "{Late Breaking Work,CHI22}"
 - bibtex_key: 10.1145/3491102.3517671
   bibtex_type: :inproceedings
-  author: Martin Feick, Kora Persephone Regitz, Anthony Tang, Antonio Kr\"uger
+  author: Martin Feick, Kora Persephone Regitz, Anthony Tang, Antonio Krüger
   title: "{Designing Visuo-Haptic Illusions with Proxies in Virtual Reality: Exploration
     of Grasp, Movement Trajectory and Object Mass}"
   year: "{2022}"
@@ -8425,8 +8420,8 @@
   tags: "{Late Breaking Work,CHI22}"
 - bibtex_key: 10.1145/3491102.3517560
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Florian M\"uller, Dominik Sch\"on, Paul Seesemann, Sebastian
-    G\"unther, Max M\"uhlh\"auser
+  author: Andrii Matviienko, Florian Müller, Dominik Schön, Paul Seesemann, Sebastian
+    Günther, Max Mühlhäuser
   title: "{BikeAR: Understanding Cyclists’ Crossing Decision-Making at Uncontrolled
     Intersections using Augmented Reality}"
   year: "{2022}"
@@ -8458,7 +8453,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3491102.3517676
   bibtex_type: :inproceedings
-  author: Patrick Reipschl\"ager, Frederik Brudy, Raimund Dachselt, Justin Matejka,
+  author: Patrick Reipschläger, Frederik Brudy, Raimund Dachselt, Justin Matejka,
     George Fitzmaurice, Fraser Anderson
   title: "{AvatAR: An Immersive Analysis Environment for Human Motion Data Combining
     Interactive 3D Avatars and Trajectories}"
@@ -8583,7 +8578,7 @@
 - bibtex_key: 10.1145/3491101.3503711
   bibtex_type: :inproceedings
   author: Anke Brocker, Jose A. Barreiros, Ali Shtarbanov, Kristian Gohlke, Ozgun
-    Kilic Afsar, S\"oren Schr\"oder
+    Kilic Afsar, Sören Schröder
   title: "{Actuated Materials and Soft Robotics Strategies for Human-Computer Interaction
     Design}"
   year: "{2022}"
@@ -8616,7 +8611,7 @@
   tags: "{Workshop,CHI22}"
 - bibtex_key: 10.1145/3491101.3519701
   bibtex_type: :inproceedings
-  author: Mark Colley, Taras Kr\"anzle, Enrico Rukzio
+  author: Mark Colley, Taras Kränzle, Enrico Rukzio
   title: "{Accessibility-Related Publication Distribution in HCI Based on a Meta-Analysis}"
   year: "{2022}"
   isbn: "{9781450391566}"
@@ -8644,8 +8639,8 @@
   tags: "{Late Breaking Work,CHI22}"
 - bibtex_key: 10.1145/3491102.3517531
   bibtex_type: :inproceedings
-  author: Yasmeen Abdrabou, Johannes Sch\"utte, Ahmed Shams, Ken Pfeuffer, Daniel
-    Buschek, Mohamed Khamis, Florian Alt
+  author: Yasmeen Abdrabou, Johannes Schütte, Ahmed Shams, Ken Pfeuffer, Daniel Buschek,
+    Mohamed Khamis, Florian Alt
   title: "{”Your Eyes Tell You Have Used This Password Before”: Identifying Password
     Reuse from Gaze and Keystroke Dynamics}"
   year: "{2022}"
@@ -8807,7 +8802,7 @@
   tags: "{Full Paper,CHI22}"
 - bibtex_key: 10.1145/3411764.3445607
   bibtex_type: :inproceedings
-  author: Philip Weber, Thomas Ludwig, Sabrina Brodesser, Laura Gr\"onewald
+  author: Philip Weber, Thomas Ludwig, Sabrina Brodesser, Laura Grönewald
   title: "{“It's a Kind of Art!”: Understanding Food Influencers as Influential Content
     Creators}"
   year: "{2021}"
@@ -8904,8 +8899,8 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451594
   bibtex_type: :inproceedings
-  author: Anke Verena Reinschluessel, Thomas Muender, Tanja D\"oring, Verena Nicole
-    Uslar, Thomas L\"uck, Dirk Weyhe, Andrea Schenk, Rainer Malaka
+  author: Anke Verena Reinschluessel, Thomas Muender, Tanja Döring, Verena Nicole
+    Uslar, Thomas Lück, Dirk Weyhe, Andrea Schenk, Rainer Malaka
   title: "{A Study on the Size of Tangible Organ-shaped Controllers for Exploring
     Medical Data in VR}"
   year: "{2021}"
@@ -8937,7 +8932,7 @@
   tags: "{Late Breaking Work,CHI21}"
 - bibtex_key: 10.1145/3411764.3445480
   bibtex_type: :inproceedings
-  author: Kai Holl\"ander, Mark Colley, Enrico Rukzio, Andreas Butz
+  author: Kai Holländer, Mark Colley, Enrico Rukzio, Andreas Butz
   title: "{A Taxonomy of Vulnerable Road Users for HCI Based On A Systematic Literature
     Review}"
   year: "{2021}"
@@ -9068,7 +9063,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445398
   bibtex_type: :inproceedings
-  author: Stephanie Arevalo Arboleda, Franziska R\"ucker, Tim Dierks, Jens Gerken
+  author: Stephanie Arevalo Arboleda, Franziska Rücker, Tim Dierks, Jens Gerken
   title: "{Assisting Manipulation and Grasping in Robot Teleoperation with Augmented
     Reality Visual Cues}"
   year: "{2021}"
@@ -9102,7 +9097,7 @@
 - bibtex_key: 10.1145/3411764.3445475
   bibtex_type: :inproceedings
   author: Narjes Pourjafarian, Marion Koelle, Bruno Fruchard, Sahar Mavali, Konstantin
-    Klamka, Daniel Groeger, Paul Strohmeier, J\"urgen Steimle
+    Klamka, Daniel Groeger, Paul Strohmeier, Jürgen Steimle
   title: "{BodyStylus: Freehand On-Body Design and Fabrication of Epidermal Interfaces}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -9136,7 +9131,7 @@
 - bibtex_key: 10.1145/3411764.3445613
   bibtex_type: :inproceedings
   author: Sachith Muthukumarana, Moritz Alexander Messerschmidt, Denys J.C. Matthies,
-    J\"urgen Steimle, Philipp M. Scholl, Suranga Nanayakkara
+    Jürgen Steimle, Philipp M. Scholl, Suranga Nanayakkara
   title: "{ClothTiles: A Prototyping Platform to Fabricate Customized Actuators on
     Clothing using 3D Printing and Shape-Memory Alloys}"
   year: "{2021}"
@@ -9198,9 +9193,9 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3441328
   bibtex_type: :inproceedings
-  author: Marios Mouratidis, Sarah R\"uller, Konstantin Aal, Shaimaa Lazem, Anicia
-    Peters, Nina Boulus-Rødje, Simon Holdermann, Vasilis Vlachokyriakos, Ann Light,
-    Dave Randall, Volker Wulf
+  author: Marios Mouratidis, Sarah Rüller, Konstantin Aal, Shaimaa Lazem, Anicia Peters,
+    Nina Boulus-Rødje, Simon Holdermann, Vasilis Vlachokyriakos, Ann Light, Dave Randall,
+    Volker Wulf
   title: "{Coping with Messiness in Ethnography: Authority, Bias and Immersion in
     ethnographic Fieldwork in the non-Western World}"
   year: "{2021}"
@@ -9230,8 +9225,8 @@
   tags: "{Workshop,CHI21}"
 - bibtex_key: 10.1145/3411764.3445299
   bibtex_type: :inproceedings
-  author: Paweł W. Wo\'zniak, Jakob Karolus, Florian Lang, Caroline Eckerth, Johannes
-    Sch\"oning, Yvonne Rogers, Jasmin Niess
+  author: Paweł W. Wozniak, Jakob Karolus, Florian Lang, Caroline Eckerth, Johannes
+    Schöning, Yvonne Rogers, Jasmin Niess
   title: "{Creepy Technology:What Is It and How Do You Measure It?}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -9262,7 +9257,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445335
   bibtex_type: :inproceedings
-  author: Veronika Krauß, Alexander Boden, Leif Oppermann, Ren\'e Reiners
+  author: Veronika Krauß, Alexander Boden, Leif Oppermann, Rene Reiners
   title: "{Current Practices, Challenges, and Design Implications for Collaborative
     AR/VR Application Development}"
   year: "{2021}"
@@ -9295,8 +9290,7 @@
 - bibtex_key: 10.1145/3411763.3441316
   bibtex_type: :inproceedings
   author: Gian-Luca Savino, Tamara von Sawitzky, Andrii Matviienko, Miriam Sturdee,
-    Paweł W. Wo\'zniak, Markus L\"ochtefeld, Andrew L. Kun, Andreas Riener, Jonna
-    H\"akkil\"a
+    Paweł W. Wozniak, Markus Löchtefeld, Andrew L. Kun, Andreas Riener, Jonna Häkkilä
   title: "{Cycling@CHI: Towards a Research Agenda for HCI in the Bike Lane}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -9325,7 +9319,7 @@
 - bibtex_key: 10.1145/3411763.3441348
   bibtex_type: :inproceedings
   author: Vikram Kamath Cannanure, Dilrukshi Gamage, Christian Sturm, Heike Winschiers-Theophilus,
-    Juan Fernando Maestre, Naveena Karusala, Pedro Reynolds-Cu\'ellar, Neha Kumar
+    Juan Fernando Maestre, Naveena Karusala, Pedro Reynolds-Cuellar, Neha Kumar
   title: "{Decolonizing HCI Across Borders}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -9356,7 +9350,7 @@
 - bibtex_key: 10.1145/3411763.3441339
   bibtex_type: :inproceedings
   author: David Struzek, Katerina Cerna, Richard Paluch, Sven Bittenbinder, Claudia
-    M\"uller, Arlind Reuter, Lydia Stamato, \"Ozge Subasi, Foad Hamidi, John Vines
+    Müller, Arlind Reuter, Lydia Stamato, Özge Subasi, Foad Hamidi, John Vines
   title: "{Designing for New Forms of Vulnerability: Exploring transformation and
     empowerment in times of COVID-19}"
   year: "{2021}"
@@ -9423,8 +9417,8 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445536
   bibtex_type: :inproceedings
-  author: Sarah Theres V\"olkel, Daniel Buschek, Malin Eiband, Benjamin R. Cowan,
-    Heinrich Hussmann
+  author: Sarah Theres Völkel, Daniel Buschek, Malin Eiband, Benjamin R. Cowan, Heinrich
+    Hussmann
   title: "{Eliciting and Analysing Users’ Envisioned Dialogues with Perfect Voice
     Assistants}"
   year: "{2021}"
@@ -9456,7 +9450,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451556
   bibtex_type: :inproceedings
-  author: Annika Kilian, Jakob Karolus, Thomas Kosch, Albrecht Schmidt, Paweł W. Wo\'zniak
+  author: Annika Kilian, Jakob Karolus, Thomas Kosch, Albrecht Schmidt, Paweł W. Wozniak
   title: "{EMPiano: Electromyographic Pitch Control on the Piano Keyboard}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -9520,7 +9514,7 @@
 - bibtex_key: 10.1145/3411763.3441337
   bibtex_type: :inproceedings
   author: Dmitry Alexandrovsky, Susanne Putze, Valentin Schwind, Elisa D. Mekler,
-    Jan David Smeddinck, Denise Kahl, Antonio Kr\"uger, Rainer Malaka
+    Jan David Smeddinck, Denise Kahl, Antonio Krüger, Rainer Malaka
   title: "{Evaluating User Experiences in Mixed Reality}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -9537,7 +9531,7 @@
   tags: "{Workshop,CHI21}"
 - bibtex_key: 10.1145/3411763.3445022
   bibtex_type: :inproceedings
-  author: Albrecht Schmidt, Florian Alt, Ville M\"akel\"a
+  author: Albrecht Schmidt, Florian Alt, Ville Mäkelä
   title: "{Evaluation in Human-Computer Interaction – Beyond Lab Studies}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -9563,7 +9557,7 @@
   tags: "{Course,CHI21}"
 - bibtex_key: 10.1145/3411763.3441343
   bibtex_type: :inproceedings
-  author: Florian Daiber, Donald Degraen, Andr\'e Zenner, Tanja D\"oring, Frank Steinicke,
+  author: Florian Daiber, Donald Degraen, Andre Zenner, Tanja Döring, Frank Steinicke,
     Oscar Javier Ariza Nunez, Adalberto L. Simeone
   title: "{Everyday Proxy Objects for Virtual Reality}"
   year: "{2021}"
@@ -9630,8 +9624,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445491
   bibtex_type: :inproceedings
-  author: Marc Teyssier, Marion Koelle, Paul Strohmeier, Bruno Fruchard, J\"urgen
-    Steimle
+  author: Marc Teyssier, Marion Koelle, Paul Strohmeier, Bruno Fruchard, Jürgen Steimle
   title: "{Eyecam: Revealing Relations between Humans and Sensing Devices through
     an Anthropomorphic Webcam}"
   year: "{2021}"
@@ -9862,7 +9855,7 @@
 - bibtex_key: 10.1145/3411764.3446866
   bibtex_type: :inproceedings
   author: Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano,
-    Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang B\"uschel, Cody Dunne,
+    Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang Büschel, Cody Dunne,
     Tim Dwyer, Jens Grubert, Jason H. Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica
     Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter
     Schmalstieg, Danielle Albers Szafir, Matt Whitlock, Yalong Yang
@@ -9895,7 +9888,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445504
   bibtex_type: :inproceedings
-  author: Ville M\"akel\"a, Johannes Kleine, Maxine Hood, Florian Alt, Albrecht Schmidt
+  author: Ville Mäkelä, Johannes Kleine, Maxine Hood, Florian Alt, Albrecht Schmidt
   title: "{Hidden Interaction Techniques: Concealed Information Acquisition and Texting
     on Smartphones and Wearables}"
   year: "{2021}"
@@ -9928,8 +9921,8 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445488
   bibtex_type: :inproceedings
-  author: Sebastian Linxen, Christian Sturm, Florian Br\"uhlmann, Vincent Cassau,
-    Klaus Opwis, Katharina Reinecke
+  author: Sebastian Linxen, Christian Sturm, Florian Brühlmann, Vincent Cassau, Klaus
+    Opwis, Katharina Reinecke
   title: "{How WEIRD is CHI?}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -9963,7 +9956,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451814
   bibtex_type: :inproceedings
-  author: Andr\'e Zenner, Hannah Maria Kriegler, Antonio Kr\"uger
+  author: Andre Zenner, Hannah Maria Kriegler, Antonio Krüger
   title: "{HaRT - The Virtual Reality Hand Redirection Toolkit}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -10093,8 +10086,7 @@
   tags: "{Late Breaking Work,CHI21}"
 - bibtex_key: 10.1145/3411763.3451791
   bibtex_type: :inproceedings
-  author: Alina St\"over, Nina Gerber, Sushma Kaushik, Max M\"uhlh\"auser, Karola
-    Marky
+  author: Alina Stöver, Nina Gerber, Sushma Kaushik, Max Mühlhäuser, Karola Marky
   title: "{Investigating Simple Privacy Indicators for Supporting Users when Installing
     New Mobile Apps}"
   year: "{2021}"
@@ -10123,8 +10115,7 @@
   tags: "{Late Breaking Work,CHI21}"
 - bibtex_key: 10.1145/3411764.3445389
   bibtex_type: :inproceedings
-  author: Max Kr\"uger, Anne Weibert, Debora de Castro Leal, Dave Randall, Volker
-    Wulf
+  author: Max Krüger, Anne Weibert, Debora de Castro Leal, Dave Randall, Volker Wulf
   title: "{It Takes More Than One Hand to Clap: On the Role of ‘Care’ in Maintaining
     Design Results.}"
   year: "{2021}"
@@ -10154,8 +10145,8 @@
   tags: "{Full Paper,Honorable Mention,CHI21}"
 - bibtex_key: 10.1145/3411764.3445502
   bibtex_type: :inproceedings
-  author: Martin Schmitz, Florian M\"uller, Max M\"uhlh\"auser, Jan Riemann, Huy Viet
-    Viet Le
+  author: Martin Schmitz, Florian Müller, Max Mühlhäuser, Jan Riemann, Huy Viet Viet
+    Le
   title: "{Itsy-Bits: Fabrication and Recognition of 3D-Printed Tangibles with Small
     Footprints on Capacitive Touchscreens}"
   year: "{2021}"
@@ -10187,8 +10178,8 @@
   tags: "{Full Paper,Honorable Mention,CHI21}"
 - bibtex_key: 10.1145/3411764.3445496
   bibtex_type: :inproceedings
-  author: Maximilian D\"urr, Marcel Borowski, Carla Gr\"oschel, Ulrike Pfeil, Jens
-    M\"uller, Harald Reiterer
+  author: Maximilian Dürr, Marcel Borowski, Carla Gröschel, Ulrike Pfeil, Jens Müller,
+    Harald Reiterer
   title: "{KiTT - The Kinaesthetics Transfer Teacher: Design and Evaluation of a Tablet-based
     System to Promote the Learning of Ergonomic Patient Transfers}"
   year: "{2021}"
@@ -10220,7 +10211,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451536
   bibtex_type: :inproceedings
-  author: Karola Marky, Andreas Weiß, Florian M\"uller, Martin Schmitz, Max M\"uhlh\"auser,
+  author: Karola Marky, Andreas Weiß, Florian Müller, Martin Schmitz, Max Mühlhäuser,
     Thomas Kosch
   title: "{Let’s Frets! Mastering Guitar Playing with Capacitive Sensing and Visual
     Guidance}"
@@ -10252,8 +10243,7 @@
 - bibtex_key: 10.1145/3411764.3445595
   bibtex_type: :inproceedings
   author: Karola Marky, Andreas Weiß, Andrii Matviienko, Florian Brandherm, Sebastian
-    Wolf, Martin Schmitz, Florian Krell, Florian M\"uller, Max M\"uhlh\"auser, Thomas
-    Kosch
+    Wolf, Martin Schmitz, Florian Krell, Florian Müller, Max Mühlhäuser, Thomas Kosch
   title: "{Let’s Frets! Assisting Guitar Students During Practice via Capacitive Sensing}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -10380,7 +10370,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445506
   bibtex_type: :inproceedings
-  author: Paweł W. Wo\'zniak, Monika Zbytniewska, Francisco Kiss, Jasmin Niess
+  author: Paweł W. Wozniak, Monika Zbytniewska, Francisco Kiss, Jasmin Niess
   title: "{Making Sense of Complex Running Metrics Using a Modified Running Shoe}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -10410,7 +10400,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445593
   bibtex_type: :inproceedings
-  author: Ricardo Langner, Marc Satkowski, Wolfgang B\"uschel, Raimund Dachselt
+  author: Ricardo Langner, Marc Satkowski, Wolfgang Büschel, Raimund Dachselt
   title: "{MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data
     Analysis}"
   year: "{2021}"
@@ -10444,7 +10434,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451581
   bibtex_type: :inproceedings
-  author: Annika Kaltenhauser, Na\dja Terzimehi\'c, Andreas Butz
+  author: Annika Kaltenhauser, Na\dja Terzimehic, Andreas Butz
   title: "{MEMEography: Understanding Users Through Internet Memes}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -10474,7 +10464,7 @@
   tags: "{Late Breaking Work,CHI21}"
 - bibtex_key: 10.1145/3411764.3445651
   bibtex_type: :inproceedings
-  author: Wolfgang B\"uschel, Anke Lehmann, Raimund Dachselt
+  author: Wolfgang Büschel, Anke Lehmann, Raimund Dachselt
   title: "{MIRIA: A Mixed Reality Toolkit for the In-Situ Visualization and Analysis
     of Spatio-Temporal Interaction Data}"
   year: "{2021}"
@@ -10507,7 +10497,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445641
   bibtex_type: :inproceedings
-  author: Martin Schmitz, Jan Riemann, Florian M\"uller, Steffen Kreis, Max M\"uhlh\"auser
+  author: Martin Schmitz, Jan Riemann, Florian Müller, Steffen Kreis, Max Mühlhäuser
   title: "{Oh, Snap! A Fabrication Pipeline to Magnetically Connect Conventional and
     3D-Printed Electronics}"
   year: "{2021}"
@@ -10540,7 +10530,7 @@
   tags: "{Full Paper,Best Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445263
   bibtex_type: :inproceedings
-  author: Debora de Castro Leal, Angelika Strohmayer, Max Kr\"uger
+  author: Debora de Castro Leal, Angelika Strohmayer, Max Krüger
   title: "{On Activism and Academia: Reflecting Together and Sharing Experiences Among
     Critical Friends}"
   year: "{2021}"
@@ -10570,7 +10560,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451831
   bibtex_type: :inproceedings
-  author: Na\dja Terzimehi\'c, Ceenu George, Renate H\"auslschmid, Heinrich Hussmann
+  author: Na\dja Terzimehic, Ceenu George, Renate Häuslschmid, Heinrich Hussmann
   title: "{On Ubiquitous Technology, a Digital World and their Influence&nbsp;on People’s
     Feeling and Control of Presence&nbsp;in&nbsp; Everyday Life}"
   year: "{2021}"
@@ -10632,7 +10622,7 @@
   tags: "{Workshop,CHI21}"
 - bibtex_key: 10.1145/3411764.3445160
   bibtex_type: :inproceedings
-  author: Martin Kocur, Florian Habler, Valentin Schwind, Paweł W. Wo\'zniak, Christian
+  author: Martin Kocur, Florian Habler, Valentin Schwind, Paweł W. Wozniak, Christian
     Wolff, Niels Henze
   title: "{Physiological and Perceptual Responses to Athletic Avatars while Cycling
     in Virtual Reality}"
@@ -10836,7 +10826,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3443427
   bibtex_type: :inproceedings
-  author: Na\dja Terzimehi\'c
+  author: Na\dja Terzimehic
   title: "{Real-World Presence in the Era of Ubiquitous Computing}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -10934,7 +10924,7 @@
 - bibtex_key: 10.1145/3411764.3445665
   bibtex_type: :inproceedings
   author: Daniel Diethei, Jasmin Niess, Carolin Stellmacher, Evropi Stefanidi, Johannes
-    Sch\"oning
+    Schöning
   title: "{Sharing Heartbeats: Motivations of Citizen Scientists in Times of Crises}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -10963,7 +10953,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3396233
   bibtex_type: :article
-  author: Huy Viet Le, Sven Mayer, Maximilian Weiß, Jonas Vogelsang, Henrike Weing\"artner,
+  author: Huy Viet Le, Sven Mayer, Maximilian Weiß, Jonas Vogelsang, Henrike Weingärtner,
     Niels Henze
   title: "{Shortcut Gestures for Mobile Text Editing on Fully Touch Sensitive Smartphones}"
   year: "{2020}"
@@ -10998,7 +10988,7 @@
 - bibtex_key: 10.1145/3411764.3445197
   bibtex_type: :inproceedings
   author: Adwait Sharma, Michael A. Hedderich, Divyanshu Bhardwaj, Bruno Fruchard,
-    Jess McIntosh, Aditya Shekhar Nittala, Dietrich Klakow, Daniel Ashbrook, J\"urgen
+    Jess McIntosh, Aditya Shekhar Nittala, Dietrich Klakow, Daniel Ashbrook, Jürgen
     Steimle
   title: "{SoloFinger: Robust Microgestures while Grasping Everyday Objects}"
   year: "{2021}"
@@ -11030,7 +11020,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445560
   bibtex_type: :inproceedings
-  author: Leon M\"uller, Ken Pfeuffer, Jan Gugenheimer, Bastian Pfleging, Sarah Prange,
+  author: Leon Müller, Ken Pfeuffer, Jan Gugenheimer, Bastian Pfleging, Sarah Prange,
     Florian Alt
   title: "{SpatialProto: Exploring Real-World Motion Captures for Rapid Prototyping
     of Interactive Mixed Reality}"
@@ -11062,7 +11052,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445623
   bibtex_type: :inproceedings
-  author: Bruno Fruchard, Paul Strohmeier, Roland Bennewitz, J\"urgen Steimle
+  author: Bruno Fruchard, Paul Strohmeier, Roland Bennewitz, Jürgen Steimle
   title: "{Squish This: Force Input on Soft Surfacesfor Visual Targeting Tasks}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -11161,7 +11151,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411764.3445673
   bibtex_type: :inproceedings
-  author: Marit Bentvelzen, Jasmin Niess, Mikołaj P. Wo\'zniak, Paweł W. Wo\'zniak
+  author: Marit Bentvelzen, Jasmin Niess, Mikołaj P. Wozniak, Paweł W. Wozniak
   title: "{The Development and Validation of the Technology-Supported Reflection Inventory}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -11192,7 +11182,7 @@
   tags: "{Full Paper,Honorable Mention,CHI21}"
 - bibtex_key: 10.1145/3411764.3445372
   bibtex_type: :inproceedings
-  author: Daniel Buschek, Martin Z\"urn, Malin Eiband
+  author: Daniel Buschek, Martin Zürn, Malin Eiband
   title: "{The Impact of Multiple Parallel Phrase Suggestions on Email Input and Composition
     Behaviour of Native and Non-Native English Writers}"
   year: "{2021}"
@@ -11351,7 +11341,7 @@
   tags: "{Late Breaking Work,CHI21}"
 - bibtex_key: 10.1145/3411764.3445505
   bibtex_type: :inproceedings
-  author: Marit Bentvelzen, Jasmin Niess, Paweł W. Wo\'zniak
+  author: Marit Bentvelzen, Jasmin Niess, Paweł W. Wozniak
   title: "{The Technology-Mediated Reflection Model: Barriers and Assistance in Data-Driven
     Reflection}"
   year: "{2021}"
@@ -11417,7 +11407,7 @@
   tags: "{Full Paper,CHI21}"
 - bibtex_key: 10.1145/3411763.3451638
   bibtex_type: :inproceedings
-  author: Felix Kosmalla, Fabian Hupperich, Anke Hirsch, Florian Daiber, Antonio Kr\"uger
+  author: Felix Kosmalla, Fabian Hupperich, Anke Hirsch, Florian Daiber, Antonio Krüger
   title: "{VirtualLadder: Using Interactive Projections for Agility Ladder Training}"
   year: "{2021}"
   isbn: "{9781450380959}"
@@ -11447,7 +11437,7 @@
   tags: "{Late Breaking Work,CHI21}"
 - bibtex_key: 10.1145/3411764.3445465
   bibtex_type: :inproceedings
-  author: Daniel Reinhardt, Johannes Borchard, J\"orn Hurtienne
+  author: Daniel Reinhardt, Johannes Borchard, Jörn Hurtienne
   title: "{Visual Interactive Privacy Policy: The Better Choice?}"
   year: "{2021}"
   isbn: "{9781450380966}"
@@ -11479,7 +11469,7 @@
   tags: "{CHI21,Full Paper}"
 - bibtex_key: 10.1145/3411764.3445456
   bibtex_type: :inproceedings
-  author: Martin Feick, Niko Kleer, Andr\'e Zenner, Anthony Tang, Antonio Kr\"uger
+  author: Martin Feick, Niko Kleer, Andre Zenner, Anthony Tang, Antonio Krüger
   title: "{Visuo-haptic Illusions for Linear Translation and Stretching using Physical
     Proxies in Virtual Reality}"
   year: "{2021}"
@@ -11545,8 +11535,7 @@
   tags: "{Interactivity/Demonstration,CHI21}"
 - bibtex_key: 10.1145/3411763.3451671
   bibtex_type: :inproceedings
-  author: Andrii Matviienko, Marcel Langer, Florian M\"uller, Martin Schmitz, Max
-    M\"uhlh\"auser
+  author: Andrii Matviienko, Marcel Langer, Florian Müller, Martin Schmitz, Max Mühlhäuser
   title: "{VRtangibles: Assisting Children in Creating Virtual Scenes using Tangible
     Objects and Touch Input}"
   year: "{2021}"
@@ -11609,7 +11598,7 @@
 - bibtex_key: 10.1145/3313831.3376189
   bibtex_type: :inproceedings
   author: Karola Marky, Martin Schmitz, Verena Zimmermann, Martin Herbers, Kai Kunze,
-    Max M\"uhlh\"auser
+    Max Mühlhäuser
   title: "{3D-Auth: Two-Factor Authentication with Personalized 3D-Printed Items}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -11673,7 +11662,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3382805
   bibtex_type: :inproceedings
-  author: Thiemo Wambsganss, Rainer Winkler, Matthias S\"ollner, Jan Marco Leimeister
+  author: Thiemo Wambsganss, Rainer Winkler, Matthias Söllner, Jan Marco Leimeister
   title: "{A Conversational Agent to Improve Response Quality in Course Evaluations}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -11737,7 +11726,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376266
   bibtex_type: :inproceedings
-  author: Kuno Kurzhals, Fabian G\"obel, Katrin Angerbauer, Michael Sedlmair, Martin
+  author: Kuno Kurzhals, Fabian Göbel, Katrin Angerbauer, Michael Sedlmair, Martin
     Raubal
   title: "{A View on the Viewer: Gaze-Adaptive Captions for Videos}"
   year: "{2020}"
@@ -11770,8 +11759,8 @@
   tags: "{Full Paper,Honorable Mention,CHI20}"
 - bibtex_key: 10.1145/3334480.3382953
   bibtex_type: :inproceedings
-  author: Andr\'e Zenner, Felix Kosmalla, Jan Ehrlich, Philip Hell, Gerrit Kahl, Christian
-    Murlowski, Marco Speicher, Florian Daiber, Daniel Heinrich, Antonio Kr\"uger
+  author: Andre Zenner, Felix Kosmalla, Jan Ehrlich, Philip Hell, Gerrit Kahl, Christian
+    Murlowski, Marco Speicher, Florian Daiber, Daniel Heinrich, Antonio Krüger
   title: "{A Virtual Reality Couch Configurator Leveraging Passive Haptic Feedback}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -11803,7 +11792,7 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3313831.3376851
   bibtex_type: :inproceedings
-  author: Maximilian D\"urr, Carla Gr\"oschel, Ulrike Pfeil, Harald Reiterer
+  author: Maximilian Dürr, Carla Gröschel, Ulrike Pfeil, Harald Reiterer
   title: "{NurseCare: Design and 'In-The-Wild' Evaluation of a Mobile System to Promote
     the Ergonomic Transfer of Patients}"
   year: "{2020}"
@@ -11835,7 +11824,7 @@
   tags: "{Full Paper,Honorable Mention,CHI20}"
 - bibtex_key: 10.1145/3334480.3382797
   bibtex_type: :inproceedings
-  author: Kai Holl\"ander, Luca Schellenberg, Changkun Ou, Andreas Butz
+  author: Kai Holländer, Luca Schellenberg, Changkun Ou, Andreas Butz
   title: "{All Fun and Games: Obtaining Critical Pedestrian Behavior Data from an
     Online Simulation}"
   year: "{2020}"
@@ -11868,8 +11857,8 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3334480.3383016
   bibtex_type: :inproceedings
-  author: Karola Marky, Verena Zimmermann, Alina St\"over, Philipp Hoffmann, Kai Kunze,
-    Max M\"uhlh\"auser
+  author: Karola Marky, Verena Zimmermann, Alina Stöver, Philipp Hoffmann, Kai Kunze,
+    Max Mühlhäuser
   title: "{All in One! User Perceptions on Centralized IoT Privacy Settings}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -11899,7 +11888,7 @@
 - bibtex_key: 10.1145/3334480.3382860
   bibtex_type: :inproceedings
   author: Donald Degraen, Marc Schubhan, Kamila Mushkina, Akhmajon Makhsadov, Felix
-    Kosmalla, Andr\'e Zenner, Antonio Kr\"uger
+    Kosmalla, Andre Zenner, Antonio Krüger
   title: "{AmbiPlant - Ambient Feedback for Digital Media through Actuated Plants}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -11928,8 +11917,8 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3313831.3376675
   bibtex_type: :inproceedings
-  author: Matthias Kraus, Katrin Angerbauer, Juri Buchm\"uller, Daniel Schweitzer,
-    Daniel A. Keim, Michael Sedlmair, Johannes Fuchs
+  author: Matthias Kraus, Katrin Angerbauer, Juri Buchmüller, Daniel Schweitzer, Daniel
+    A. Keim, Michael Sedlmair, Johannes Fuchs
   title: "{Assessing 2D and 3D Heatmaps for Comparative Analysis: An Empirical Study}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -11989,7 +11978,7 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3334480.3383022
   bibtex_type: :inproceedings
-  author: Tamara von Sawitzky, Philipp Wintersberger, Andreas L\"ocken, Anna-Katharina
+  author: Tamara von Sawitzky, Philipp Wintersberger, Andreas Löcken, Anna-Katharina
     Frison, Andreas Riener
   title: "{Augmentation Concepts with HUDs for Cyclists to Improve Road Safety in
     Shared Spaces}"
@@ -12023,7 +12012,7 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3334480.3383138
   bibtex_type: :inproceedings
-  author: Patrick Reipschl\"ager, Severin Engert, Raimund Dachselt
+  author: Patrick Reipschläger, Severin Engert, Raimund Dachselt
   title: "{Augmented Displays: Seamlessly Extending Interactive Surfaces With Head-Mounted
     Augmented Reality}"
   year: "{2020}"
@@ -12120,7 +12109,7 @@
   tags: "{Full Paper,Honorable Mention,CHI20}"
 - bibtex_key: 10.1145/3313831.3376720
   bibtex_type: :inproceedings
-  author: Sebastian B\"uttner, Michael Prilla, Carsten R\"ocker
+  author: Sebastian Büttner, Michael Prilla, Carsten Röcker
   title: "{Augmented Reality Training for Industrial Assembly Work - Are Projection-based
     AR Assistive Systems an Appropriate Tool for Assembly Training?}"
   year: "{2020}"
@@ -12184,7 +12173,7 @@
   tags: "{Workshop,CHI20}"
 - bibtex_key: 10.1145/3334480.3381054
   bibtex_type: :inproceedings
-  author: Clemens Schartm\"uller, Sayan Sarcar, Andreas Riener, Andrew L. Kun, Orit
+  author: Clemens Schartmüller, Sayan Sarcar, Andreas Riener, Andrew L. Kun, Orit
     Shaer, Linda Ng Boyle, Shamsi Iqbal
   title: "{Automated Cars as Living Rooms and Offices: Challenges and Opportunities}"
   year: "{2020}"
@@ -12248,7 +12237,7 @@
   month_numeric: "{4}"
 - bibtex_key: 10.1145/3334480.3382957
   bibtex_type: :inproceedings
-  author: Champika Ranasinghe, Kai Holl\"ander, Rebecca Currano, David Sirkin, Dylan
+  author: Champika Ranasinghe, Kai Holländer, Rebecca Currano, David Sirkin, Dylan
     Moore, Stefan Schneegass, Wendy Ju
   title: "{Autonomous Vehicle-Pedestrian Interaction Across Cultures: Towards Designing
     Better External Human Machine Interfaces (eHMIs)}"
@@ -12283,7 +12272,7 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3313831.3376507
   bibtex_type: :inproceedings
-  author: Judith D\"orrenb\"acher, Diana L\"offler, Marc Hassenzahl
+  author: Judith Dörrenbächer, Diana Löffler, Marc Hassenzahl
   title: "{Becoming a Robot - Overcoming Anthropomorphism with Techno-Mimesis}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -12409,7 +12398,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376144
   bibtex_type: :inproceedings
-  author: Susanne Putze, Dmitry Alexandrovsky, Felix Putze, Sebastian H\"offner, Jan
+  author: Susanne Putze, Dmitry Alexandrovsky, Felix Putze, Sebastian Höffner, Jan
     David Smeddinck, Rainer Malaka
   title: "{Breaking The Experience: Effects of Questionnaires in VR User Studies}"
   year: "{2020}"
@@ -12509,7 +12498,7 @@
   tags: "{Case Study,CHI20}"
 - bibtex_key: 10.1145/3334480.3383043
   bibtex_type: :inproceedings
-  author: Tim D\"uwel, Nico Herbig, Denise Kahl, Antonio Kr\"uger
+  author: Tim Düwel, Nico Herbig, Denise Kahl, Antonio Krüger
   title: "{Combining Embedded Computation and Image Tracking for Composing Tangible
     Augmented Reality}"
   year: "{2020}"
@@ -12543,7 +12532,7 @@
 - bibtex_key: 10.1145/3334480.3383148
   bibtex_type: :inproceedings
   author: Paul Strohmeier, Cedric Honnet, Hannah Perner-Wilson, Marc Teyssier, Bruno
-    Fruchard, Ana Baptista, J\"urgen Steimle
+    Fruchard, Ana Baptista, Jürgen Steimle
   title: "{Demo of PolySense: How to Make Electrically Functional Textiles}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -12572,7 +12561,7 @@
   tags: "{Interactivity/Demonstration,CHI20}"
 - bibtex_key: 10.1145/3334480.3383139
   bibtex_type: :inproceedings
-  author: Konstantin Klamka, Raimund Dachselt, J\"urgen Steimle
+  author: Konstantin Klamka, Raimund Dachselt, Jürgen Steimle
   title: "{Demonstrating Rapid Iron-On User Interfaces: Hands-on Fabrication of Interactive
     Textile Prototypes}"
   year: "{2020}"
@@ -12605,7 +12594,7 @@
   tags: "{Interactivity/Demonstration,CHI20}"
 - bibtex_key: 10.1145/3334480.3383145
   bibtex_type: :inproceedings
-  author: Andr\'e Zenner, Donald Degraen, Florian Daiber, Antonio Kr\"uger
+  author: Andre Zenner, Donald Degraen, Florian Daiber, Antonio Krüger
   title: "{Demonstration of Drag:on - A VR Controller Providing Haptic Feedback Based
     on Drag and Weight Shift}"
   year: "{2020}"
@@ -12639,7 +12628,7 @@
 - bibtex_key: 10.1145/3334480.3375148
   bibtex_type: :inproceedings
   author: Susanne Boll, Philippe Palanque, Alexander G. Mirnig, Jessica Cauchard,
-    Margareta Holtensdotter L\"utzh\"oft, Michael S. Feary
+    Margareta Holtensdotter Lützhöft, Michael S. Feary
   title: "{Designing Safety Critical Interactions: Hunting Down Human Error}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -12669,8 +12658,8 @@
   tags: "{Workshop,CHI20}"
 - bibtex_key: 10.1145/3313831.3376210
   bibtex_type: :inproceedings
-  author: Sarah Theres V\"olkel, Ramona Sch\"odel, Daniel Buschek, Clemens Stachl,
-    Verena Winterhalter, Markus B\"uhner, Heinrich Hussmann
+  author: Sarah Theres Völkel, Ramona Schödel, Daniel Buschek, Clemens Stachl, Verena
+    Winterhalter, Markus Bühner, Heinrich Hussmann
   title: "{Developing a Personality Model for Speech-based Conversational Agents Using
     the Psycholexical Approach}"
   year: "{2020}"
@@ -12702,7 +12691,7 @@
   tags: "{Full Paper,Honorable Mention,CHI20}"
 - bibtex_key: 10.1145/3313831.3376194
   bibtex_type: :inproceedings
-  author: Myroslav Bachynskyi, J\"org M\"uller
+  author: Myroslav Bachynskyi, Jörg Müller
   title: "{Dynamics of Aimed Mid-air Movements}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -12794,7 +12783,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376556
   bibtex_type: :inproceedings
-  author: Kay Schroeder, Batoul Ajdadilish, Alexander P. Henkel, Andr\'e Calero Valdez
+  author: Kay Schroeder, Batoul Ajdadilish, Alexander P. Henkel, Andre Calero Valdez
   title: "{Evaluation of a Financial Portfolio Visualization using Computer Displays
     and Mixed Reality Devices with Domain Experts}"
   year: "{2020}"
@@ -12856,8 +12845,8 @@
   tags: "{Case Study,CHI20}"
 - bibtex_key: 10.1145/3334480.3375165
   bibtex_type: :inproceedings
-  author: Florian Daiber, Donald Degraen, Andr\'e Zenner, Frank Steinicke, Oscar Javier
-    Ariza N\'u\~nez, Adalberto L. Simeone
+  author: Florian Daiber, Donald Degraen, Andre Zenner, Frank Steinicke, Oscar Javier
+    Ariza Nu\~nez, Adalberto L. Simeone
   title: "{Everyday Proxy Objects for Virtual Reality}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -12890,7 +12879,7 @@
   tags: "{Workshop,CHI20}"
 - bibtex_key: 10.1145/3313831.3376260
   bibtex_type: :inproceedings
-  author: Dmitry Alexandrovsky, Susanne Putze, Michael Bonfert, Sebastian H\"offner,
+  author: Dmitry Alexandrovsky, Susanne Putze, Michael Bonfert, Sebastian Höffner,
     Pitt Michelmann, Dirk Wenig, Rainer Malaka, Jan David Smeddinck
   title: "{Examining Design Choices of Questionnaires in VR User Studies}"
   year: "{2020}"
@@ -12923,7 +12912,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376402
   bibtex_type: :inproceedings
-  author: Felix Carros, Johanna Meurer, Diana L\"offler, David Unbehaun, Sarah Matthies,
+  author: Felix Carros, Johanna Meurer, Diana Löffler, David Unbehaun, Sarah Matthies,
     Inga Koch, Rainer Wieching, Dave Randall, Marc Hassenzahl, Volker Wulf
   title: "{Exploring Human-Robot Interaction with the Elderly: Results from a Ten-Week
     Case Study in a Care Home}"
@@ -13087,7 +13076,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3382830
   bibtex_type: :inproceedings
-  author: Sarah Janb\"ocke, Alina Gawlitta, Judith D\"orrenb\"acher, Marc Hassenzahl
+  author: Sarah Janböcke, Alina Gawlitta, Judith Dörrenbächer, Marc Hassenzahl
   title: "{Finding the Inner Clock: A Chronobiology-based Calendar}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -13244,7 +13233,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376273
   bibtex_type: :inproceedings
-  author: Albrecht Kurze, Andreas Bischof, S\"oren Totzauer, Michael Storz, Maximilian
+  author: Albrecht Kurze, Andreas Bischof, Sören Totzauer, Michael Storz, Maximilian
     Eibl, Margot Brereton, Arne Berger
   title: "{Guess the Data: Data Work to Understand How People Make Sense of and Use
     Simple Sensor Data from Homes}"
@@ -13278,7 +13267,7 @@
 - bibtex_key: 10.1145/3334480.3375067
   bibtex_type: :inproceedings
   author: Neha Kumar, Vikram Kamath Cannanure, Dilrukshi Gamage, Annu Sible Prabhakar,
-    Christian Sturm, Cuauht\'emoc Rivera Loaiza, Dina Sabie, Md. Moinuddin Bhuiyan,
+    Christian Sturm, Cuauhtemoc Rivera Loaiza, Dina Sabie, Md. Moinuddin Bhuiyan,
     Mario A. Moreno Rocha
   title: "{HCI Across Borders and Sustainable Development Goals}"
   year: "{2020}"
@@ -13436,7 +13425,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376877
   bibtex_type: :inproceedings
-  author: Sarah Theres V\"olkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann,
+  author: Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann,
     Andreas Butz
   title: "{How to Trick AI: Users' Strategies for Protecting Themselves from Automatic
     Personality Assessment}"
@@ -13468,7 +13457,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3382832
   bibtex_type: :inproceedings
-  author: Diana L\"offler, Judith D\"orrenb\"acher, Julika Welge, Marc Hassenzahl
+  author: Diana Löffler, Judith Dörrenbächer, Julika Welge, Marc Hassenzahl
   title: "{Hybridity as Design Strategy for Service Robots to Become Domestic Products}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -13565,8 +13554,8 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376769
   bibtex_type: :inproceedings
-  author: Karola Marky, Verena Zimmermann, Markus Funk, J\"org Daubert, Kira Bleck,
-    Max M\"uhlh\"auser
+  author: Karola Marky, Verena Zimmermann, Markus Funk, Jörg Daubert, Kira Bleck,
+    Max Mühlhäuser
   title: "{Improving the Usability and UX of the Swiss Internet Voting Interface}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -13733,7 +13722,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3382958
   bibtex_type: :inproceedings
-  author: Julian Kreimeier, Daniela Ullmann, Harald Kipke, Timo G\"otzelmann
+  author: Julian Kreimeier, Daniela Ullmann, Harald Kipke, Timo Götzelmann
   title: "{Initial Evaluation of Different Types of Virtual Reality Locomotion Towards
     a Pedestrian Simulator for Urban and Transportation Planning}"
   year: "{2020}"
@@ -13955,7 +13944,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376409
   bibtex_type: :inproceedings
-  author: Viktorija Paneva, Myroslav Bachynskyi, J\"org M\"uller
+  author: Viktorija Paneva, Myroslav Bachynskyi, Jörg Müller
   title: "{Levitation Simulator: Prototyping Ultrasonic Levitation Interfaces in Virtual
     Reality}"
   year: "{2020}"
@@ -14118,7 +14107,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3375175
   bibtex_type: :inproceedings
-  author: Abdallah El Ali, Monica Perusqu\'\ia-Hern\'andez, Pete Denman, Yomna Abdelrahman,
+  author: Abdallah El Ali, Monica Perusqu\'\ia-Hernandez, Pete Denman, Yomna Abdelrahman,
     Mariam Hassib, Alexander Meschtscherjakov, Denzil Ferreira, Niels Henze
   title: "{MEEC: First Workshop on Momentary Emotion Elicitation and Capture}"
   year: "{2020}"
@@ -14178,7 +14167,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376852
   bibtex_type: :inproceedings
-  author: Maximilian D\"urr, Carla Gr\"oschel, Ulrike Pfeil, Harald Reiterer
+  author: Maximilian Dürr, Carla Gröschel, Ulrike Pfeil, Harald Reiterer
   title: "{NurseCare: Design and 'In-The-Wild' Evaluation of a Mobile System to Promote
     the Ergonomic Transfer of Patients}"
   year: "{2020}"
@@ -14369,7 +14358,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376639
   bibtex_type: :inproceedings
-  author: Tim Zindulka, Myroslav Bachynskyi, J\"org M\"uller
+  author: Tim Zindulka, Myroslav Bachynskyi, Jörg Müller
   title: "{Performance and Experience of Throwing in Virtual Reality}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -14397,7 +14386,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376366
   bibtex_type: :inproceedings
-  author: Aditya Shekhar Nittala, Arshad Khan, Klaus Kruttwig, Tobias Kraus, J\"urgen
+  author: Aditya Shekhar Nittala, Arshad Khan, Klaus Kruttwig, Tobias Kraus, Jürgen
     Steimle
   title: "{PhysioSkin: Rapid Fabrication of Skin-Conformal Physiological Interfaces}"
   year: "{2020}"
@@ -14463,8 +14452,8 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3382916
   bibtex_type: :inproceedings
-  author: Sebastian G\"unther, Dominik Sch\"on, Florian M\"uller, Max M\"uhlh\"auser,
-    Martin Schmitz
+  author: Sebastian Günther, Dominik Schön, Florian Müller, Max Mühlhäuser, Martin
+    Schmitz
   title: "{PneumoVolley: Pressure-based Haptic Feedback on the Head through Pneumatic
     Actuation}"
   year: "{2020}"
@@ -14494,8 +14483,8 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3313831.3376626
   bibtex_type: :inproceedings
-  author: Julius von Willich, Martin Schmitz, Florian M\"uller, Daniel Schmitt, Max
-    M\"uhlh\"auser
+  author: Julius von Willich, Martin Schmitz, Florian Müller, Daniel Schmitt, Max
+    Mühlhäuser
   title: "{Podoportation: Foot-Based Locomotion in Virtual Reality}"
   year: "{2020}"
   isbn: "{9781450367080}"
@@ -14526,7 +14515,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376841
   bibtex_type: :inproceedings
-  author: Cedric Honnet, Hannah Perner-Wilson, Marc Teyssier, Bruno Fruchard, J\"urgen
+  author: Cedric Honnet, Hannah Perner-Wilson, Marc Teyssier, Bruno Fruchard, Jürgen
     Steimle, Ana C. Baptista, Paul Strohmeier
   title: "{PolySense: Augmenting Textiles with Electrical Functionality using In-Situ
     Polymerization}"
@@ -14592,7 +14581,7 @@
 - bibtex_key: 10.1145/3313831.3376701
   bibtex_type: :inproceedings
   author: Noshaba Cheema, Laura A. Frey-Law, Kourosh Naderi, Jaakko Lehtinen, Philipp
-    Slusallek, Perttu H\"am\"al\"ainen
+    Slusallek, Perttu Hämäläinen
   title: "{Predicting Mid-Air Interaction Movements and Fatigue Using Deep Reinforcement
     Learning}"
   year: "{2020}"
@@ -14659,7 +14648,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376220
   bibtex_type: :inproceedings
-  author: Konstantin Klamka, Raimund Dachselt, J\"urgen Steimle
+  author: Konstantin Klamka, Raimund Dachselt, Jürgen Steimle
   title: "{Rapid Iron-On User Interfaces: Hands-on Fabrication of Interactive Textile
     Prototypes}"
   year: "{2020}"
@@ -14726,7 +14715,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376781
   bibtex_type: :inproceedings
-  author: Rainer Winkler, Sebastian Hobert, Antti Salovaara, Matthias S\"ollner, Jan
+  author: Rainer Winkler, Sebastian Hobert, Antti Salovaara, Matthias Söllner, Jan
     Marco Leimeister
   title: "{Sara, the Lecturer: Improving Learning in Online Education with a Scaffolding-Based
     Conversational Agent}"
@@ -14760,7 +14749,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376534
   bibtex_type: :inproceedings
-  author: Christoph Schr\"oder, Sahar Mahdie Klim Al Zaidawi, Martin H.U. Prinzler,
+  author: Christoph Schröder, Sahar Mahdie Klim Al Zaidawi, Martin H.U. Prinzler,
     Sebastian Maneth, Gabriel Zachmann
   title: "{Robustness of Eye Movement Biometrics Against Varying Stimuli and Varying
     Trajectory Length}"
@@ -14791,7 +14780,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3375167
   bibtex_type: :inproceedings
-  author: Yogesh Kumar Meena, Xing-Dong Yang, Markus L\"ochtefeld, Matt Carnie, Niels
+  author: Yogesh Kumar Meena, Xing-Dong Yang, Markus Löchtefeld, Matt Carnie, Niels
     Henze, Steve Hodges, Matt Jones, Nivedita Arora, Gregory D. Abowd
   title: "{SelfSustainableCHI: Self-Powered Sustainable Interfaces and Interactions}"
   year: "{2020}"
@@ -15043,7 +15032,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3334480.3383067
   bibtex_type: :inproceedings
-  author: Felix Kosmalla, Andr\'e Zenner, Corinna Tasch, Florian Daiber, Antonio Kr\"uger
+  author: Felix Kosmalla, Andre Zenner, Corinna Tasch, Florian Daiber, Antonio Krüger
   title: "{The Importance of Virtual Hands and Feet for Virtual Reality Climbing}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -15139,7 +15128,7 @@
   tags: "{Full Paper,Honorable Mention,CHI20}"
 - bibtex_key: 10.1145/3313831.3376682
   bibtex_type: :inproceedings
-  author: Abdallah El Ali, Xingyu Yang, Swamy Ananthanarayan, Thomas R\"oggla, Jack
+  author: Abdallah El Ali, Xingyu Yang, Swamy Ananthanarayan, Thomas Röggla, Jack
     Jansen, Jess Hartcher-O'Brien, Kaspar Jansen, Pablo Cesar
   title: "{ThermalWear: Exploring Wearable On-chest Thermal Displays to Augment Voice
     Messages with Affect}"
@@ -15172,8 +15161,8 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376195
   bibtex_type: :inproceedings
-  author: Sebastian G\"unther, Florian M\"uller, Dominik Sch\"on, Omar Elmoghazy,
-    Max M\"uhlh\"auser, Martin Schmitz
+  author: Sebastian Günther, Florian Müller, Dominik Schön, Omar Elmoghazy, Max Mühlhäuser,
+    Martin Schmitz
   title: "{Therminator: Understanding the Interdependency of Visual and On-Body Thermal
     Feedback in Virtual Reality}"
   year: "{2020}"
@@ -15232,7 +15221,7 @@
   tags: "{Other,CHI20}"
 - bibtex_key: 10.1145/3334480.3383017
   bibtex_type: :inproceedings
-  author: Leonel Merino, Boris Sotomayor-G\'omez, Xingyao Yu, Ronie Salgado, Alexandre
+  author: Leonel Merino, Boris Sotomayor-Gomez, Xingyao Yu, Ronie Salgado, Alexandre
     Bergel, Michael Sedlmair, Daniel Weiskopf
   title: "{Toward Agile Situated Visualization: An Exploratory User Study}"
   year: "{2020}"
@@ -15357,9 +15346,9 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3334480.3382808
   bibtex_type: :inproceedings
-  author: Martin Maritsch, Simon F\"oll, Vera Lehmann, Caterina B\'erub\'e, Mathias
-    Kraus, Stefan Feuerriegel, Tobias Kowatsch, Thomas Z\"uger, Christoph Stettler,
-    Elgar Fleisch, Felix Wortmann
+  author: Martin Maritsch, Simon Föll, Vera Lehmann, Caterina Berube, Mathias Kraus,
+    Stefan Feuerriegel, Tobias Kowatsch, Thomas Züger, Christoph Stettler, Elgar Fleisch,
+    Felix Wortmann
   title: "{Towards Wearable-based Hypoglycemia Detection and Warning in Diabetes}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -15515,7 +15504,7 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376508
   bibtex_type: :inproceedings
-  author: Giuseppe Melfi, Karin M\"uller, Thorsten Schwarz, Gerhard Jaworek, Rainer
+  author: Giuseppe Melfi, Karin Müller, Thorsten Schwarz, Gerhard Jaworek, Rainer
     Stiefelhagen
   title: "{Understanding what you feel: A Mobile Audio-Tactile System for Graphics
     Used at Schools with Students with Visual Impairment}"
@@ -15581,7 +15570,7 @@
 - bibtex_key: 10.1145/3334480.3383011
   bibtex_type: :inproceedings
   author: Maximilian Altmeyer, Marc Schubhan, Pascal Lessel, Linda Muller, Antonio
-    Kr\"uger
+    Krüger
   title: "{Using Hexad User Types to Select Suitable Gamification Elements to Encourage
     Healthy Eating}"
   year: "{2020}"
@@ -15645,8 +15634,8 @@
   tags: "{Full Paper,CHI20}"
 - bibtex_key: 10.1145/3313831.3376796
   bibtex_type: :inproceedings
-  author: Ville M\"akel\"a, Rivu Radiah, Saleh Alsherif, Mohamed Khamis, Chong Xiao,
-    Lisa Borchert, Albrecht Schmidt, Florian Alt
+  author: Ville Mäkelä, Rivu Radiah, Saleh Alsherif, Mohamed Khamis, Chong Xiao, Lisa
+    Borchert, Albrecht Schmidt, Florian Alt
   title: "{Virtual Field Studies: Conducting Studies on Public Displays in Virtual
     Reality}"
   year: "{2020}"
@@ -15678,7 +15667,7 @@
 - bibtex_key: 10.1145/3334480.3382918
   bibtex_type: :inproceedings
   author: Leonie Ascone, Karolin Ney, Fariba Mostajeran, Frank Steinicke, Steffen
-    Moritz, J\"urgen Gallinat, Simone K\"uhn
+    Moritz, Jürgen Gallinat, Simone Kühn
   title: "{Virtual Reality for Individuals with Occasional Paranoid Thoughts}"
   year: "{2020}"
   isbn: "{9781450368193}"
@@ -15812,8 +15801,8 @@
   tags: "{Interactivity/Demonstration,CHI20}"
 - bibtex_key: 10.1145/3313831.3376853
   bibtex_type: :inproceedings
-  author: Florian M\"uller, Martin Schmitz, Daniel Schmitt, Sebastian G\"unther, Markus
-    Funk, Max M\"uhlh\"auser
+  author: Florian Müller, Martin Schmitz, Daniel Schmitt, Sebastian Günther, Markus
+    Funk, Max Mühlhäuser
   title: "{Walk The Line: Leveraging Lateral Shifts of the Walking Path as an Input
     Modality for Head-Mounted Displays}"
   year: "{2020}"
@@ -15973,7 +15962,7 @@
   tags: "{Late Breaking Work,CHI20}"
 - bibtex_key: 10.1145/3310275
   bibtex_type: :article
-  author: Patrick Bader, Alexandra Voit, Huy Viet Le, Paweł W. Wo\'zniak, Niels Henze,
+  author: Patrick Bader, Alexandra Voit, Huy Viet Le, Paweł W. Wozniak, Niels Henze,
     Albrecht Schmidt
   title: "{WindowWall: Towards Adaptive Buildings with Interactive Windows as Ubiquitous
     Displays}"
