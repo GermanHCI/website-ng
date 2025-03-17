@@ -44,7 +44,7 @@ format: publications
     {% endfor %}
 
     <!-- Display unique tags -->
-    <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px;margin-bottom: 10px;margin-top: 10px; gap: 0px 5px; align-items: center;justify-content: center;">
+    <ul class="tags-list">
         {% assign tags= raw_tags | sort %}
         {% for tag in tags %}
             <li>
@@ -56,9 +56,9 @@ format: publications
         
   
     <form id="searchForm">
-        <div style="display: flex; justify-content: space-between; gap:2rem">
-        <input type="text" id="searchInput" name="searchInput" placeholder="Enter search word" required>
-        <button type="submit" name="searchButton">Search</button>
+        <div style="display: flex; justify-content: space-between; gap:1rem">
+        <input type="text" id="searchInput" class="search-input" placeholder="Enter search word" style="border-radius: 10px;" required>
+        <button type="submit" name="searchButton" class="search-button">Search</button>
         </div>
         <div style=" text-align: center;">
         <p id="clearSearch">Show all</p> </div>
