@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Saarland University", lat:49.555,lon:7.0306731}
     ];
     universities.forEach(uni => addPin(uni));
-    
 });
  
 const mapBounds = {
@@ -96,9 +95,11 @@ function addPin(uni) {
     text.textContent = uni.name;
     text.classList.add('uni-name'); //corressponding css
     text.style.fill = "#2C5BA5";
+    text.style.backgroundColor = "#2C5BA5"; 
     text.style.display = "none";
     svg.appendChild(text);
 }
+
 
 function convertLatLonToXY(lat, lon) {
     const x = ((lon - mapBounds.topLeft.lon) / (mapBounds.bottomRight.lon - mapBounds.topLeft.lon)) * svgDimensions.width;
@@ -123,14 +124,8 @@ function createPinImage() {
     circle.setAttribute("stroke", "#2C5BA5");
 
     svgElem.appendChild(circle);
-
     return svgElem;
 }
-// pin.addEventListener('click', function() {
-//         document.getElementById(uni.name).scrollIntoView({ behavior: 'smooth' });
-//         console.log(`University: ${uni.name}`);
-   
-// });
 
 function moveTo(name){
     console.log(`${name}`); 
