@@ -86,7 +86,7 @@ format: publications
             <p style="font-size: small;">In: {{ clean_year }}</p>
             <p>
                 <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> |
-                Tags: {{clean_tag}}|
+                Tags: <span class="tags">{{clean_tag}}</span>|
                 Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a>
             </p>
             <p class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">

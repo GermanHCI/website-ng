@@ -84,40 +84,30 @@ function searchTag(tag) {
             previousTag.style.borderRadius = "10px";
         }
     }
-    if (searchText) {
-        sections.forEach(section => {
-            const text = section.textContent || section.innerText;
-            // Check if the section contains the search text
-            if (text.toLowerCase().includes(searchText.toLowerCase())) {
-                // Show only the matched section
-                section.style.display = 'block';
-                matchFound = true;
-            } else {
-                // Hide the other sections
-                section.style.display = 'none';
-            }
-        });
-        globalTag=tag;
-        var colorTag= document.getElementById(tag);
-        if (matchFound) {
-            // outputDiv.textContent = `You searched for: ${searchText}`;
-            clearSearch.style.display= 'inline-block';
-            colorTag.style.color = '#45B29D';
-            colorTag.style.backgroundColor = ' #3E3E3E';
-            colorTag.style.borderRadius = "10px";
+    sections.forEach(section => {
+        const tagElement = section.querySelector('.tags'); // Get the tags inside the section
+        if (tagElement && tagElement.innerText.toLowerCase().includes(searchText)) {
+            section.style.display = 'block'; // Show the section if the tag matches
+            matchFound = true;
+        } else {
+            section.style.display = 'none'; // Hide it otherwise
         }
-        else{
-            // outputDiv.textContent = `No matches found!`;
-            clearSearch.style.display = 'none';
-            colorTag.style.color = '#FFFFFF';
-            colorTag.style.backgroundColor = ' #45B29D';
-            colorTag.style.borderRadius = "10px";
-        }
-    } else {
-        // If search is empty, reset to show all sections
-        sections.forEach(section => {
-            section.style.display = 'block';
-        });
-        // outputDiv.textContent = '';
+    });
+       
+    globalTag=tag;
+    var colorTag= document.getElementById(tag);
+    if (matchFound) {
+        // outputDiv.textContent = `You searched for: ${searchText}`;
+        clearSearch.style.display= 'inline-block';
+        colorTag.style.color = '#45B29D';
+        colorTag.style.backgroundColor = ' #3E3E3E';
+        colorTag.style.borderRadius = "10px";
+    }
+    else{
+        // outputDiv.textContent = `No matches found!`;
+        clearSearch.style.display = 'none';
+        colorTag.style.color = '#FFFFFF';
+        colorTag.style.backgroundColor = ' #45B29D';
+        colorTag.style.borderRadius = "10px";
     }
 }
