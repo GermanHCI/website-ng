@@ -58,7 +58,7 @@ function resetSearch(){
     var colorTag=document.getElementById(globalTag);
     // var colorTag= document.getElementsByClassName('searchable-tag');
     console.log(colorTag);
-    colorTag.style.color = '#3E3E3E';
+    colorTag.style.color = '#FFFFFF';
     colorTag.style.backgroundColor = ' #45B29D';
     colorTag.style.borderRadius = "10px";
 }
@@ -101,7 +101,7 @@ function searchTag(tag) {
         else{
             // outputDiv.textContent = `No matches found!`;
             clearSearch.style.display = 'none';
-            colorTag.style.color = '#3E3E3E';
+            colorTag.style.color = '#FFFFFF';
             colorTag.style.backgroundColor = ' #45B29D';
             colorTag.style.borderRadius = "10px";
         }
