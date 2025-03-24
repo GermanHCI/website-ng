@@ -11,7 +11,7 @@
     {% assign lab_files = site.data.labs %}
     {% for file in lab_files %}
       {% for entry in file %}
-        <a style="text-decoration: underline; color: rgb(3, 34, 46);" onclick="moveTo(`{{entry.name}}`)">{{entry.name}} </a>
+        <a id="{{ entry.name | replace: ' ', '-' }}-link"  style="text-decoration: underline; color: rgb(3, 34, 46); font-weight: normal;" onclick="moveTo(`{{entry.name}}`)">{{entry.name}} </a>
       {% endfor %}
       |
     {% endfor %}

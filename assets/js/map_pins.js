@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Universität Bamberg", lat: 49.8938, lon: 10.8835},
         { name: 'Universität Bayreuth', lat:49.932807,lon:11.4913831},
         { name: "Ruhr-Universität Bochum", lat:51.4444, lon: 7.2587},
-        { name: "University of Bremen", lat: 53.1565, lon: 8.9527 },
+        { name: "Universität Bremen", lat: 53.1565, lon: 8.9527 },
         { name: "TU Chemintz", lat: 50.8397,lon:12.9252},
         { name: "TU Darmstadt", lat: 50.02,lon: 8.6539},
         { name: "TU Dortmund", lat:51.5194, lon:7.4120},
@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'RWTH Aachen', lat: 51.1075, lon: 6.3672},
         { name: 'Humboldt University of Berlin', lat:52.6181, lon:13.0938 },
         { name: "Saarland University", lat:49.555,lon:7.0306731}
+        // offis location
     ];
     universities.forEach(uni => addPin(uni));
 });
@@ -46,6 +47,8 @@ const svgDimensions = {
 function addPin(uni) {
     const coords = convertLatLonToXY(uni.lat, uni.lon);
     const svg = document.getElementById('germany-map');
+    const svgRect = svg.getBoundingClientRect(); //gets svg coordinates
+    const quickAccessLink = document.getElementById(`${uni.name.replace(/\s+/g, '-')}-link`); // accessing quick access
 
     const pin = createPinImage();
     pin.setAttribute('x', coords.x); 
@@ -53,26 +56,24 @@ function addPin(uni) {
     pin.setAttribute('title', uni.name); 
     pin.classList.add('pin');
 
-    // const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    // text.setAttribute('x', coords.x + 5); // Position the text slightly to the right of the pin
-    // text.setAttribute('y', coords.y - 5); // Position the text below the pin
-    // text.textContent = uni.name;
-    // text.classList.add('uni-name');
-    // text.style.fill = "#2C5BA5"; // Text color initial, matches the pin
-    // text.style.display = "none";
-
     pin.addEventListener('mouseenter', function() {
-        pin.querySelector("circle").setAttribute("fill", "#E98737"); // Change to orange
-        pin.querySelector("circle").setAttribute("stroke", "#E98737"); // Change border
-        text.style.fill = "#E98737"; // Change text color to orange
-        text.style.display = "block"; // show the text while hovering
+        pin.querySelector("circle").setAttribute("fill", "#E98737"); // Changes pin colour to orange shade
+        pin.querySelector("circle").setAttribute("stroke", "#E98737"); // Changes pin border coclour to orange shade
+        textDiv.style.display = "block";
+        if (quickAccessLink) {
+            quickAccessLink.style.color = "#E98737"; 
+            quickAccessLink.style.fontWeight = "bold"; 
+        }
     });
 
     pin.addEventListener('mouseleave', function() {
-        pin.querySelector("circle").setAttribute("fill", "#2C5BA5"); // Back to original blue
-        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5"); // Reset border
-        text.style.fill = "#2C5BA5"; // Reset text color to blue
-        text.style.display = "none"; // Hide the text when mouse leaves
+        pin.querySelector("circle").setAttribute("fill", "#2C5BA5"); // Resets pin colour
+        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5"); // Reset pin border colour
+        textDiv.style.display = "none";
+        if (quickAccessLink) {
+            quickAccessLink.style.color = "rgb(3, 34, 46)"; 
+            quickAccessLink.style.fontWeight = "normal"; 
+        }
     });
 
     pin.addEventListener('click', function() {
@@ -88,16 +89,23 @@ function addPin(uni) {
     
     svg.appendChild(pin);
     
+    const textDiv = document.createElement("div");
+    textDiv.classList.add("uni-label"); // Apply CSS for styling
+    textDiv.textContent = uni.name;
+    textDiv.style.position = "absolute";
+    textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  //positioning the text
+    textDiv.style.top = `${svgRect.top + coords.y - 30}px`; //positioning the text
+    textDiv.style.maxWidth = "150px";  // Set a max width
+    textDiv.style.backgroundColor = "#E98737";  // Background color
+    textDiv.style.color = "#FFFFFF";  // Text color
+    textDiv.style.padding = "5px";  // Padding inside the box
+    textDiv.style.borderRadius = "5px";  // Rounded corners
+    textDiv.style.display = "none"; // Initially hidden
+    textDiv.style.fontSize = "12px";
+    textDiv.style.wordWrap = "break-word"; // Ensure long words break properly
+    textDiv.style.zIndex = "1000"; // Ensure it's above other elements
 
-    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    text.setAttribute('x', coords.x + 5); // Position the text slightly to the right of the pin
-    text.setAttribute('y', coords.y - 5); // Position the text slightly above the pin
-    text.textContent = uni.name;
-    text.classList.add('uni-name'); //corressponding css
-    text.style.fill = "#2C5BA5";
-    text.style.backgroundColor = "#2C5BA5"; 
-    text.style.display = "none";
-    svg.appendChild(text);
+    document.body.appendChild(textDiv);
 }
 
 
@@ -160,4 +168,8 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+function quickAccess(){
+    document.getElementById(uni);
 }
