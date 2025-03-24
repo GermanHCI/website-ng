@@ -76,6 +76,14 @@ function searchTag(tag) {
     const searchText = tag.toLowerCase();
     let matchFound = false; // Flag to check if any match is found
 
+    if(globalTag){
+        var previousTag = document.getElementById(globalTag);
+        if (previousTag) {
+            previousTag.style.color = '#FFFFFF';
+            previousTag.style.backgroundColor = ' #45B29D';
+            previousTag.style.borderRadius = "10px";
+        }
+    }
     if (searchText) {
         sections.forEach(section => {
             const text = section.textContent || section.innerText;
