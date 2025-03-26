@@ -65,3 +65,18 @@
     justify-content: center;
 }
 
+#topBtn {
+	display: none;
+	position: sticky; 
+	background-color: #45B29D;
+    border: none;
+    color: white;
+	border-radius: 50%;
+	bottom: 20px;
+	padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+	float: right;
+	margin-right: 10%;
+}

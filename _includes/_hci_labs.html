@@ -11,7 +11,7 @@
     {% assign lab_files = site.data.labs %}
     {% for file in lab_files %}
       {% for entry in file %}
-        <a id="{{ entry.name | replace: ' ', '-' }}-link"  style="text-decoration: underline; color: rgb(3, 34, 46); font-weight: normal;" onclick="moveTo(`{{entry.name}}`)">{{entry.name}} </a>
+        <a id="{{ entry.name | replace: ' ', '-' }}-link"  style="text-decoration: underline; color: rgb(3, 34, 46); font-weight: normal;" onclick="moveTo(`{{entry.name}}`)" onmouseenter="highlightPin(`{{ entry.name }}`)" onmouseleave="resetPin(`{{ entry.name }}`)">{{entry.name}} </a>
       {% endfor %}
       |
     {% endfor %}
@@ -36,14 +36,18 @@
   {% for lab in entry.lab %}
   {% if {{lab.logo}} %}
   <div style="display: flex; justify-content: space-between;"> <h2 class="head-text" >{{ lab.labname }}</h2>
-    <img width="300" height="100" style="max-width: 300;min-width: none;" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="lab logo"/> 
+    <img width="100px" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="lab logo"/> 
     <!-- change the height and width adjustment to scss with maxwidth and minwidth -->
   </div>
   {% else %}
   <h2 class="head-text" >{{ lab.labname }}</h2>
   {% endif %}
-    <h3>{{ lab.lablead }} - <a href="{{lab.link}}">{{lab.link}}</a></h3>
-    <p>{{ lab.info | truncatewords: 50 }} <a href="{{ site.url }}{{lab.url}}">Read more</a></p>
+    <h3>{{ lab.lablead }} - <a href="{{lab.link}}"><img width="32px" src="{{site.url}}{{site.baseurl}}/assets/img/link.png"/></a></h3>
+    <p>
+      <span class="summary">{{ lab.info | truncatewords: 50 }}</span>
+      <span class="full-text" style="display: none;">{{ lab.info }}</span>
+      <a href="javascript:void(0);" onclick="readMore(this)">Read more</a>
+    </p>
   {% endfor %}
 {% endfor %}
 <hr style="border-color: #E98737; border-width: 1px;"/>

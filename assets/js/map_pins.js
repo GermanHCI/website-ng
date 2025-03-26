@@ -28,7 +28,15 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Universität Würzburg", lat: 49.7886, lon: 9.9329},
         { name: 'RWTH Aachen', lat: 51.1075, lon: 6.3672},
         { name: 'Humboldt University of Berlin', lat:52.6181, lon:13.0938 },
-        { name: "Saarland University", lat:49.555,lon:7.0306731}
+        { name: "Saarland University", lat:49.555,lon:7.0306731},
+        // { name: "TU Bergakademie Freiberg", lat: , lon: },
+        // { name: "Hochschule Anhalt (Köthen)", lat: , lon:},
+        // { name: "Hochschule Heilbronn",lat: , lon: },
+        // { name: "OFFIS – Institute for Information Technology (Oldenburg)", lat: , lon: },
+        { name: "University of Duisburg-Essen", lat: 51.4278, lon:6.6471},
+        { name: "Universität Potsdam",lat: 52.4393,lon: 12.7376},
+        { name: "Universität Siegen", lat: 50.9964, lon: 8.1595},
+        { name: "Universität zu Lübeck", lat: 53.9911, lon: 10.5751}
         // offis location
     ];
     universities.forEach(uni => addPin(uni));
@@ -51,6 +59,7 @@ function addPin(uni) {
     const quickAccessLink = document.getElementById(`${uni.name.replace(/\s+/g, '-')}-link`); // accessing quick access
 
     const pin = createPinImage();
+    pin.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-pin`);
     pin.setAttribute('x', coords.x); 
     pin.setAttribute('y', coords.y-2);
     pin.setAttribute('title', uni.name); 
@@ -104,6 +113,7 @@ function addPin(uni) {
     textDiv.style.fontSize = "12px";
     textDiv.style.wordWrap = "break-word"; // Ensure long words break properly
     textDiv.style.zIndex = "1000"; // Ensure it's above other elements
+    textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
 
     document.body.appendChild(textDiv);
 }
@@ -148,6 +158,38 @@ function moveTo(name){
         console.error(`Element with ID "${name}" not found.`);
     }
 }
+function highlightPin(uniName) {
+    const pin = document.getElementById(`${uniName.replace(/\s+/g, '-')}-pin`);
+    const label = document.getElementById(`${uniName.replace(/\s+/g, '-')}-label`);
+    const quickAccessLink = document.getElementById(`${uniName.replace(/\s+/g, '-')}-link`);
+    quickAccessLink.style.color = "#E98737"; 
+    quickAccessLink.style.fontWeight = "bold"; 
+    if (pin) {
+        pin.querySelector("circle").setAttribute("fill", "#E98737");
+        pin.querySelector("circle").setAttribute("stroke", "#E98737");
+    }
+
+    if (label) {
+        label.style.display = "block"; // Show university name
+    }
+}
+
+function resetPin(uniName) {
+    const pin = document.getElementById(`${uniName.replace(/\s+/g, '-')}-pin`);
+    const label = document.getElementById(`${uniName.replace(/\s+/g, '-')}-label`);
+    const quickAccessLink = document.getElementById(`${uniName.replace(/\s+/g, '-')}-link`);
+    quickAccessLink.style.color = "rgb(3, 34, 46)"; 
+    quickAccessLink.style.fontWeight = "normal"; 
+    if (pin) {
+        pin.querySelector("circle").setAttribute("fill", "#2C5BA5");
+        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5");
+    }
+
+    if (label) {
+        label.style.display = "none"; // Hide university name
+    }
+}
+
 // Get the button:
 let mybutton = document.getElementById("topBtn");
 
@@ -170,6 +212,17 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-function quickAccess(){
-    document.getElementById(uni);
+function readMore(link){
+    let summary = link.parentNode.querySelector(".summary");
+    let fullText = link.parentNode.querySelector(".full-text");
+
+    if (summary.style.display === "none") {
+      summary.style.display = "inline";
+      fullText.style.display = "none";
+      link.textContent = "Read more";
+    } else {
+      summary.style.display = "none";
+      fullText.style.display = "inline";
+      link.textContent = "Read less";
+    }
 }
