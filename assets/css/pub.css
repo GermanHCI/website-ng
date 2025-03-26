@@ -31,8 +31,12 @@
     font-weight: bold;
 }
 #clearSearch{
-    text-decoration: underline; 
-    color: #45B29D;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #3E3E3E;
+    color: #ffffff;
     display: none;
 }
 .searchable-tag{
