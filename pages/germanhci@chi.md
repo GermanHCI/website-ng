@@ -4,6 +4,7 @@ title: "Editions"
 header: no
 permalink: "/editions"
 ---
+<!-- The content below can be edited -->
 Since 2017, the German HCI event accompanies the ACM CHI Conference on Human Factors in Computing Systems and serves as a platform to promote our publications & labs as well as get in contact with researchers from all over the world. For each years edition, we have fond memories and decided to provide an overview of all our past editions here:
 
 - [2024 – German HCI @ CHI in Honolulu, Hawaiʻi, USA](editions/2024)

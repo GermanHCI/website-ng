@@ -7,7 +7,6 @@ callforaction:
   url: '/editions'
   text: "More about HCI @ CHI"
 
-
 widget1:
   title: 'German HCI at CHI2024'
   url: '/editions/2024'
