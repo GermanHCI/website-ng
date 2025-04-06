@@ -2,6 +2,50 @@
 layout: default
 format: page-fullwidth
 ---
+<!-- Additional Styles -->
+<style>
+	.responsive-flex {
+	  display: flex;
+	  flex-wrap: wrap;
+	  gap: 1rem;
+	}
+  
+	.responsive-flex > div {
+	  flex: 1 1 100%;
+	}
+  
+	@media (min-width: 768px) {
+	  .responsive-flex {
+		flex-wrap: nowrap;
+	  }
+  
+	  .responsive-flex > .content {
+		order: 1;
+		flex: 1 1 50%;
+	  }
+  
+	  .responsive-flex > .image {
+		order: 2;
+		flex: 1 1 50%;
+	  }
+	}
+  
+	@media (max-width: 767px) {
+	  .responsive-flex > .image {
+		order: 1;
+	  }
+  
+	  .responsive-flex > .content {
+		order: 2;
+	  }
+	}
+  
+	.responsive-flex img {
+	  width: 100%;
+	  height: auto;
+	  max-width: 100%;
+	}
+  </style>
 {% if page.image.title %}
 <div class="row t30">
 	<div class="small-12 columns">
@@ -14,8 +58,7 @@ format: page-fullwidth
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
 {% endif %}
-
-
+  
 <div class="row t30">
 	<div class="medium-12 columns">
 		<article>
@@ -31,14 +74,23 @@ format: page-fullwidth
 			{% endif %}
 
 			{% if page.image %}
-			<div style="display: flex; gap: 1rem;">
+			<div class="responsive-flex">
+				<div class="image">
+				  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/chi_posters/{{ page.image }}"
+					   alt="Poster image" />
+				</div>
+				<div class="content">
+				  {{ content }}
+				</div>
+			  </div>
+			<!-- <div style="display: flex; gap: 1rem;flex-wrap: wrap;">
 				<div>
 					{{content}}
 				</div>
 				<div>
 					<img src="{{ site.url }}{{ site.baseurl }}/assets/img/chi_posters/{{ page.image }}" src="{{page.image}}" style="height:auto;width:170rem;"/>
 				</div>
-			</div>
+			</div> -->
 			{% else %}
 			{{ content }}
 			{% endif %}
