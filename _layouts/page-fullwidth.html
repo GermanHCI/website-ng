@@ -9,7 +9,12 @@ format: page-fullwidth
 	  flex-wrap: wrap;
 	  gap: 1rem;
 	}
-  
+	@media (max-width: 767px) {
+    	body {
+      		padding-left: 1rem;
+      		padding-right: 1rem;
+    	}
+  	}
 	.responsive-flex > div {
 	  flex: 1 1 100%;
 	}
