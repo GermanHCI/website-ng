@@ -1,6 +1,8 @@
 <style>
-  excep:hover{
-    color: rgb(31, 138, 115);
+  li.excep:hover a {
+    background-color: transparent !important;
+  color: inherit !important;
+  text-decoration: none !important;
   }
 </style>
 <div id="navigation" class="sticky">
@@ -97,7 +99,7 @@
                 <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}></a></li>
                 <li class="divider"></li>
               {% else %}
-                <li{% if link.url == page.url %} class="active excep" {% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}><img src="{{ domain }}{{ site.baseurl }}{{ link.image }}" /></a></li>
+                <li{% if link.url == page.url %} class="active excep " {% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}><img src="{{ domain }}{{ site.baseurl }}{{ link.image }}" /></a></li>
                 <li class="divider"></li>
               {% endif %}
               

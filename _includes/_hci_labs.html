@@ -1,5 +1,13 @@
 <head>
   <link rel="stylesheet" href="{{ site.url }}/assets/css/lab.css">
+  <style>
+    @media (max-width: 767px) {
+    	body {
+      		padding-left: 1rem;
+      		padding-right: 1rem;
+    	}
+  	}
+  </style>
 </head>
 <body>
 <h2 style="display: flex; justify-content: center;">German HCI Labs</h2>
@@ -29,7 +37,7 @@
 </div>
 
 {% assign lab_files = site.data.labs %}
-<div class="row">
+<div class="row padding">
 {% for file in lab_files %}
 {% for entry in file %}
   <h1 class="head-text" id="{{entry.name}}"> {{entry.name}} </h1>
