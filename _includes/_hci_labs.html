@@ -7,6 +7,64 @@
       		padding-right: 1rem;
     	}
   	}
+    .entry-name {
+      margin-bottom: 0.5rem; /* Reduced from 1rem to bring lab name closer */
+      font-weight: 390;
+    }
+
+    .labname {
+      font-size: 1.8rem;
+      margin-top: 0.25rem; /* Optional: adds a little space below entry-name */
+      margin-bottom: 0.25rem; /* Keeps spacing from lab-lead */
+    }
+
+    .lab-lead {
+      margin-top: 0.1rem; /* Reduce space between lab name and lab lead */
+      font-size: 1.5rem;
+      color: #555;
+    }
+
+    .lab-section {
+      margin-bottom: 2rem;
+    }
+
+    .entry-name {
+      margin-bottom: 1rem;
+    }
+
+    .lab-card {
+      margin-bottom: 1rem;
+    }
+
+    .lab-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .lab-title {
+      flex: 1;
+    }
+
+    .lab-logo {
+      max-width: 200px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .link-icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .lab-info {
+      margin-top: 0.7rem;
+    }
+
+    .lab-divider {
+      border-color: #E98737;
+      border-width: 1px;
+    }
   </style>
 </head>
 <body>
@@ -38,29 +96,41 @@
 
 {% assign lab_files = site.data.labs %}
 <div class="row padding">
-{% for file in lab_files %}
-{% for entry in file %}
-  <h1 class="head-text" id="{{entry.name}}"> {{entry.name}} </h1>
-  {% for lab in entry.lab %}
-  {% if {{lab.logo}} %}
-  <div style="display: flex; justify-content: space-between;"> <h2 class="head-text" >{{ lab.labname }}</h2>
-    <img width="100px" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="lab logo"/> 
-    <!-- change the height and width adjustment to scss with maxwidth and minwidth -->
-  </div>
-  {% else %}
-  <h2 class="head-text" >{{ lab.labname }}</h2>
-  {% endif %}
-    <h3>{{ lab.lablead }} - <a href="{{lab.link}}"><img width="32px" src="{{site.url}}{{site.baseurl}}/assets/img/link.png"/></a></h3>
-    <p>
-      <span class="summary">{{ lab.info | truncatewords: 50 }}</span>
-      <span class="full-text" style="display: none;">{{ lab.info }}</span>
-      <a href="javascript:void(0);" onclick="readMore(this)">Read more</a>
-    </p>
+  {% for file in lab_files %}
+    {% for entry in file %}
+      <div class="lab-section">
+        <h1 class="head-text entry-name" id="{{ entry.name }}">{{ entry.name }}</h1>
+
+        {% for lab in entry.lab %}
+          <div class="lab-card">
+            <div class="lab-header">
+              <div class="lab-title">
+                <h2 class="head-text labname">
+                  {{ lab.labname }}
+                  <a href="{{ lab.link }}" target="_blank">
+                    <img class="link-icon" src="{{site.url}}{{site.baseurl}}/assets/img/link.png" alt="Link to lab"/>
+                  </a>
+                </h2>
+                <h3 class="lab-lead">{{ lab.lablead }}</h3>
+              </div>
+
+              {% if lab.logo %}
+                <img class="lab-logo" src="{{site.url}}{{site.baseurl}}/assets/img/labs_logo/{{lab.logo}}" alt="Lab logo"/>
+              {% endif %}
+            </div>
+
+            <p class="lab-info">
+              <span class="summary">{{ lab.info | truncatewords: 50 }}</span>
+              <span class="full-text" style="display: none;">{{ lab.info }}</span>
+              <a href="javascript:void(0);" onclick="readMore(this)">Read more</a>
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    <hr class="lab-divider"/>
   {% endfor %}
-{% endfor %}
-<hr style="border-color: #E98737; border-width: 1px;"/>
-{% endfor %} 
-</div> 
+</div>
 <button onclick="topFunction()" id="topBtn"><img src="{{site.url}}{{site.baseurl}}/assets/img/up-arrow.png"/></button>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/map_pins.js" ></script>
 </body>
