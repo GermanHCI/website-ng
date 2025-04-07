@@ -2,11 +2,11 @@ university: "Ruhr-Universität Bochum"
 name: "Ruhr-Universität Bochum"
 lab:
   - labname: "Digital Sovereignty Lab"
-    lablead: "Prof. Dr. Karola Marky"
+    lablead: "Karola Marky"
     link: https://informatik.rub.de/digisoul/
     info: "DigiSoul – the Digital Sovereignty Lab led by Prof. Dr. Karola Marky, has been part of the Faculty of Computer Science at the Ruhr University Bochum since 2022. The Chair is associated with the Horst Görtz Institute for IT Security (HGI), and the Cluster of Excellence for Cyber Security (CASA).DigiSoul’s research is primarily focused on the intersection of cybersecurity and privacy research with human factors. We specifically investigate the capacity of individuals (e.g., end-users or developers), institutions (e.g., universities or companies), or states (e.g., administrations or governments) for informational self-determination. "
   - labname: "Human-Centered Security and Privacy"
-    lablead: "Dr. Yixin Zou"
+    lablead: "Yixin Zou"
     link: https://www.mpi-sp.org/zou
     info: "Yixin Zou is a tenure-track faculty member at MPI-SP leading the Human-Centered Security and Privacy group. Her research spans human-computer interaction, privacy, and security, focusing on improving consumers’ adoption of protective behaviors and supporting the digital safety of at-risk populations. Her research has been recognized with the 2022 John Karat Usable Privacy and Security Student Research Award and best paper awards/honorable mentions at ACM CHI and SOUPS."
   - labname: "Responsible Computing"
@@ -14,6 +14,6 @@ lab:
     link: https://www.mpi-sp.org/biega
     info: "I am a tenure-track faculty member (W2) leading the Responsible Computing group. In the Responsible Computing group, we study online socio-technical systems—the algorithms, the people, the legal regulations, the interfaces and the data. We seek to understand both the influence online systems have on user behavior, cognition, and well-being, as well as the impacts of user biases and preferences on the functioning of those systems."
   - labname: "Design of trustworthy artificial intelligence"
-    lablead: "Prof. Dr. Hendrik Heuer"
+    lablead: "Hendrik Heuer"
     link: https://www.cais-research.de/en/research-program-design-of-trustworthy-artificial-intelligence/
     info: "Prof. Hendrik Heuer's team works at the intersection of artificial intelligence and human-computer interaction. As part of the research program, principles of trustworthy artificial intelligence are developed, technically implemented and tested together with users in practical fields of application. A particular focus is on social media and the question of how they can be improved."

@@ -1,8 +1,8 @@
 university: "OFFIS – Institute for Information Technology (Oldenburg)"
 name: "OFFIS – Institute for Information Technology (Oldenburg)"
 lab:
-  - labname: "Human Machine Cooperation (HMC)"
-    lablead: "Dr. Ing. Wilko Heuten"
+  - labname: "Mixed "
+    lablead: "Susanne Boll and Wilko Heuten"
     logo: "Offis_deutsche_sub_cmyk_cyan_14.35.png"
     link: "https://www.offis.de"
     info: "OFFIS is the leading research and development institute in Lower Saxony in the field of computer science. As an affiliated institute of the Carl von Ossietzky University, which also conducts basic research that is indispensable for us, we conduct application-oriented research as well as science and technology transfer into society, business and administration. The funding bodies of OFFIS are the state of Lower Saxony, the Carl von Ossietzky University of Oldenburg and professors related to computer science, especially from the Department of Computer Science, as well as from other universities. We perform technically and scientifically outstanding work for innovative and application-oriented research. Our research is based on people, their needs and the need to preserve the environment. We share our research results with everyone through widely available publications. We reflect our research on ethical principles and follow the standards of good scientific practice. Research done for and on weapons has no place in OFFIS."

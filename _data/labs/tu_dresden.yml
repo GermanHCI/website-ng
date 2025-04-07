@@ -2,12 +2,12 @@ university: "TU Dresden"
 name: "TU Dresden"
 lab:
   - labname: "Interactive Media Lab"
-    lablead: "Prof. Dr. Raimund Dachselt"
+    lablead: "Raimund Dachselt"
     logo: logo_IML.png
     link: https://imld.de/en/
     info: "The Interactive Media Lab Dresden (Chair of Multimedia Technology) at the Institute of Software and Multimedia Technology of the Faculty of Computer Science at TU Dresden was established in April 2012 and is led by Prof. Raimund Dachselt. The Interactive Media Lab at the Technische Universität Dresden is conducting research primarily in the field of modern Human-Computer Interaction and interactive Information Visualization. Our main focus are natural user interfaces, in particular the development of interaction techniques and data visualization approaches using various interaction modalities (multitouch, pen, gaze, tangibles, gestures) and their combination. Typical research setups are multi-display and Mixed Reality environments as well as wearables for augmenting humans. We apply our basic research results to several application domains, like biology, medicine and cyber-physical systems, and develop domain-specific solutions."
 
   - labname: "Human Computer Interaction"
-    lablead: "Professor Gehard Weber"
+    lablead: "Gehard Weber"
     link: https://tu-dresden.de/ing/informatik/ai/mci
     info: "We develop solutions such as access to the graphics in graphical user interfaces by novel screen readers in project Hyperbraille. More than 50 participants have evaluated the results. In the following project Tangram has been awarded to us, in order to allow the collaborative production of tactile graphics together with a pin-matrix device. The ongoing project MOSAIK aims at a solution allowing blind people to create graphics and draw by themselves."

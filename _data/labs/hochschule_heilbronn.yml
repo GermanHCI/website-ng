@@ -2,6 +2,6 @@ university: "Hochschule Heilbronn"
 name: "Hochschule Heilbronn"
 lab:
   - labname: "UniTyLab"
-    lablead: "Professor Gerrit Meixner"
+    lablead: "Gerrit Meixner"
     link: https://www.hs-heilbronn.de/de/unitylab
     info: "The Usability and Interaction Technology Laboratory (UniTyLab) is a research institute of Heilbronn University and was founded in 2013 by Professor Gerrit Meixner. The focus of the UniTyLab is to develop novel user interfaces and innovative technologies in the area of Human-Computer Interaction and to adapt existing interaction concepts to new use cases and application domains."

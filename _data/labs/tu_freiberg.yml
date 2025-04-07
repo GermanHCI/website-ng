@@ -2,7 +2,7 @@ university: "TU Freiberg"
 name: "TU Freiberg"
 lab:
   - labname: "Ubiquitous Computing and Smart Systems"
-    lablead: "Prof. Dr. Bastian Pfleging"
+    lablead: "Bastian Pfleging"
     logo: new_logo_sw_textonly.png
     link: https://tu-freiberg.de/ubisys
     info: "In our working group, we research the intersection between ubiquitous and smart computer systems and human-computer interaction. We deal with questions of basic research as well as with questions that arise in the context-specific application reference. The goal of our research is to understand how ubiquitous computer systems can be used to support people in their tasks and activities, while keeping people themselves at the center. Especially in the age of growing automation and more autonomous systems, this is a growing challenge."

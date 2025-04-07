@@ -2,7 +2,7 @@ university: "Karlsruhe Institute of Technology"
 name: "Karlsruhe Institute of Technology"
 lab:
   - labname: "Human Computer Interaction and Accessibility"
-    lablead: "Prof. Dr. Kathrin Gerling"
+    lablead: "Kathrin Gerling"
     link: https://hci.iar.kit.edu/index.php
     info: "The research group “Human-Computer Interaction and Accessibility” (Prof. Dr. Kathrin Gerling) at the Institute for Anthropomatics und Robotics (IAR) explores interactive systems and their potential to provide enriching experiences. From a technical perspective, the research focus lies on systems that are closely intertwined with users’ bodies, ranging from sensor-based wearable systems and assistive technology to immersive experiences such as digital games and virtual reality. Central to the research of the group is the question how interactive technology can be designed in a way that supports human self-determination, and how we can achieve experiential accessibility – accessibility that strives for equitable experiences, extends beyond the removal of barriers, and seeks to provide engaging user experiences for all of us."
 
@@ -13,13 +13,13 @@ lab:
     info: "The Center for Digital Accessibility and Assistive Technology (ACCESS@KIT) – the former Study Center for Visually impaired students (SZS) supports and advises visually impaired students and prospective students in all study courses offered at KIT. We also play an active role in teaching and in research on Assistive Technology. ACCESS@KIT works closely with the Computer Vision for Human-Computer Interaction research group."
 
   - labname: "Human Centered Systems lab"
-    lablead: "Prof. Dr. Alexander Mädche"
+    lablead: "Alexander Mädche"
     logo: LOGO_lang_klein_RZ.svg
     link: https://h-lab.iism.kit.edu/index.php
     info: "The human-centered systems lab (h-lab) headed by Prof. Dr. Alexander Maedche (research group “Information Systems I”, formerly ISSD) focuses in research, education, and innovation on designing human-centered systems for better work & life. Our mission is to create impactful knowledge for designing human-centered systems for human productivity and well-being through relevant and rigor scientific research. We leverage advanced artificial intelligence (AI) and biosignal sensor technologies and follow a socio-technical research paradigm for increasing human productivity and well-being through human-centered systems. We contribute to the fields of human-computer interaction (HCI) (Mensch-Computer Interaktion) and information systems (IS) (Wirtschaftsinformatik). We believe that delivering cutting-edge knowledge and inspiring education, as well as an ongoing dialog with the public need to go hand in hand to maximize the impact of our work in organizations and society."
   
   - labname: "SECUSO Security. Usability. Society Research Group"
-    lablead: "Prof. Dr. Melanie Volkamer"
+    lablead: "Melanie Volkamer"
     link: https://secuso.aifb.kit.edu
     info: "The research group SECUSO (Security • Usability • Society) belongs to the Institute of Applied Informatics and Formal Description Methods (AIFB) of the Karlsruhe Institute of Technology (KIT). The group was founded in 2011 by Prof. Dr. Melanie Volkamer at TU Darmstadt. The SECUSO research group under the direction of Prof. Dr. Melanie Volkamer moved to KIT in 2018. SECUSO belongs to the umbrella brand KASTEL Security Research Labs, which emerged from the Competence Center for Applied Security Technology. The Competence Center for Applied Security Technology is one of three competence centers for cyber security in Germany, which were initiated by the Federal Ministry of Education and Research (BMBF) in March 2011. SECUSO is also a member of the KIT Center K-CIST and the KD²Lab."
 

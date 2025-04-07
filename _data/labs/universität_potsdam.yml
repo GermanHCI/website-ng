@@ -2,6 +2,6 @@ university: "Universität Potsdam"
 name: "Universität Potsdam"
 lab:
   - labname: "Human Computer Interaction Lab"
-    lablead: "Prof. Dr. Patrick Baudisch"
+    lablead: "Patrick Baudisch"
     link: "https://hpi.de/baudisch/home.html"
     info: "We believe that computer science and mechanical engineering are about to unite. In the future, users will solve mechanical problems by digitizing the involved objects using 3D scanners, solving the problem in the digital domain using the means of computer science, and converting the result back to the mechanical domain using a 3D printer. This will allow solving mechanical problems with the effectiveness and efficiency of computer science, including the ability to scale massively. This will not only change mechanical engineering, but also allow computing to reach its next phase, which is to merge into matter itself, where the physical matter of objects will also perform the computation, rather than separate micro controllers. The role of our group is to drive this unification process, in particular by creating and re-purposing fabrication machines and haptic machinery."
