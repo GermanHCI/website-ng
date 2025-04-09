@@ -181,7 +181,7 @@
 .searchButton{
 	border-radius: 10%;
 }
-.map_access{
+/* .map_access{
     display:flex; 
     justify-content: center;
 	@media only screen and (max-width: 768px) {
@@ -190,4 +190,17 @@
 		align-items: center;
 		margin-inline: 10%;
 	}
-}
+} */
+/* #germany-map {
+	width: 100%;
+	height: auto;
+	max-width: 600px; 
+	display: block;
+	margin: 0 auto;
+} */
+
+/* .map-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+  } */
