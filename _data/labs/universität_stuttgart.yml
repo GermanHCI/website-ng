@@ -1,7 +1,17 @@
 university: "Universität Stuttgart"
 name: "Universität Stuttgart"
 lab:
-  - labname: ""
-    lablead: ""
-    link: 
+  - labname: "Human-Computer Interaction and Cognitive Systems Group"
+    lablead: "Andreas Bulling"
+    link: https://www.perceptualui.org/
     info: 
+    
+  - labname: "Augmented Reality and Virtual Reality Group"
+    lablead: "Michael Sedlmair"
+    link: https://www.visus.uni-stuttgart.de/en/team/by_working_group/working-group-prof.-sedlmair/
+    info:
+
+  - labname: "Visual Computing"
+    lablead: "Dieter Schmalstieg"
+    link: https://www.visus.uni-stuttgart.de/en/institute/workinggroups/schmalstieg-group/
+    info:

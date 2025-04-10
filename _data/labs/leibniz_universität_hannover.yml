@@ -2,6 +2,6 @@ university: "Leibniz Universität Hannover"
 name: "Leibniz Universität Hannover"
 lab:
   - labname: "Human Computer Interaction Group"
-    lablead: "Matthias Becker and Michael Rohs"
+    lablead: "Michael Rohs"
     link: https://www.pi.uni-hannover.de/de/hci
     info: "The Human-Computer Interaction department is part of the Faculty of Electrical Engineering and Computer Science at Leibniz University Hannover. Our research and teaching content focuses on the design, implementation and evaluation of mobile, wearable and ubiquitous interactive systems. Current research focuses on the application of machine learning methods in sensor-based mobile interactions and mobile haptic feedback, such as in pedestrian navigation."

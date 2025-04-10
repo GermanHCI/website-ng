@@ -1,7 +1,7 @@
 university: "Universität zu Lübeck"
 name: "Universität zu Lübeck"
 lab:
-  - labname: "Interaktionsdesign und User Experience"
+  - labname: "Interaction Design and User Experience"
     lablead: "Hans-Christian Jetter"
     link: "https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-interaktionsdesign-und-user-experience"
     info: "Since August 2020, Hans-Christian Jetter has been Professor of Interaction Design and User Experience and Head of the iDUX (Interaction Design and User Experience) working group at the University of Lübeck. The research focus of the professorship is in the field of interaction design for better human-computer interaction and in particular for better human-data interaction. For this purpose, the professorship and work group designs, implements and evaluates novel mobile, ubiquitous and collaborative systems, e.g. interactive tables, walls, rooms or the seamless interaction across multiple devices. These support users in the exploration, visualization and interpretation of complex data sets and models. Increasingly, mixed reality technologies such as augmented reality or virtual reality are also playing a role here, e.g. for Immersive Analytics."
@@ -10,3 +10,18 @@ lab:
     lablead:  "André Calero Valdez"
     link: https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-human-computer-interaction-und-usable-safety-engineering
     info: "The central approach is a multi-method approach that combines methods from computer science and the social sciences. Thus, methods of human-technology interaction (e.g. user-centered design, participatory design, walkthroughs, heuristic evaluation) are combined with methods of psychology (e.g. qualitative and quantitative empirical social research, acceptance research, conjoint methods, structural equation modeling) and with methods of socioinformatics (e.g. agent-based modeling, system dynamics modeling, computational social network analysis) in order to find suitable answers to the increasingly complex questions of real-world requirements."
+
+  - labname: "Engineering Psychology"
+    lablead: "Thomas Franke"
+    link: https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-ingenieurpsychologie
+    info: "At the Professorship of Engineering Psychology and Cognitive Ergonomics, we deal with the interaction of people with technical systems. The focus is on two guiding questions: What are the central challenges for users in human-technology interaction? How can we optimally support users in achieving their goals through system design? We address these guiding questions in areas of application that are of particular importance due to existing social or technical challenges and developments. These include topics such as energy, mobility and health as well as automation, digitization and AI."
+
+  - labname: "E-Government and Open Data Ecosystems"
+    lablead:  "Moreen Heine"
+    link: https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-human-computer-interaction-und-usable-safety-engineering
+    info: "The Chair of E-Government and Open Data Ecosystems conducts research on digital transformation in the public sector. From a process- and user-oriented perspective, we analyze and develop strategies, concepts and solutions. Our focus is on classic topics of e-government, including reorganization, applications and architectures as well as acceptance. In addition, we address various opening concepts of government and administration. This includes transparency, participation and cooperation."
+
+  - labname: "Media Informatics"
+    lablead:  "Nicole Jochems"
+    link: https://www.imis.uni-luebeck.de/de/institut/professuren/professur-fuer-medieninformatik
+    info: "At the Chair of Media Informatics, we deal with the user-centered development of human-technology interfaces. Our research aims in particular at improving the usability, increasing user acceptance and user experience. Cognitive science questions in the field of analysis and modeling of user characteristics as well as information technology implementation aspects in the derivation of context-sensitive design solutions for innovative technology solutions are focused. The integration of the later users in all phases of development based on the human-centered design approach is a key component for the design of innovative, user-centered human-technology interfaces with high user acceptance and user experience."

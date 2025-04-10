@@ -130,7 +130,7 @@ function addPin(uni) {
     textDiv.style.wordWrap = "break-word";
     textDiv.style.zIndex = "1000"; 
     textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
-
+    
     document.body.appendChild(textDiv);
 }
 
@@ -183,10 +183,15 @@ function highlightPin(uniName) {
         pin.querySelector("circle").setAttribute("fill", "#E98737");
         pin.querySelector("circle").setAttribute("stroke", "#E98737");
     }
-
-    if (label) {
-        label.style.display = "block"; // Show university name
+    if (window.innerWidth <= 768) {
+        label.style.display = "none";
     }
+    else{
+        if (label) {
+            label.style.display = "block"; // Show university name
+        }
+    }
+
 }
 
 function resetPin(uniName) {
@@ -241,7 +246,7 @@ function convertLatLonToXYHome(lat, lon) {
 function addPinHome(uni) {
     const coords = convertLatLonToXYHome(uni.lat, uni.lon);
     const svg = document.getElementById('germany-map-home');
-    const svgRect = svg.getBoundingClientRect(); //gets svg coordinates
+    const svgRect = svg.getBoundingClientRect(); 
 
     const pin = createPinImage();
     pin.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-pin`);
@@ -280,6 +285,8 @@ function addPinHome(uni) {
     textDiv.style.wordWrap = "break-word";
     textDiv.style.zIndex = "1000"; 
     // textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
-
+    if (window.innerWidth <= 768) {
+        textDiv.style.display = "none";
+    }
     document.body.appendChild(textDiv);
 }

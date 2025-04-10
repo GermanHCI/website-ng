@@ -2,6 +2,6 @@ university: "LMU Munich"
 name: "LMU Munich"
 lab:
   - labname: "Media Informatics Group"
-    lablead: Florian Alt, Sven Mayer, Andreas Butz
+    lablead: Andreas Butz, Albrecht Schmidt, Florian Alt, Sven Mayer
     link: https://www.mmi.ifi.lmu.de/index.xhtml
     info: "The Media Informatics and Human-Computer Interaction working group consists of two chairs, the Chair of Applied Computer Science and Media Informatics and the Chair of Human-Computer Interaction. Both carry out research on the borderline between human behavior and machine computation. This comprises a large range of topics, including novel interaction technologies, development methodologies and application case studies. We have the goal to make our work visible at an international level and therefore target international research publication media. In parallel we maintain a number of research contacts to local companies for applied research."

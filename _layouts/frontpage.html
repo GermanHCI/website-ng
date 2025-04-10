@@ -4,58 +4,38 @@ format: frontpage
 ---
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/home.css">
 <style>
-    /* .map_access {
-      display: flex;
-      justify-content: center; 
-      align-items: flex-start;
-      flex-wrap: wrap;
-      padding: 1rem;
-      gap: 4rem;              
-      max-width: 90%;
-      margin: 0 auto;
+    .map_access{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2rem;
+        flex-wrap: wrap;
     }
-
-    .quick_access {
-      flex: 0 1 350px;      
-      max-width: 400px;
-      font-size: 0.95rem;
-      line-height: 1.4;
-      overflow-wrap: break-word;
+    .labs-div{
+        text-align: right;
+        color: white;
+        margin-block: auto;
+        margin-left: 10%;
+        
     }
-
-    .map-container {
-      flex: 0 1 650px;
-      max-width: 800px;
-      aspect-ratio: 3 / 4;
-      margin: 0 auto;
-      width: 100%;
+    .map-container{
+        max-width: 600px;
     }
-    #germany-map-home {
-      width: 100%;
-      height: auto;
-      max-width: 600px;
+    @media (max-width: 768px) {
+    .map_access {
       display: block;
-    } */
-    #germany-map-home {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-width: 600px; 
-    margin: 0 auto;  
-  }
-  #map-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
+      justify-content: center;
+    }
+    .labs-div{
+        text-align: center !important;
+    }
+    }
 </style>
 <div class="row" style="padding-top:4rem;">
     <div class=" medium-6 columns">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logo.svg" style="max-width:auto; height: 300px;"/>
     </div>
-    <div class=" medium-6 columns">
-      <p>The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for the fascinating research, the aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest HCI research in a relaxed atmosphere. In addition, we also started to support further community events within the German HCI community.</p>
+    <div class=" medium-6 columns" style="margin-top: 2rem;">
+      <p >The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for the fascinating research, the aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest HCI research in a relaxed atmosphere. In addition, we also started to support further community events within the German HCI community.</p>
     </div>
   </div>
 
@@ -99,7 +79,7 @@ format: frontpage
 <!-- German HCI Labs -->
  <div style="background-color: black; padding-block: 3rem;">
     <div class="map_access">
-        <div class="labs-div quick_access">
+        <div class="labs-div">
                 <h1 class="h1-text">German HCI LABS</h1>
                 <p class="p1"> All across Germany</p>
                 <p class="p2">Germany is a hub for HCI innovation, with a vibrant community actively contributing to CHI and a network of renowned HCI labs spread across the country.</p>

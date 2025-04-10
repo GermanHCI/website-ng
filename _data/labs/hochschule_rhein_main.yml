@@ -1,0 +1,7 @@
+university: "Hochschule Rhein Main"
+name: "Hochschule Rhein Main"
+lab:
+  - labname: "Computer Vision and Mixed Reality Group"
+    lablead: "Ulrich Schwanecke"
+    link: https://www.mi.hs-rm.de/~schwan/
+    info: "Welcome to the Computer Vision and Mixed Reality Group, which is part of the Department of Design, Computer Science and Media and is headed by Prof. Dr. Ulrich Schwanecke. Our research and teaching activities focus on Computer Graphics and Computer Vision as well as Human Computer Interaction. Please see our research pages, youtube channel, publication list, or overview of completed theses and projects for details. You can also find a nice presentation of some of our projects here."

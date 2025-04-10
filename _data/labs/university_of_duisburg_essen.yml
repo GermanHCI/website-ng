@@ -1,12 +1,6 @@
 university: "University of Duisburg-Essen"
 name: "University of Duisburg-Essen"
 lab:
-  - labname: "HCI Group"
-    lablead: "Max Mühlhäuser"
-    link: "https://hci.informatik.uni-due.de/en/"
-    leadLink: ""
-    info: "The HCI Group at the University of Duisburg-Essen (Campus Essen) researches on the crossroads of human-computer interaction and ubiquitous computing. We explore how mobile, wearable, and ubiquitous computer can be used to create a benefit to the user. We particularly focus in our current research projects on providing novel and implicit ways to authenticate users, improve user’s health through digital technology, interacting with autonomous systems, and providing immerse multi-user environments in virtual reality. We are part of the paluno, the Ruhr Institute for Software Technology."
-  
   - labname: "Interactive Systems Group"
     lablead: "Michael Prilla"
     link: "https://www.uni-due.de/interaktivesysteme/"
