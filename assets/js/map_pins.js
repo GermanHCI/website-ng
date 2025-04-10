@@ -160,19 +160,22 @@ function createPinImage() {
     return svgElem;
 }
 
-function moveTo(name){
+function moveTo(name) {
     console.log(`${name}`); 
     const offset = 70; 
     const element = document.getElementById(name);
+    console.log("Found element:", element);
     if (element) {
         // Get the position of the element relative to the viewport
         const rect = element.getBoundingClientRect();
         // Scroll to the element's top position adjusted by the offset
-        window.scrollTo({ top: window.scrollY + rect.top - offset, behavior: 'smooth' });
+        console.log("Scrolling to:", window.scrollY + rect.top - offset);
+        window.scrollTo({ top: window.scrollY + rect.top - offset, behavior: 'smooth'});
     } else {
         console.error(`Element with ID "${name}" not found.`);
     }
 }
+
 function highlightPin(uniName) {
     const pin = document.getElementById(`${uniName.replace(/\s+/g, '-')}-pin`);
     const label = document.getElementById(`${uniName.replace(/\s+/g, '-')}-label`);

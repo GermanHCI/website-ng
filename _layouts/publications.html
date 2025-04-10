@@ -25,7 +25,7 @@ format: publications
 <div class="row t30">
     <div class="medium-12 columns">
     <!-- TO DO -->
-    We curated a list of this year’s publications — including links to social media, lab websites, and supplemental material. We have 58 full papers, 13 LBWs, one DC paper, and one Student Game Competition, and we lead five workshops. Two papers were awarded a best paper award, and four papers received an honourable mention.
+    We curated a list of publications from all the recent years. The papers are sorted from latest to the oldest and categoriesed under various tags as you can see bellow. 
     Is your publication missing? Send us an email: contact@germanhci.de
 
     {{ content }}
@@ -80,14 +80,14 @@ format: publications
             {% assign clean_tag = entry.tags | replace: "{", "" | replace: "}", "" | split: "," | join: ", " | xml_escape %}
             {% assign clean_abstract = entry.abstract | replace: "{", "" | replace: "}", "" | xml_escape %}
             {% assign clean_keywords = entry.keywords | replace: "{", "" | replace: "}", "" | xml_escape %}
-            
+            {% assign entry_url = entry.url | replace: "{", "" | replace: "}", "" | xml_escape %}
             <h3 class="head-text">{{ clean_title }}</h3><br/>
             {{ clean_author }}<br/>
             <p style="font-size: small;">In: {{ clean_year }}</p>
             <p>
                 <span onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="text-decoration: underline; color: brown;">Abstract</span> |
                 Tags: <span class="tags">{{clean_tag}}</span>|
-                Links: <a href="{{ entry.url }}"><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a>
+                Link: <a href="{{entry_url}}" target="_blank" ><img src="{{ site.url }}/assets/img/doi.jpg" width="20px"/></a>
             </p>
             <p class="abstract" id="abstract-{{ forloop.index }}" style="display: none;">
                 {{ clean_abstract }}<br>

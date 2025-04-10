@@ -161,6 +161,7 @@ $head-text: #40A3A0;
   padding-left: 20px; // Adjust this value to give space for the line
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 350;
+  margin-bottom: 1rem;
   &::before {
     content: "";
     position: absolute;
