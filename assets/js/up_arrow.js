@@ -6,23 +6,23 @@ document.addEventListener("DOMContentLoaded", function () {
 	};
 
 	function scrollFunction() {
-		if (
-			document.body.scrollTop > 20 ||
-			document.documentElement.scrollTop > 20
-		) {
-			mybutton.style.display = "block";
-		} else {
-			mybutton.style.display = "none";
-		}
-	}
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.visibility = "visible"; 
+        } else {
+            mybutton.style.visibility = "hidden";
+        }
+    }
 
 	function topFunction() {
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
 	}
 
-	// Make topFunction globally accessible
 	window.topFunction = topFunction;
 
 	console.log("JS loaded");
 });
+ 

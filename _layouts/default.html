@@ -7,10 +7,11 @@ layout: compress
 	{% include _head.html %}
 	<style>
 	#topBtn {
+		visibility: hidden;
 		display: none;
 		position: fixed;
 		bottom: 30px;
-		left: calc(55% + 480px); /* Adjust for your content width (e.g., 960px wide container) */
+		left: calc(55% + 480px); 
 		z-index: 999;
 		background-color: #45B29D;
 		border: none;
@@ -32,13 +33,7 @@ layout: compress
 		pointer-events: none;
 	}
 
-	/* Responsive: move to bottom-right on smaller screens */
-	/* @media (max-width: 1024px) {
-	#topBtn {
-		left: auto;
-		right: 30px;
-	}
-} */
+
 	@media (max-width: 768px) {
 	#topBtn {
 		left: auto;
