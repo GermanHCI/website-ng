@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("arrived here");
     const universities = [
+        // add new lab locations here 
+        // {name: ,lat: ,lon: },
         { name: "Karlsruhe Institute of Technology", lat: 49.20, lon: 8.35},
         { name: "Universität Hamburg",lat:  53.5330, lon: 10.04 },
         { name: "Universität Bamberg", lat: 49.8938, lon: 10.8835},
@@ -36,9 +38,15 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Universität Potsdam",lat: 52.4393,lon: 12.7376},
         { name: "Universität Siegen", lat: 50.9964, lon: 8.1595},
         { name: "Universität zu Lübeck", lat: 53.9911, lon: 10.5751}
-        // offis location
+        
     ];
-    universities.forEach(uni => addPin(uni));
+    if (document.getElementById("germany-map")) {
+        universities.forEach(uni => addPin(uni));
+    }
+
+    if (document.getElementById("germany-map-home")) {
+        universities.forEach(uni => addPinHome(uni));
+    }
 });
  
 const mapBounds = {
@@ -46,10 +54,7 @@ const mapBounds = {
     bottomRight: { lat: 47.40724, lon: 14.98853 }
 };
 
-// const svgDimensions = {
-//     width: 600,
-//     height: 800
-// };
+
 function getSvgSize() {
     const svg = document.getElementById("germany-map");
     const viewBox = svg.viewBox.baseVal;
@@ -77,8 +82,8 @@ function addPin(uni) {
     pin.classList.add('pin');
 
     pin.addEventListener('mouseenter', function() {
-        pin.querySelector("circle").setAttribute("fill", "#E98737"); // Changes pin colour to orange shade
-        pin.querySelector("circle").setAttribute("stroke", "#E98737"); // Changes pin border coclour to orange shade
+        pin.querySelector("circle").setAttribute("fill", "#E98737"); 
+        pin.querySelector("circle").setAttribute("stroke", "#E98737"); 
         textDiv.style.display = "block";
         if (quickAccessLink) {
             quickAccessLink.style.color = "#E98737"; 
@@ -87,8 +92,8 @@ function addPin(uni) {
     });
 
     pin.addEventListener('mouseleave', function() {
-        pin.querySelector("circle").setAttribute("fill", "#2C5BA5"); // Resets pin colour
-        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5"); // Reset pin border colour
+        pin.querySelector("circle").setAttribute("fill", "#2C5BA5"); 
+        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5"); 
         textDiv.style.display = "none";
         if (quickAccessLink) {
             quickAccessLink.style.color = "rgb(3, 34, 46)"; 
@@ -110,31 +115,25 @@ function addPin(uni) {
     svg.appendChild(pin);
     
     const textDiv = document.createElement("div");
-    textDiv.classList.add("uni-label"); // Apply CSS for styling
+    textDiv.classList.add("uni-label"); 
     textDiv.textContent = uni.name;
     textDiv.style.position = "absolute";
-    textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  //positioning the text
-    textDiv.style.top = `${svgRect.top + coords.y - 30}px`; //positioning the text
-    textDiv.style.maxWidth = "150px";  // Set a max width
-    textDiv.style.backgroundColor = "#E98737";  // Background color
-    textDiv.style.color = "#FFFFFF";  // Text color
-    textDiv.style.padding = "5px";  // Padding inside the box
-    textDiv.style.borderRadius = "5px";  // Rounded corners
-    textDiv.style.display = "none"; // Initially hidden
+    textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  
+    textDiv.style.top = `${svgRect.top + coords.y - 30}px`; 
+    textDiv.style.maxWidth = "150px";  
+    textDiv.style.backgroundColor = "#E98737";  
+    textDiv.style.color = "#FFFFFF"; 
+    textDiv.style.padding = "5px";  
+    textDiv.style.borderRadius = "5px";  
+    textDiv.style.display = "none"; 
     textDiv.style.fontSize = "12px";
-    textDiv.style.wordWrap = "break-word"; // Ensure long words break properly
-    textDiv.style.zIndex = "1000"; // Ensure it's above other elements
+    textDiv.style.wordWrap = "break-word";
+    textDiv.style.zIndex = "1000"; 
     textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
 
     document.body.appendChild(textDiv);
 }
 
-
-// function convertLatLonToXY(lat, lon) {
-//     const x = ((lon - mapBounds.topLeft.lon) / (mapBounds.bottomRight.lon - mapBounds.topLeft.lon)) * svgDimensions.width;
-//     const y = ((mapBounds.topLeft.lat - lat) / (mapBounds.topLeft.lat - mapBounds.bottomRight.lat)) * svgDimensions.height;
-//     return { x, y };
-// }
 function convertLatLonToXY(lat, lon) {
     const { viewBoxWidth, viewBoxHeight } = getSvgSize();
     const x = ((lon - mapBounds.topLeft.lon) / (mapBounds.bottomRight.lon - mapBounds.topLeft.lon)) * viewBoxWidth;
@@ -219,4 +218,68 @@ function readMore(link){
       fullText.style.display = "inline";
       link.textContent = "Read less";
     }
+}
+
+function getSvgSizeHome() {
+    const svg = document.getElementById("germany-map-home");
+    const viewBox = svg.viewBox.baseVal;
+    const boundingBox = svg.getBoundingClientRect();
+    return {
+        width: boundingBox.width,
+        height: boundingBox.height,
+        viewBoxWidth: viewBox.width,
+        viewBoxHeight: viewBox.height
+    };
+}
+function convertLatLonToXYHome(lat, lon) {
+    const { viewBoxWidth, viewBoxHeight } = getSvgSizeHome();
+    const x = ((lon - mapBounds.topLeft.lon) / (mapBounds.bottomRight.lon - mapBounds.topLeft.lon)) * viewBoxWidth;
+    const y = ((mapBounds.topLeft.lat - lat) / (mapBounds.topLeft.lat - mapBounds.bottomRight.lat)) * viewBoxHeight;
+    return { x, y };
+}
+
+function addPinHome(uni) {
+    const coords = convertLatLonToXYHome(uni.lat, uni.lon);
+    const svg = document.getElementById('germany-map-home');
+    const svgRect = svg.getBoundingClientRect(); //gets svg coordinates
+
+    const pin = createPinImage();
+    pin.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-pin`);
+    pin.setAttribute('x', coords.x); 
+    pin.setAttribute('y', coords.y-2);
+    pin.setAttribute('title', uni.name); 
+    pin.classList.add('pin');
+
+    pin.addEventListener('mouseenter', function() {
+        pin.querySelector("circle").setAttribute("fill", "#E98737"); 
+        pin.querySelector("circle").setAttribute("stroke", "#E98737"); 
+        textDiv.style.display = "block";
+    });
+
+    pin.addEventListener('mouseleave', function() {
+        pin.querySelector("circle").setAttribute("fill", "#2C5BA5"); 
+        pin.querySelector("circle").setAttribute("stroke", "#2C5BA5"); 
+        textDiv.style.display = "none";
+    });
+    
+    svg.appendChild(pin);
+    
+    const textDiv = document.createElement("div");
+    textDiv.classList.add("uni-label"); 
+    textDiv.textContent = uni.name;
+    textDiv.style.position = "absolute";
+    textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  
+    textDiv.style.top = `${svgRect.top + coords.y - 30}px`;  
+    textDiv.style.maxWidth = "150px";  
+    textDiv.style.backgroundColor = "#E98737";  
+    textDiv.style.color = "#FFFFFF"; 
+    textDiv.style.padding = "5px";  
+    textDiv.style.borderRadius = "5px";  
+    textDiv.style.display = "none"; 
+    textDiv.style.fontSize = "12px";
+    textDiv.style.wordWrap = "break-word";
+    textDiv.style.zIndex = "1000"; 
+    // textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
+
+    document.body.appendChild(textDiv);
 }

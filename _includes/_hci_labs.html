@@ -8,18 +8,18 @@
     	}
   	}
     .entry-name {
-      margin-bottom: 0.5rem; /* Reduced from 1rem to bring lab name closer */
+      margin-bottom: 0.5rem; 
       font-weight: 390;
     }
 
     .labname {
       font-size: 1.8rem;
-      margin-top: 0.25rem; /* Optional: adds a little space below entry-name */
-      margin-bottom: 0.25rem; /* Keeps spacing from lab-lead */
+      margin-top: 0.25rem; 
+      margin-bottom: 0.25rem; 
     }
 
     .lab-lead {
-      margin-top: 0.1rem; /* Reduce space between lab name and lab lead */
+      margin-top: 0.1rem; 
       font-size: 1.5rem;
       color: #555;
     }
@@ -70,55 +70,53 @@
       overflow-x: hidden;
     }
     .map_access {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 1rem;
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+      display: flex;
+      justify-content: center; /* Centers the content block */
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 1rem;
+      gap: 4rem;              /* Add a nice space between quick access & map */
+      max-width: 90%;
+      margin: 0 auto;
+    }
 
-.quick_access {
-  flex: 0 1 280px;
-  max-width: 300px;
-  font-size: 0.95rem;
-  line-height: 1.4;
-  overflow-wrap: break-word;
-}
+    .quick_access {
+      flex: 0 1 350px;        /* Keeps it at a readable width */
+      max-width: 400px;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      overflow-wrap: break-word;
+    }
 
-.map-container {
-  flex: 1;
-  min-width: 300px;
-  max-width: 100%;
-}
+    .map-container {
+      flex: 0 1 500px;
+      max-width: 600px;
+    }
+    #germany-map {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      display: block;
+    }
 
-#germany-map {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
+    @media only screen and (max-width: 768px) {
+    .map_access {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
 
-@media only screen and (max-width: 768px) {
-  .map_access {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
+    .quick_access {
+      width: 100%;
+      max-width: 90%;
+      text-align: center;
+    }
 
-  .quick_access {
-    width: 100%;
-    max-width: 90%;
-    text-align: center;
-  }
-
-  .map-container {
-    width: 100%;
-    max-width: 100%;
-  }
-}
+    .map-container {
+      width: 100%;
+      max-width: 100%;
+    }
+    }
   </style>
 </head>
 <body>
