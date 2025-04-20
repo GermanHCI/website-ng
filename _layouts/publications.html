@@ -98,7 +98,12 @@ format: publications
         {% endfor %}
     </div>
 </div>
+<div id="noResultsMessage" style="display: none; color: #999; font-style: italic; margin-top: 1rem; text-align: center;">
+    Oops! No publications under the selected tags.
+</div>
+  
 {% endif %}
+
 <button onclick="topFunction()" id="topBtn"><img src="{{site.url}}{{site.baseurl}}/assets/img/up-arrow.png"/></button>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/publications.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/up_arrow.js" ></script>

@@ -1,67 +1,37 @@
     // Get the content container
     const contentElement = document.getElementById('content');
     const sections = contentElement.querySelectorAll('.paper-section');
-    var globalTag;
-document.getElementById('searchForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the form from reloading the page
+    document.getElementById('noResultsMessage').style.display = 'none';
 
-    // Get the search input value
-    const searchText = document.getElementById('searchInput').value.trim();
-
-    // Display the searched text below the form
-    // const outputDiv = document.getElementById('output');
+    var globalTags = [];
+    let selectedTags = [];
     
-
-    let matchFound = false; // Flag to check if any match is found
-
-    // Display show all button
-    const clearSearch= document.getElementById('clearSearch');
-
-    if (searchText) {
-        sections.forEach(section => {
-            const text = section.textContent || section.innerText;
-            // Check if the section contains the search text
-            if (text.toLowerCase().includes(searchText.toLowerCase())) {
-                // Show only the matched section
-                section.style.display = 'block';
-                matchFound = true;
-            } else {
-                // Hide the other sections
-                section.style.display = 'none';
-            }
-        });
-
-        if (matchFound) {
-            // outputDiv.textContent = `You searched for: ${searchText}`;
-            clearSearch.style.display= 'inline-block';
-
-        }
-        else{
-            // outputDiv.textContent = `No matches found!`;
-            clearSearch.style.display = 'none';
-        }
-    } else {
-        // If search is empty, reset to show all sections
-        sections.forEach(section => {
-            section.style.display = 'block';
-        });
-        // outputDiv.textContent = '';
-    }
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    filterSections(); // Filter using search + selected tags
+    clearSearch.style.display = (selectedTags.length > 0 || searchInput.value.trim() !== '') ? 'inline-block' : 'none';
 });
+
 clearSearch.addEventListener('click', function() {
     resetSearch();
 });
 function resetSearch(){
-    searchInput.value = ''; // Clear search input
-    clearSearch.style.display = 'none'; // Hide "Show All" button
-    sections.forEach(section => { section.style.display = 'block'; });
-    var colorTag=document.getElementById(globalTag);
-    // var colorTag= document.getElementsByClassName('searchable-tag');
-    console.log(colorTag);
-    colorTag.style.color = '#FFFFFF';
-    colorTag.style.backgroundColor = ' #45B29D';
-    colorTag.style.borderRadius = "10px";
+    searchInput.value = '';
+    selectedTags = [];
+    clearSearch.style.display = 'none';
+
+    sections.forEach(section => section.style.display = 'block');
+
+    document.getElementById('noResultsMessage').style.display = 'none';
+
+    document.querySelectorAll('.searchable-tag').forEach(tag => {
+        tag.style.color = '#FFFFFF';
+        tag.style.backgroundColor = '#45B29D';
+        tag.style.borderRadius = '10px';
+    });
 }
+
+
 function toggleAbstract(id) {
     var abstract = document.getElementById(id);
     if (abstract.style.display === "none" || abstract.style.display === "") {
@@ -75,42 +45,49 @@ function searchTag(tag) {
 
     const searchText = tag.toLowerCase();
     let matchFound = false; // Flag to check if any match is found
-
-    if(globalTag){
-        var previousTag = document.getElementById(globalTag);
-        if (previousTag) {
-            previousTag.style.color = '#FFFFFF';
-            previousTag.style.backgroundColor = ' #45B29D';
-            previousTag.style.borderRadius = "10px";
-        }
+    const tagLower = tag.toLowerCase();
+    const index = selectedTags.indexOf(tagLower);
+    
+    // Toggle tag selection
+    if (index > -1) {
+        selectedTags.splice(index, 1); // Remove if already selected
+        updateTagStyle(tag, false);
+    } else {
+        selectedTags.push(tagLower); // Add if not selected
+        updateTagStyle(tag, true);
     }
-    sections.forEach(section => {
-        const tagElement = section.querySelector('.tags'); // Get the tags inside the section
-        if (tagElement && tagElement.innerText.toLowerCase().includes(searchText)) {
-            section.style.display = 'block'; // Show the section if the tag matches
-            matchFound = true;
-        } else {
-            section.style.display = 'none'; // Hide it otherwise
-        }
-    });
-       
-    globalTag=tag;
-    var colorTag= document.getElementById(tag);
-    if (matchFound) {
-        // outputDiv.textContent = `You searched for: ${searchText}`;
-        clearSearch.style.display= 'inline-block';
-        colorTag.style.color = '#45B29D';
-        colorTag.style.backgroundColor = ' #3E3E3E';
-        colorTag.style.borderRadius = "10px";
-    }
-    else{
-        // outputDiv.textContent = `No matches found!`;
-        clearSearch.style.display = 'none';
-        colorTag.style.color = '#FFFFFF';
-        colorTag.style.backgroundColor = ' #45B29D';
-        colorTag.style.borderRadius = "10px";
+    
+    filterSections(); // Apply the filter
+    clearSearch.style.display = (selectedTags.length > 0 || searchInput.value.trim() !== '') ? 'inline-block' : 'none';
+}
+function updateTagStyle(tag, isSelected) {
+    const tagEl = document.getElementById(tag);
+    if (tagEl) {
+        tagEl.style.color = isSelected ? '#45B29D' : '#FFFFFF';
+        tagEl.style.backgroundColor = isSelected ? '#3E3E3E' : '#45B29D';
+        tagEl.style.borderRadius = '10px';
     }
 }
+function filterSections() {
+    const searchText = searchInput.value.trim().toLowerCase();
+    const noResultsMessage = document.getElementById('noResultsMessage');
+    let anyVisible = false;
 
-  
-  
+    sections.forEach(section => {
+        const textMatch = section.textContent.toLowerCase().includes(searchText);
+
+        const tagElement = section.querySelector('.tags');
+        const tagsText = tagElement ? tagElement.innerText.toLowerCase() : '';
+
+        // ✅ Require all selected tags to match
+        const tagMatch = selectedTags.every(tag => tagsText.includes(tag));
+
+        const show = (textMatch && tagMatch);
+        section.style.display = show ? 'block' : 'none';
+
+        if (show) anyVisible = true;
+    });
+
+    // ✅ Show message if nothing matched
+    noResultsMessage.style.display = anyVisible ? 'none' : 'block';
+}
