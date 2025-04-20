@@ -18,7 +18,7 @@ git config --global user.email "youremail@example.com"
 ### 3. Clone the repository
 Run the following command to clone the repository 
 ```bash
-git clone https://github.com/username/repository.git 
+git clone https://github.com/GermanHCI/website-ng.git
 ```
 This cloned document can be accessed using VS code or other such softwares.
 
