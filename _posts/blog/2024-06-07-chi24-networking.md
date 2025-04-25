@@ -7,9 +7,10 @@ tags:
     - CHI'24
     - GermanHCI
     - Hawaii
-headimage:
-    image_fullwidth: "germanHCI_hawaii_k.jpg"
-    caption: German HCI Event @Hawaiian Brian’s Social Club in Honolulu, Hawaii (📷 ©Chris Krauter)
+
+image_fullwidth: "germanHCI_hawaii_k.jpg"
+caption: German HCI Event @Hawaiian Brian’s Social Club in Honolulu, Hawaii (📷 ©Chris Krauter)
+contentfile: chi24
 ---
 This year’s GermanHCI event at the CHI’24 conference was a standout, drawing over 700 participants. This networking event highlighted inclusivity, bringing together researchers from German labs, international academics, and industry professionals.
 
