@@ -22,7 +22,5 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	window.topFunction = topFunction;
-
-	console.log("JS loaded");
 });
  

@@ -65,23 +65,23 @@
       border-color: #E98737;
       border-width: 1px;
     }
-    html, body {
-      max-width: 100%;
+    /* html, body {
+      min-height: 100%;
       overflow-x: hidden;
-    }
+    }*/
     .map_access {
       display: flex;
-      justify-content: center; /* Centers the content block */
+      justify-content: center; 
       align-items: flex-start;
       flex-wrap: wrap;
       padding: 1rem;
-      gap: 4rem;              /* Add a nice space between quick access & map */
+      gap: 4rem;            
       max-width: 90%;
       margin: 0 auto;
     }
 
     .quick_access {
-      flex: 0 1 350px;        /* Keeps it at a readable width */
+      flex: 0 1 350px;       
       max-width: 400px;
       font-size: 0.95rem;
       line-height: 1.4;
@@ -97,7 +97,32 @@
       height: auto;
       max-width: 100%;
       display: block;
-    }
+    } 
+    #topBtn {
+		visibility: hidden;
+		position: fixed;
+		bottom: 30px;
+		left: calc(55% + 480px); 
+		z-index: 999;
+		background-color: #45B29D;
+		border: none;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		padding: 0;
+		cursor: pointer;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: all 0.3s ease-in-out;
+	}
+
+	#topBtn img {
+		width: 24px;
+		height: 24px;
+		pointer-events: none;
+	}
 
     @media only screen and (max-width: 768px) {
     .map_access {
@@ -116,6 +141,10 @@
       width: 100%;
       max-width: 100%;
     }
+    #topBtn {
+		left: auto;
+		right: 30px;
+	}
     }
   </style>
 </head>
@@ -183,5 +212,35 @@
     <hr class="lab-divider"/>
   {% endfor %}
 </div>
+<button onclick="topFunction()" id="topBtn"><img src="{{site.url}}{{site.baseurl}}/assets/img/up-arrow.png"/></button>
+<script>
+  let mybutton = document.getElementById("topBtn");
+  console.log(document.documentElement.scrollHeight, document.documentElement.clientHeight);
+
+window.onscroll = function () {
+  console.log("scrolling");
+  scrollFunction();
+
+};
+
+function scrollFunction() {
+      if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+      ) {
+          mybutton.style.visibility = "visible"; 
+      } else {
+          mybutton.style.visibility = "hidden";
+      }
+  }
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+window.topFunction = topFunction;
+
+</script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/map_pins.js" ></script>
 </body>

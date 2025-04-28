@@ -115,20 +115,20 @@ function addPin(uni) {
     svg.appendChild(pin);
     
     const textDiv = document.createElement("div");
-    textDiv.classList.add("uni-label"); 
-    textDiv.textContent = uni.name;
-    textDiv.style.position = "absolute";
-    textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  
-    textDiv.style.top = `${svgRect.top + coords.y - 30}px`; 
-    textDiv.style.maxWidth = "150px";  
-    textDiv.style.backgroundColor = "#E98737";  
-    textDiv.style.color = "#FFFFFF"; 
-    textDiv.style.padding = "5px";  
-    textDiv.style.borderRadius = "5px";  
-    textDiv.style.display = "none"; 
-    textDiv.style.fontSize = "12px";
-    textDiv.style.wordWrap = "break-word";
-    textDiv.style.zIndex = "1000"; 
+    // textDiv.classList.add("uni-label"); 
+    // textDiv.textContent = uni.name;
+    // textDiv.style.position = "absolute";
+    // textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  
+    // textDiv.style.top = `${svgRect.top + coords.y - 30}px`; 
+    // textDiv.style.maxWidth = "150px";  
+    // textDiv.style.backgroundColor = "#E98737";  
+    // textDiv.style.color = "#FFFFFF"; 
+    // textDiv.style.padding = "5px";  
+    // textDiv.style.borderRadius = "5px";  
+    // textDiv.style.display = "none"; 
+    // textDiv.style.fontSize = "12px";
+    // textDiv.style.wordWrap = "break-word";
+    // textDiv.style.zIndex = "1000"; 
     textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
     
     document.body.appendChild(textDiv);
@@ -273,23 +273,23 @@ function addPinHome(uni) {
     svg.appendChild(pin);
     
     const textDiv = document.createElement("div");
-    textDiv.classList.add("uni-label"); 
-    textDiv.textContent = uni.name;
-    textDiv.style.position = "absolute";
-    textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  
-    textDiv.style.top = `${svgRect.top + coords.y - 30}px`;  
-    textDiv.style.maxWidth = "150px";  
-    textDiv.style.backgroundColor = "#E98737";  
-    textDiv.style.color = "#FFFFFF"; 
-    textDiv.style.padding = "5px";  
-    textDiv.style.borderRadius = "5px";  
-    textDiv.style.display = "none"; 
-    textDiv.style.fontSize = "12px";
-    textDiv.style.wordWrap = "break-word";
-    textDiv.style.zIndex = "1000"; 
-    // textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
-    if (window.innerWidth <= 768) {
-        textDiv.style.display = "none";
-    }
+    // textDiv.classList.add("uni-label"); 
+    // textDiv.textContent = uni.name;
+    // textDiv.style.position = "absolute";
+    // textDiv.style.left = `${svgRect.left + coords.x + 15 }px`;  
+    // textDiv.style.top = `${svgRect.top + coords.y - 30}px`;  
+    // textDiv.style.maxWidth = "150px";  
+    // textDiv.style.backgroundColor = "#E98737";  
+    // textDiv.style.color = "#FFFFFF"; 
+    // textDiv.style.padding = "5px";  
+    // textDiv.style.borderRadius = "5px";  
+    // textDiv.style.display = "none"; 
+    // textDiv.style.fontSize = "12px";
+    // textDiv.style.wordWrap = "break-word";
+    // textDiv.style.zIndex = "1000"; 
+    textDiv.setAttribute("id", `${uni.name.replace(/\s+/g, '-')}-label`);
+    // if (window.innerWidth <= 768) {
+    //     textDiv.style.display = "none";
+    // }
     document.body.appendChild(textDiv);
 }
