@@ -3,7 +3,47 @@ layout: default
 format: publications
 ---
 <meta charset="UTF-8">
-<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/pub.css">
+<head>
+	{% include _head.html %}
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/pub.css">
+	<style>
+	#topBtn {
+		visibility: hidden;
+		display: none;
+		position: fixed;
+		bottom: 30px;
+		left: calc(55% + 480px); 
+		z-index: 999;
+		background-color: #45B29D;
+		border: none;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		padding: 0;
+		cursor: pointer;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: all 0.3s ease-in-out;
+	}
+
+	#topBtn img {
+		width: 24px;
+		height: 24px;
+		pointer-events: none;
+	}
+
+
+	@media (max-width: 768px) {
+	#topBtn {
+		left: auto;
+		right: 30px;
+	}
+	}
+	</style>
+	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/up_arrow.js" ></script>
+</head>
 <div class="row t30">
 	<div class="medium-12 columns">
 		<article>
@@ -11,7 +51,6 @@ format: publications
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 				<h1 style="text-align: center;">{{ page.title }}</h1>
 			</header>
-
 			{% if page.teaser %}
 			<p class="teaser">
 				{{ page.teaser }}
@@ -106,4 +145,4 @@ format: publications
 
 <button onclick="topFunction()" id="topBtn"><img src="{{site.url}}{{site.baseurl}}/assets/img/up-arrow.png"/></button>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/publications.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/up_arrow.js" ></script>
+<!-- <script src="{{ site.url }}{{ site.baseurl }}/assets/js/up_arrow.js" ></script> -->
