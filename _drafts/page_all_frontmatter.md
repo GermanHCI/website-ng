@@ -14,6 +14,9 @@ tags:
 # Styling
 #
 header: no
+image_fullwidth: 
+caption: 
+contentfile: 
 header:
     image_fullwidth:
     image:
