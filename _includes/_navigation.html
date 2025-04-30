@@ -9,7 +9,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
+      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}"> {{ site.title }}</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -96,7 +96,7 @@
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               {% if page.homepage == true %}
-                <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}></a></li>
+                <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}><img src="{{ domain }}{{ site.baseurl }}{{ link.image }}" /></a></li>
                 <li class="divider"></li>
               {% else %}
                 <li{% if link.url == page.url %} class="active excep " {% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}><img src="{{ domain }}{{ site.baseurl }}{{ link.image }}" /></a></li>
