@@ -25,8 +25,17 @@ format: frontpage
       display: block;
       justify-content: center;
     }
+    .chi-div{
+        margin-inline: 2rem;
+    }
     .labs-div{
         text-align: center !important;
+    }
+    .p1{
+        text-align: center;
+    }
+    .p2{
+        text-align: center;
     }
     }
 </style>
@@ -127,7 +136,7 @@ format: frontpage
 <!-- contunie here -->
 <div class="row t30 b20">
     <h2 style="text-align: center; margin-bottom: 2rem;">German HCI@CHI</h2>
-    <p style="margin-bottom: 2rem;" s>Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event has grown to become the largest of its kind at CHI, with almost 1.000 guests.</p>
+    <p class="chi-div" style="margin-bottom: 2rem;">Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event has grown to become the largest of its kind at CHI, with almost 1.000 guests.</p>
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
